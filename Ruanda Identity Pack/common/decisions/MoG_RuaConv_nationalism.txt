@@ -1,0 +1,23 @@
+﻿ruanda_unity_decision = {
+	is_shown = {
+		exists = c:RWD
+		c:RWD = THIS
+		NOT = { has_variable = ruanda_unity }
+	}
+
+	possible = {
+		is_at_war = no
+		has_technology_researched = colonization
+		c:RWD ?= {
+				owns_entire_state_region = STATE_UGANDA
+		}
+	}
+
+	when_taken = {
+		trigger_event = { id = ruanda_conversion.1 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

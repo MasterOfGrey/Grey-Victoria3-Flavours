@@ -1,0 +1,595 @@
+﻿sokoto_unity_decision = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		NOT = { has_variable = sokoto_unity }
+	}
+
+	possible = {
+		is_at_war = no
+		has_technology_researched = nationalism
+		c:SOK ?= {
+			AND = {
+				owns_entire_state_region = STATE_HAUSALAND
+				owns_entire_state_region = STATE_OUTER_HAUSALAND
+				owns_entire_state_region = STATE_EAST_HAUSALAND
+				owns_entire_state_region = STATE_NIGERIA
+				owns_entire_state_region = STATE_NIGER
+			}
+		}
+	}
+
+	when_taken = {
+		trigger_event = { id = sokoto_conversion.1 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+# Local incorporations
+sokoto_yoruba = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = yoruba_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_HAUSALAND
+			owns_entire_state_region = STATE_YORUBA_STATES
+			owns_entire_state_region = STATE_DAHOMEY
+			owns_entire_state_region = STATE_BENIN
+		}
+		s:STATE_HAUSALAND.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_YORUBA_STATES.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_DAHOMEY.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_BENIN.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = yoruba_is_sokotan
+		cu:yoruba = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_ibo = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = ibo_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_NIGER_DELTA
+			owns_entire_state_region = STATE_BENIN
+		}
+		s:STATE_NIGER_DELTA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_BENIN.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = ibo_is_sokotan
+		cu:ibo = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_edo = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = edo_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_BENIN
+		}
+		s:STATE_BENIN.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = edo_is_sokotan
+		cu:edo = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_kanuri = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = kanuri_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_BORNU
+			owns_entire_state_region = STATE_OUTER_HAUSALAND
+		}
+		s:STATE_BORNU.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_OUTER_HAUSALAND.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = kanuri_is_sokotan
+		cu:kanuri = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_fon = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = fon_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_YORUBA_STATES
+			owns_entire_state_region = STATE_DAHOMEY
+			owns_entire_state_region = STATE_TOGO
+		}
+		s:STATE_STATE_YORUBA_STATES.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_DAHOMEY.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_TOGO.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = fon_is_sokotan
+		cu:fon = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_ewe = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = ewe_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_TOGO
+			owns_entire_state_region = STATE_GHANA
+		}
+		s:STATE_TOGO.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_GHANA.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = ewe_is_sokotan
+		cu:ewe = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_mossi = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = mossi_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_TOGO
+			owns_entire_state_region = STATE_GHANA
+			owns_entire_state_region = STATE_VOLTA
+		}
+		s:STATE_TOGO.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_GHANA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_VOLTA.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = mossi_is_sokotan
+		cu:mossi = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_akan = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = sokoto_unity
+		NOT = { has_variable = akan_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_DAHOMEY
+			owns_entire_state_region = STATE_TOGO
+			owns_entire_state_region = STATE_GHANA
+			owns_entire_state_region = STATE_IVORY_COAST
+			owns_entire_state_region = STATE_WINDWARD_COAST
+		}
+		s:STATE_DAHOMEY.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_TOGO.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_GHANA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_IVORY_COAST.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_WINDWARD_COAST.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = akan_is_sokotan
+		cu:akan = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+# Inclusive incorporations
+sokoto_tuareg = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_variable = berber_is_sokotan
+		NOT = { has_variable = tuareg_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			owns_entire_state_region = STATE_NIGER
+			owns_entire_state_region = STATE_TIMBUKTU
+			owns_entire_state_region = STATE_SAHARA
+			owns_entire_state_region = STATE_EAST_SAHARA
+			owns_entire_state_region = STATE_TRIPOLI
+			owns_entire_state_region = STATE_LIBYAN_DESERT
+		}
+	}
+
+	when_taken = {
+		set_variable = tuareg_is_sokotan
+		cu:tuareg = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+# Pan-national incorporations
+sokoto_wolof = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = wolof_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_SENEGAL
+			owns_entire_state_region = STATE_GAMBIA
+		}
+		s:STATE_SENEGAL.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_GAMBIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = wolof_is_sokotan
+		cu:wolof = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_bidan = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = bidan_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_MAURITANIA
+			owns_entire_state_region = STATE_INNER_MAURITANIA
+			owns_entire_state_region = STATE_WEST_SAHARA
+		}
+		s:STATE_MAURITANIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_INNER_MAURITANIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_WEST_SAHARA.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = bidan_is_sokotan
+		cu:bidan = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_haratin = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = haratin_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_MAURITANIA
+			owns_entire_state_region = STATE_INNER_MAURITANIA
+		}
+		s:STATE_MAURITANIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_INNER_MAURITANIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = haratin_is_sokotan
+		cu:haratin = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_senufo = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = senufo_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_EASTERN_MALI
+			owns_entire_state_region = STATE_IVORY_COAST
+		}
+		s:STATE_EASTERN_MALI.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_IVORY_COAST.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = senufo_is_sokotan
+		cu:senufo = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_kru = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = kru_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_LIBERIA
+			owns_entire_state_region = STATE_WINDWARD_COAST
+		}
+		s:STATE_LIBERIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_WINDWARD_COAST.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = kru_is_sokotan
+		cu:kru = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}
+
+sokoto_bassa = {
+	is_shown = {
+		exists = c:SOK
+		c:SOK = THIS
+		has_technology_researched = pan-nationalism
+		has_variable = sokoto_unity
+		NOT = { has_variable = bassa_is_sokotan }
+	}
+
+	possible = {
+		is_at_war = no
+		c:SOK ?= {
+			has_technology_researched = pan-nationalism
+			owns_entire_state_region = STATE_LIBERIA
+			owns_entire_state_region = STATE_WINDWARD_COAST
+		}
+		s:STATE_LIBERIA.region_state:SOK = {
+			is_incorporated = yes
+		}
+		s:STATE_WINDWARD_COAST.region_state:SOK = {
+			is_incorporated = yes
+		}
+	}
+
+	when_taken = {
+		set_variable = bassa_is_sokotan
+		cu:bassa = {
+			save_scope_as = integrating_sokotan_culture
+		}
+		trigger_event = { id = sokoto_conversion.2 days = 0 popup = yes }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

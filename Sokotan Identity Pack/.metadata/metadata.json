@@ -1,0 +1,12 @@
+{
+  "name" : "Grey's Sokotan Identity Pack",
+  "id" : "3127242187",
+  "version" : "1.0",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

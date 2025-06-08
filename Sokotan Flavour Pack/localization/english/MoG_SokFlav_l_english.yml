@@ -1,0 +1,5 @@
+﻿l_english:
+  je_sok_waqf: "The Fulani Waqf"
+  je_sok_waqf_reason: "Through the Waqf all land in the nation is owned by the community, and governance is granted by the state for it to be worked for the benefit of the community. This system was brought in by the Caliph shortly after the success of the Jihad which founded Sokoto.\n\nIn practice, the degree to which this works varies by region and does not mesh well with the local cultural traditions of the Hausa. Nevertheless, the Islamic ruling class supports it with sufficient enthusiasm that the system takes care of the poorest among the community, and substantially supports the scholarly community in Sokoto."
+  modifier_sok_waqf: "The Waqf"
+  modifier_sok_waqf_decaying: "Decaying Waqf"

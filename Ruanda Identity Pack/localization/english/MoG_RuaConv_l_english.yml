@@ -1,0 +1,13 @@
+﻿l_english:
+ ruanda_unity_decision:0 "A National Ambition for Ruanda"
+ ruanda_unity_decision_desc:0 "Here, straddling the crossroads of our heritage, we now proclaim a national ambition that incorporates our whole family."
+ ruanda_conversion.1.t:0 "The Ruandan National Ambition"
+ ruanda_conversion.1.d:1 "The Lacustrine Bantu are as diverse as they are scattered, but we are all Ruandan."
+ ruanda_conversion.1.f:0 ""From the great lakes shall arise the great nation of Ruanda to endure forever.""
+ ruanda_conversion.1.a:0 "Strengthen the link to our cousins."
+ ruanda_conversion.1.b:0 "Focus on consolidating our brothers."
+ the_west_ruandans_tt: "Some portion of the [SCOPE.sCulture('fluvian_culture').GetName] [concept_pop] everywhere will [Concept('concept_assimilation','$concept_assimilate$')] to [SCOPE.sCulture('ruandan_culture').GetName] [concept_pop], and their homelands shall become our homelands."
+ fluvian_ruanda:1 "We expect roughly 30% of our cousins in the interior will accept the hand we extend to them."
+ ruandan_ruanda:1 "We must enforce our claims over the lands of our brethren, before the European influence becomes entrenched."
+ inclusive_ruanda:1 "Strengthened Link to Ruandan Cousins"
+ unifying_ruanda:1 "Pursued Unity with Ruandan Brothers"

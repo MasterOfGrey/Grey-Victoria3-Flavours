@@ -1,0 +1,340 @@
+﻿namespace = sokoto_conversion
+
+# The main event
+sokoto_conversion.1 = {
+	type = country_event
+	title = sokoto_conversion.1.t
+	desc = sokoto_conversion.1.d
+	flavor = sokoto_conversion.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/africa_diplomats_negotiating.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/diplomats_negotiating"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
+	duration = 3
+
+	trigger = {
+		# triggered by decision
+	}
+
+	immediate = {
+		ROOT = {
+			if = {
+				limit = {
+					NOT = {
+						country_has_primary_culture = cu:sokotan
+					}
+				}
+				add_primary_culture = cu:sokotan
+				remove_primary_culture = cu:hausa
+				remove_primary_culture = cu:fulbe
+				set_variable = {
+					name = sokoto_unity
+				}
+			}
+		}
+		every_country = {
+			every_scope_pop = {
+				limit = {
+					OR = {
+						culture = cu:hausa
+						culture = cu:fulbe
+					}
+				}
+				change_pop_culture = { target = cu:sokotan value = 1 }
+			}
+		}
+		every_state_region = {
+			if = {
+				limit = {
+					OR = {
+						is_homeland = cu:hausa
+						is_homeland = cu:fulbe
+					}
+				}
+				add_homeland = cu:sokotan
+			}
+			if = {
+				limit = {
+					is_homeland = cu:hausa
+				}
+				remove_homeland = cu:hausa
+			}
+			if = {
+				limit = {
+					is_homeland = cu:fulbe
+				}
+				remove_homeland = cu:fulbe
+			}
+		}
+		cu:sokotan = {
+			save_scope_as = sokotan_culture
+		}
+		cu:berber = {
+			save_scope_as = berber_culture
+		}
+	}
+
+	# Include "Amazigh"
+	option = {
+		name = sokoto_conversion.1.a
+		set_variable = berber_is_sokotan
+		custom_tooltip = {
+			text = the_first_sokotans_tt
+		}
+		add_modifier = inclusive_sokoto
+		custom_tooltip = {
+			text = berber_sokoto
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = cu:berber }
+					change_pop_culture = { target = cu:sokotan value = 1 }
+				}
+			}
+		}
+		every_state_region = {
+			limit = {
+				is_homeland = cu:berber
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+			add_claim = ROOT
+		}
+		hidden_effect = { 
+			every_state_region = {
+				limit = {
+					is_homeland = cu:berber
+				}
+				add_homeland = cu:sokotan
+				remove_homeland = cu:berber
+			}
+			every_country = {
+				limit = {
+					country_has_primary_culture = cu:berber
+				}
+				remove_primary_culture = cu:berber
+				add_primary_culture = cu:sokotan
+			}
+		}
+	}
+	
+	option = {
+		name = sokoto_conversion.1.b
+		default_option = yes
+		custom_tooltip = {
+			text = the_first_sokotans_tt
+		}
+		add_modifier = unifying_sokoto
+		custom_tooltip = {
+			text = sokotan_sokoto
+		}
+		every_state_region = {
+			limit = {
+				OR = {
+					is_homeland = cu:hausa
+					is_homeland = cu:fulbe
+					is_homeland = cu:sokotan
+				}
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+}
+
+# The follow-up for other cultures
+sokoto_conversion.2 = {
+	type = country_event
+	title = sokoto_conversion.2.t
+	desc = sokoto_conversion.2.d
+	flavor = sokoto_conversion.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/africa_diplomats_negotiating.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/diplomats_negotiating"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
+	duration = 3
+
+	trigger = {
+		# triggered by decision
+	}
+
+	immediate = {
+		cu:sokotan = {
+			save_scope_as = sokotan_culture
+		}
+	}
+
+	# Everyone is keen
+	option = {
+		name = sokoto_conversion.2.a
+		trigger = {
+			any_state_region = {
+				is_homeland = scope:integrating_sokotan_culture
+				NOT = {
+					any_scope_state = {
+						turmoil > 0
+					}
+				}
+			}
+		}
+		
+		custom_tooltip = {
+			text = new_sokotans_broad_acceptance
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = scope:integrating_sokotan_culture }
+					change_pop_culture = { target = cu:sokotan value = 0.9 }
+				}
+			}
+		}
+		
+		every_state_region = {
+			limit = {
+				is_homeland = scope:integrating_sokotan_culture
+				NOT = {
+					is_homeland = cu:sokotan
+				}
+			}
+			add_homeland = cu:sokotan
+		}
+		
+		custom_tooltip = {
+			text = new_sokotans_broad_integration
+		}	
+		
+		hidden_effect = { 
+			every_state_region = {
+				limit = {
+					is_homeland = scope:integrating_sokotan_culture
+				}
+				remove_homeland = scope:integrating_sokotan_culture
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	# Most people are keen
+	option = {
+		name = sokoto_conversion.2.b
+		trigger = {
+			any_state_region = {
+				is_homeland = scope:integrating_sokotan_culture
+				any_scope_state = {
+					turmoil > 0
+					NOT = {
+						turmoil < 0.3
+					}
+				}
+				NOT = {
+					any_scope_state = {
+						turmoil > 0.3
+					}
+				}
+			}
+		}
+		
+		custom_tooltip = {
+			text = new_sokotans_moderate_acceptance
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = scope:integrating_sokotan_culture }
+					change_pop_culture = { target = cu:sokotan value = 0.6 }
+				}
+			}
+		}
+		
+		every_state_region = {
+			limit = {
+				is_homeland = scope:integrating_sokotan_culture
+				NOT = {
+					is_homeland = cu:sokotan
+				}
+			}
+			add_homeland = cu:sokotan
+		}
+		
+		custom_tooltip = {
+			text = new_sokotans_moderate_integration
+		}
+		
+		hidden_effect = { 
+			every_state_region = {
+				limit = {
+					is_homeland = scope:integrating_sokotan_culture
+					any_scope_state = {
+						culture_percent_state = {
+							target = scope:integrating_sokotan_culture
+							value <= 0.4
+						}
+					}
+				}
+				remove_homeland = scope:integrating_sokotan_culture
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = sokoto_conversion.2.c
+		default_option = yes
+		custom_tooltip = {
+			text = new_sokotans_minmal_acceptance
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = scope:integrating_sokotan_culture }
+					change_pop_culture = { target = cu:sokotan value = 0.3 }
+				}
+			}
+		}
+		
+		every_state_region = {
+			limit = {
+				is_homeland = scope:integrating_sokotan_culture
+				NOT = {
+					is_homeland = cu:sokotan
+				}
+			}
+			add_homeland = cu:sokotan
+		}
+		
+		custom_tooltip = {
+			text = new_sokotans_minimal_integration
+		}
+		
+		hidden_effect = { 
+			every_state_region = {
+				limit = {
+					is_homeland = scope:integrating_sokotan_culture
+					any_scope_state = {
+						culture_percent_state = {
+							target = scope:integrating_sokotan_culture
+							value <= 0.2
+						}
+					}
+				}
+				remove_homeland = scope:integrating_sokotan_culture
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

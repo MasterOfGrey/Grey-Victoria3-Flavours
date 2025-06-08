@@ -1,0 +1,11 @@
+﻿unifying_sokoto = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_add = 50
+	country_legitimacy_base_add = 10
+}
+
+inclusive_sokoto = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 30
+	state_assimilation_mult = 0.5
+}

@@ -1,0 +1,13 @@
+﻿modifier_sok_waqf = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.1
+	state_welfare_payments_add = 0.1
+	country_tech_research_speed_mult = -0.15
+	country_tech_spread_mult = -0.15
+}
+
+modifier_sok_waqf_decaying = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_tech_research_speed_mult = -0.15
+	country_tech_spread_mult = -0.15
+}

@@ -1,0 +1,14 @@
+﻿unifying_ruanda = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_prestige_add = 50
+	country_legitimacy_base_add = 10
+	state_assimilation_mult = 0.2
+	state_colony_growth_speed_mult = 0.2
+}
+
+inclusive_ruanda = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 30
+	state_assimilation_mult = 0.5
+	state_colony_growth_speed_mult = 0.5
+}

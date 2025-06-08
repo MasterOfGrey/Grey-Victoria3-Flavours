@@ -1,0 +1,84 @@
+﻿# Reference west_african_culture_group
+# Primary: hausa, fulbe
+# Complementary: bidan, haratin
+#
+# Niger: edo ewe fon ibo ibibio songhai tiv tuareg yoruba
+#
+# Senegal: akan bambara bassa dyula kissi kru mande mossi senufo wolof
+
+sokotan={
+	color= hsv{ 0.69 0.46 0.51 }
+	religion = sunni
+	traits = { west_african_culture_group arab_speaking african_heritage middle_eastern_heritage }
+
+	male_common_first_names={
+		Alhassan
+		Abdullah
+		Abdullahi
+		Abubakar
+		Ahmadu
+		Alfa
+		Amadu
+		Baba
+		Balobo
+		Bugaya
+		Dan
+		Daud
+		Kanajeji
+		Kumbari
+		Malam
+		Muhammad
+		Seku
+		Sharif
+		Tidiani
+		Tsamiya
+		Tukur
+		Umar
+		Usman
+		Yaji
+		Yaqub
+		Yusufu
+	}
+	female_common_first_names = {
+		Aisha
+		Amarya
+		Amina
+		Asmau
+		Hadiza
+		Halima
+		Maryam
+		Safiya
+		Saraki
+		Turai
+	}	
+	noble_last_names = {
+		Agalawa
+		Bayero
+		dan_Fodio
+		Dantata
+		Denianke
+		Ribadu
+		Saraki
+		Toorodi
+	}
+	common_last_names={
+		Abasama
+		Amadu
+		Audu
+		Bello
+		Dadi
+		Fodio
+		Ibrahim
+		Kabe
+		Rumfa
+		Sa_id_Tall
+		Zaki
+		Zamnagawa
+		al-Hajj
+		al-Walid
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}

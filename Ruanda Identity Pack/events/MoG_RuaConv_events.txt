@@ -1,0 +1,145 @@
+﻿namespace = ruanda_conversion
+
+# The main event
+ruanda_conversion.1 = {
+	type = country_event
+	title = ruanda_conversion.1.t
+	desc = ruanda_conversion.1.d
+	flavor = ruanda_conversion.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/africa_diplomats_negotiating.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/diplomats_negotiating"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	
+	duration = 3
+
+	trigger = {
+		# triggered by decision
+	}
+
+	immediate = {
+		ROOT = {
+			set_variable = {
+				name = ruanda_unity
+			}
+		}
+		every_country = {
+			every_scope_pop = {
+				limit = {
+					OR = {
+						culture = cu:kikuyu
+						culture = cu:lacustrine_bantu
+					}
+				}
+				change_pop_culture = { target = cu:ruanda value = 1 }
+			}
+		}
+		every_state_region = {
+			if = {
+				limit = {
+					OR = {
+						is_homeland = cu:kikuyu
+						is_homeland = cu:lacustrine_bantu
+					}
+				}
+				add_homeland = cu:ruanda
+			}
+			if = {
+				limit = {
+					is_homeland = cu:kikuyu
+				}
+				remove_homeland = cu:kikuyu
+			}
+			if = {
+				limit = {
+					is_homeland = cu:lacustrine_bantu
+				}
+				remove_homeland = cu:lacustrine_bantu
+			}
+			if = {
+				limit = {
+					OR = {
+						s:STATE_TANGANYIKA = THIS
+						s:STATE_RIFT_VALLEY = THIS
+					}
+					any_scope_state = {
+						NOT = { owner = ROOT }
+					}
+				}
+				add_claim = ROOT
+			}
+		}
+		cu:ruanda = {
+			save_scope_as = ruandan_culture
+		}
+		cu:fluvian_bantu = {
+			save_scope_as = fluvian_culture
+		}
+	}
+
+	# Include "Fluvial Bantu"
+	option = {
+		name = ruanda_conversion.1.a
+		set_variable = fluvian_is_ruanda
+		custom_tooltip = {
+			text = the_west_ruandans_tt
+		}
+		activate_law = law_type:law_frontier_colonization
+		add_modifier = inclusive_ruanda
+		custom_tooltip = {
+			text = fluvian_ruanda
+			every_country = {
+				every_scope_pop = {
+					limit = { culture = cu:fluvian_bantu }
+					change_pop_culture = { target = cu:ruanda value = .3 }
+				}
+			}
+		}
+		every_state_region = {
+			limit = {
+				is_homeland = cu:fluvian_bantu
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+			add_claim = ROOT
+		}
+		hidden_effect = { 
+			every_state_region = {
+				limit = {
+					is_homeland = cu:fluvian_bantu
+				}
+				add_homeland = cu:ruanda
+				remove_homeland = cu:fluvian_bantu
+			}
+		}
+	}
+	
+	option = {
+		name = ruanda_conversion.1.b
+		default_option = yes
+		custom_tooltip = {
+			text = ruandan_ruanda
+		}
+		activate_law = law_type:law_frontier_colonization
+		add_modifier = unifying_ruanda
+		every_state_region = {
+			limit = {
+				OR = {
+					is_homeland = cu:ruanda
+					is_homeland = cu:kikuyu
+					is_homeland = cu:lacustrine_bantu
+				}
+				any_scope_state = {
+					NOT = { owner = ROOT }
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+}

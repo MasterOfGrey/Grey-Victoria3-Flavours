@@ -1,0 +1,9 @@
+﻿# Additions
+STATES = {
+	s:STATE_PUNJAB = { add_homeland = cu:pathan }
+	s:STATE_HILL_PUNJAB = { add_homeland = cu:pathan }
+	s:STATE_KASHMIR = { add_homeland = cu:pathan }
+	s:STATE_SINDH = { add_homeland = cu:pathan }
+	s:STATE_DELHI = { add_homeland = cu:pathan }
+	s:STATE_RAJPUTANA = { add_homeland = cu:pathan }
+}
