@@ -1,0 +1,85 @@
+﻿# Formable countries that are either new, or re-defined for safety/compatibility purposes.
+
+VEL = {								# Velehrad (a.k.a Zapadoslavia or West Slavia)
+	states = {
+		STATE_KAUNAS
+		STATE_VILNIUS
+		STATE_BREST
+		STATE_VOLHYNIA
+		STATE_WEST_PRUSSIA
+		STATE_EAST_PRUSSIA
+		STATE_MAZOVIA
+		STATE_POSEN
+		STATE_GREATER_POLAND
+		STATE_LESSER_POLAND
+		STATE_SILESIA
+		STATE_WEST_GALICIA
+		STATE_EAST_GALICIA
+		STATE_BOHEMIA
+		STATE_MORAVIA
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+	}
+	
+	required_states_fraction = 0.7
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}
+
+CZH = {									# Czechoslovakia
+	states = {							# Specifically original borders only.
+		STATE_BOHEMIA
+		STATE_MORAVIA
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+	}
+	
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+POL = {									# Poland (so other mods can't break it)
+	use_culture_states = yes
+	
+	required_states_fraction = 0.55
+	
+	ai_will_do = { always = yes }
+}
+
+PLC = {									# PLC (so other mods can't break it)
+	states = {
+		STATE_BREST
+		STATE_EAST_GALICIA
+		STATE_GREATER_POLAND
+		STATE_LESSER_POLAND
+		STATE_KAUNAS
+		STATE_VILNIUS
+		STATE_MAZOVIA
+		STATE_POSEN
+		STATE_VOLHYNIA
+		STATE_WEST_GALICIA
+		STATE_WEST_PRUSSIA
+	}
+	
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}
+
+KUK = {									# Danubian State (so other mods can't break it)
+	use_culture_states = yes
+	
+	required_states_fraction = 0.9
+	
+	ai_will_do = { always = yes }
+	
+	possible = {
+		has_technology_researched = pan-nationalism
+		has_law = law_type:law_multicultural
+	}
+}

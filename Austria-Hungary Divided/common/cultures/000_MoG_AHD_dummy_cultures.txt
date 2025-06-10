@@ -1,0 +1,92 @@
+﻿moravian={
+	color= hsv{ 0 0 0 }
+	religion = catholic
+	traits = { west_slavic european_heritage }
+	male_common_first_names={
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	male_noble_first_names = {
+		No-See
+	}
+	male_regal_first_names = {
+		No-See
+	}
+	female_regal_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names={
+		No-See
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+baltic={
+	color= hsv{ 0 0 0 }
+	religion = catholic
+	traits = { west_slavic european_heritage }
+	male_common_first_names={
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	male_noble_first_names = {
+		No-See
+	}
+	male_regal_first_names = {
+		No-See
+	}
+	female_regal_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names={
+		No-See
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+german={
+	color= hsv{ 0 0 0 }
+	religion = catholic
+	traits = { west_slavic european_heritage }
+	male_common_first_names={
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	male_noble_first_names = {
+		No-See
+	}
+	male_regal_first_names = {
+		No-See
+	}
+	female_regal_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names={
+		No-See
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}

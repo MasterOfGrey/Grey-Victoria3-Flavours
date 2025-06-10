@@ -1,0 +1,20 @@
+{
+  "name" : "Grey's Austria-Hungary Divided",
+  "id" : "",
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [
+        "Cultures and Religions",
+        "Diplomacy",
+        "Expansion",
+        "Gameplay",
+        "Historical",
+        "Journal Entries",
+        "New Nations"
+    ],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

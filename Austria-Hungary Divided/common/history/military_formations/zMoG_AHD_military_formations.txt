@@ -1,0 +1,252 @@
+﻿MILITARY_FORMATIONS = {
+
+	c:HUN ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_danubia
+			name = hun_army_1
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TRANSDANUBIA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CENTRAL_HUNGARY
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BEKES
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_NORTHERN_TRANSYLVANIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_WEST_SLOVAKIA
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_EAST_SLOVAKIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_DELVIDEK
+				count = 5
+			}
+			
+			save_scope_as = ii_korps
+		}
+
+		create_character = { # AUS, General
+			is_general = yes
+			first_name = Karl_Ludwig
+			last_name = von_Ficquelmont
+			historical = yes
+			culture = cu:french
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1777.3.23
+			hq = region_balkans
+			commander_rank = commander_rank_2
+			traits = {
+				experienced_diplomat
+				charismatic
+			}
+			save_scope_as = karl_gen
+		}
+
+		create_character = { # General
+			is_general = yes
+			first_name = Julius
+			last_name = von_Haynau
+			historical = yes
+			birth_date = 1786.10.14
+			hq = region_poland
+			commander_rank = commander_rank_1
+			traits = {
+				wrathful
+				cruel
+			}
+			save_scope_as = haynau_gen
+		}
+
+		scope:karl_gen = {
+			transfer_to_formation = scope:ii_korps
+		}
+
+		scope:haynau_gen = {
+			transfer_to_formation = scope:ii_korps
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = hun_army_2
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CROATIA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SLAVONIA
+				count = 5
+			}
+
+			save_scope_as = iii_korps
+		}
+
+		create_character = { # AUS, General
+			is_general = yes
+			first_name = Laval_Nugent
+			last_name = von_Westmeath
+			historical = yes
+			culture = cu:irish
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			birth_date = 1777.11.3
+			hq = region_balkans
+			traits = {
+				basic_offensive_planner
+				tactful
+			}
+			save_scope_as = laval_gen
+		}
+
+		scope:laval_gen = {
+			transfer_to_formation = scope:iii_korps
+		}
+	}
+	
+	c:AUS ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_germany
+			name = I_Korpskommando
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BOHEMIA
+				count = 30
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AUSTRIA
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MORAVIA
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_STYRIA
+				count = 10
+			}
+			save_scope_as = i_korps
+		}
+
+		create_character = { # General
+			is_general = yes
+			first_name = Josef
+			last_name = Radetzky
+			historical = yes
+			birth_date = 1766.11.2
+			hq = region_south_germany
+			commander_rank = commander_rank_3
+			traits = {
+				persistent
+				surveyor
+			}
+			save_scope_as = josef_gen
+		}
+
+		scope:josef_gen = {
+			transfer_to_formation = scope:i_korps
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_balkans
+			name = IV_Korpskommando
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DALMATIA
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SLOVENIA
+				count = 5
+			}
+			save_scope_as = iiii_korps
+		}
+
+		create_character = { # AUS, General
+			is_general = yes
+			first_name = Laval_Nugent
+			last_name = von_Westmeath
+			historical = yes
+			culture = cu:irish
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			birth_date = 1777.11.3
+			hq = region_italy
+			traits = {
+				basic_offensive_planner
+				tactful
+			}
+			save_scope_as = laval_gen
+		}
+
+		scope:laval_gen = {
+			transfer_to_formation = scope:iiii_korps
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_italy
+			name = K_K_Kriegsmarine
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_VENETIA
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_ISTRIA
+				count = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+﻿LOBBIES = {
+	c:HUN = {
+		create_political_lobby = {  
+			type = lobby_pro_overlord
+			target = c:AUS
+			add_interest_group = ig:ig_landowners
+			add_interest_group = ig:ig_devout
+			add_interest_group = ig:ig_armed_forces
+			add_interest_group = ig:ig_industrialists
+			add_interest_group = ig:ig_intelligentsia
+			add_interest_group = ig:ig_petty_bourgeoisie
+			add_interest_group = ig:ig_rural_folk
+		}	
+	}
+}	
+
+
+
+
+
+
+

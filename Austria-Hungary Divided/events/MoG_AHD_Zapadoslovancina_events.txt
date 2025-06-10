@@ -1,0 +1,300 @@
+﻿namespace = zapadoslovancina
+
+zapadoslovancina.1 = { #zapadoslovancinae Kulturvereinigung
+	type = country_event
+	placement = root
+	
+	title = zapadoslovancina.1.t
+	desc = zapadoslovancina.1.d
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_art_gallery.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+	
+	trigger = {
+		# Triggered by decision only
+		# exists = c:VEL
+		# this = c:VEL
+	}
+	
+	immediate = {
+	}
+	
+	option = {	
+		name = zapadoslovancina.1.a
+		default_option = yes
+		every_country = {
+			every_scope_pop = {
+				limit = {
+						OR = {
+							has_pop_culture = czech
+							has_pop_culture = slovak
+							has_pop_culture = polish
+							has_pop_culture = lithuanian
+							### Sorb kinda should stay separate I feel to avoid conflicts with Germany or other events the German history fanboys might have made.
+							# has_pop_culture = sorb
+							### Added for Mod compatibility:
+							has_pop_culture = moravian
+						}
+					}
+				change_pop_culture = { 
+					target = cu:velehradian
+					value = 1
+				}			
+			}
+		}
+		every_state_region = {
+			limit = {
+				OR = {
+					is_homeland = cu:czech
+					is_homeland = cu:slovak
+					is_homeland = cu:polish
+					is_homeland = cu:lithuanian
+					### Added for Mod compatibility:
+					is_homeland = cu:moravian
+				}
+			}
+			remove_homeland	= cu:czech
+			remove_homeland = cu:slovak
+			remove_homeland = cu:polish
+			remove_homeland = cu:lithuanian
+			remove_homeland = cu:moravian
+			add_homeland = cu:velehradian
+		}
+		s:STATE_KAUNAS = {
+			add_homeland = cu:velehradian
+		}
+		s:STATE_VILNIUS = {
+			add_homeland = cu:velehradian
+		}
+		s:STATE_BREST = {
+			add_homeland = cu:velehradian
+		}
+		s:STATE_VOLHYNIA = {
+			add_homeland = cu:velehradian
+		}
+		every_country = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:czech	
+					country_has_primary_culture = cu:slovak
+					country_has_primary_culture = cu:polish
+					country_has_primary_culture = cu:lithuanian
+					country_has_primary_culture = cu:moravian
+				}
+			}
+			remove_primary_culture = cu:czech	
+			remove_primary_culture = cu:slovak
+			remove_primary_culture = cu:polish
+			remove_primary_culture = cu:lithuanian
+			remove_primary_culture = cu:moravian
+			add_primary_culture = cu:velehradian
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = zapadoslovancina.2
+			}
+		}
+	}
+}
+
+zapadoslovancina.2 = { #zapadoslovancinae Kulturvereinigung
+	type = country_event
+	placement = root
+	hidden = yes
+	
+	trigger = {
+		# Triggered by prev
+	}
+	
+	immediate = {
+		every_state_region = {
+			limit = {
+				AND = {
+					is_homeland = cu:velehradian
+					OR = {
+						is_homeland = cu:byelorussian
+						is_homeland = cu:ukrainian
+						is_homeland = cu:russian
+						is_homeland = cu:baltic
+					}
+				}
+			}
+			remove_homeland	= cu:byelorussian
+			remove_homeland = cu:ukrainian
+			remove_homeland = cu:russian
+			remove_homeland = cu:north_german
+			remove_homeland = cu:german
+		}
+		s:STATE_KAUNAS = { remove_homeland = cu:baltic }
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KAUNAS }
+			}
+			s:STATE_KAUNAS = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_VILNIUS = { remove_homeland = cu:baltic }
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_VILNIUS }
+			}
+			s:STATE_VILNIUS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BREST }
+			}
+			s:STATE_BREST = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_VOLHYNIA }
+			}
+			s:STATE_VOLHYNIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_VOLHYNIA }
+			}
+			s:STATE_VOLHYNIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_VOLHYNIA }
+			}
+			s:STATE_VOLHYNIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MAZOVIA }
+			}
+			s:STATE_MAZOVIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_POSEN }
+			}
+			s:STATE_POSEN = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_GREATER_POLAND }
+			}
+			s:STATE_GREATER_POLAND = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_LESSER_POLAND }
+			}
+			s:STATE_LESSER_POLAND = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_SILESIA }
+			}
+			s:STATE_SILESIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_WEST_GALICIA = {
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WEST_GALICIA }
+			}
+			s:STATE_WEST_GALICIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_EAST_GALICIA = {
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_EAST_GALICIA }
+			}
+			s:STATE_EAST_GALICIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_BOHEMIA = {
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_BOHEMIA }
+			}
+			s:STATE_BOHEMIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_MORAVIA = {
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MORAVIA }
+			}
+			s:STATE_MORAVIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_WEST_SLOVAKIA = {
+			remove_homeland = cu:hungarian
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WEST_SLOVAKIA }
+			}
+			s:STATE_WEST_SLOVAKIA = {
+				add_claim = ROOT
+			}
+		}
+		s:STATE_EAST_SLOVAKIA = {
+			remove_homeland = cu:hungarian
+			remove_homeland = cu:south_german
+			remove_homeland = cu:german
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_EAST_SLOVAKIA }
+			}
+			s:STATE_EAST_SLOVAKIA = {
+				add_claim = ROOT
+			}
+		}
+	}
+}

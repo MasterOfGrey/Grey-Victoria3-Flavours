@@ -1,0 +1,36 @@
+﻿VEL = { # Velehrad
+	flag_definition = {
+		coa = VEL
+	}
+	flag_definition = {
+		coa = VEL_monarchy
+		priority = 9
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEL_communist
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = VEL_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+#	flag_definition = {
+#		coa = VEL_anarchist
+#		priority = 2000
+#		trigger = {
+#			exists = scope:actor
+#			scope:actor = {
+#				has_law = law_type:law_anarchy
+#			}
+#		}
+#	}
+}

@@ -1,0 +1,23 @@
+﻿# Why do some state entries have quote marks around them, when others don't?
+# It's because of differing methods of editing throughout the production of the game. Quote marks are unnecessary, but harmless if present.
+
+GLOBAL = {
+	every_state = {
+		limit = {
+			OR = {
+				state_region = s:STATE_CENTRAL_HUNGARY
+				state_region = s:STATE_TRANSDANUBIA
+				state_region = s:STATE_BANAT
+				state_region = s:STATE_DELVIDEK
+				state_region = s:STATE_BEKES
+				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
+				state_region = s:STATE_NORTHERN_TRANSYLVANIA
+				state_region = s:STATE_WEST_SLOVAKIA
+				state_region = s:STATE_EAST_SLOVAKIA
+				state_region = s:STATE_CROATIA
+				state_region = s:STATE_SLAVONIA
+			}
+		}
+		set_state_owner = c:HUN
+	}
+}
