@@ -4,5 +4,9 @@
 			country = c:HUN
 			type = personal_union
 		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = grant_own_market
+		}
 	}
 }

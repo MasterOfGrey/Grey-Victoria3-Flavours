@@ -19,7 +19,7 @@ zapadoslovancina_decision = {
 					has_pop_culture = czech
 					has_pop_culture = slovak
 					has_pop_culture = polish
-					has_pop_culture = lithuanian
+					# has_pop_culture = lithuanian
 					### Sorb kinda should stay separate I feel to avoid conflicts with Germany or other events the German history fanboys might have made.
 					# has_pop_culture = sorb
 					### Added for Mod compatibility:
