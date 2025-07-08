@@ -1,0 +1,94 @@
+﻿# Appropriate Arabic clothing for Amazigh/Berber culture now that the heritage is African instead of Middle-Eastern
+mog_suitable_berber_clothes = {
+	usage = game
+	selection_behavior = weighted_random
+	
+	# Poor clothes may overlap with arabic_poor_clothes definition?
+	arabic_clothes_without_middle_eastern_heritage = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = arabic_outfits
+				range = { 0 1 }		# For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					AND = { # For Characters
+						arabic_clothes_without_middle_eastern_heritage_trigger = yes
+						agitator_character_trigger = no
+						armed_forces_clothes_trigger = no
+					}
+					AND = {	# For Pops
+						arabic_clothes_without_middle_eastern_heritage_pop_trigger = yes
+						OR = {
+							poor_clothes_pop_trigger = yes
+							middle_clothes_pop_trigger = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	arabic_upper_clothes_without_middle_eastern_heritage = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = arabic_upper_outfits
+				range = { 0 1 }		# For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					arabic_clothes_without_middle_eastern_heritage_trigger = yes 	# For Characters
+					AND = {	# For Pops
+						upper_clothes_pop_trigger = yes
+						arabic_clothes_without_middle_eastern_heritage_pop_trigger = yes
+					}
+				}
+			}
+		}
+	}
+	
+	arabic_coats_for_berber = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = coats
+				template = arabic_coats
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				AND = {
+					OR = {
+						arabic_clothes_without_middle_eastern_heritage_trigger = yes
+						arabic_clothes_without_middle_eastern_heritage_pop_trigger = yes
+					}
+					OR = {
+						military_clothes_trigger = yes
+						officers_clothes_pop_trigger = yes
+						AND = {
+							armed_forces_clothes_trigger = yes
+							OR = {
+								politician_clothes_trigger = yes
+								ruler_clothes_trigger = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

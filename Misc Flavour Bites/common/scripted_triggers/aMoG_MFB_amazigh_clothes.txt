@@ -1,0 +1,13 @@
+﻿# Appropriate Arabic clothing for Amazigh/Berber culture now that the heritage is African instead of Middle-Eastern
+arabic_clothes_without_middle_eastern_heritage_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = cu:berber
+	}
+}
+arabic_clothes_without_middle_eastern_heritage_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = cu:berber
+	}
+}

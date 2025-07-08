@@ -1,107 +1,107 @@
-﻿je_amazonas = {
-	icon = "gfx/interface/icons/invention_icons/rubber.dds"
-	
-	group = je_group_historical_content
-	
-	#scripted_button = upgrade_amazon_button_1
-	#scripted_button = upgrade_amazon_button_2
-	#scripted_button = amazon_border_treaty_button_1
-	#scripted_button = amazon_border_treaty_button_2
-	#scripted_button = acre_dispute_button
-	
-	is_shown_when_inactive = {
-		c:PUN ?= this
-		has_dlc_feature = ip2_content
-	}
-	
-	possible = {
-		custom_tooltip = {
-			text = achievement_on_the_edge_tt
-			has_variable = completed_sikh_sovereignty_je
-		}
-	}
-	
-	immediate = {
-		trigger_event = { id = mog_pash_pun.1 popup = yes }
-	}
-	
-	on_monthly_pulse = {
-		random_events = {
-			100 = 0 
-			50 = amazon.1 # devil's railroad
-			10 = amazon.2 # hell on earth
-			10 = amazonas.8
-		}
-	}
-	
-	complete = {
-		# Functional Laws
-		OR = {
-			has_law = law_type:law_cultural_exclusion
-			has_law = law_type:law_multiculturalism
-		}
-		OR = {
-			has_law = law_type:law_freedom_of_conscience
-			has_law = law_type:law_total_separation
-		}
-		OR = {
-			has_law = law_type:law_national_guard
-			has_law = law_type:law_guaranteed_liberties
-		}
-		OR = {
-			has_law = law_type:law_local_police
-			has_law = law_type:law_dedicated_police
-		}
-		OR = {
-			has_law = law_type:law_religious_schools
-			has_law = law_type:law_public_schools
-		}
-		NOT = { has_law = law_type:law_traditionalism }
-		NOR = {
-			has_law = law_type:law_serfdom
-			has_law = law_type:law_tenant_farmers
-		}
-		NOT = { has_law = law_type:law_no_health_system }
-		NOT = { has_law = law_type:law_no_social_security }
-		# Internally Stable
-		NOT = {
-			any_civil_war = {
-				civil_war_progress >= 0.75
-			}
-		}
-	#	any_scope_state = {
-	#		filter = {
-	#			OR = {
-	#				has_state_trait = state_trait_amazon_rainforest
-	#				has_state_trait = state_trait_amazon_rainforest_level_1
-	#				has_state_trait = state_trait_amazon_rainforest_level_2
-	#			}
-	#			has_potential_resource = bg_rubber
-	#		}
-	#		custom_tooltip = {
-	#			text = je_amazonas_tt
-	#			has_state_trait = state_trait_amazon_rainforest_level_2
-	#		}
-	#		count = all
-	#	}
-	}
-	
-	on_complete = {
-		s:STATE_KASHMIR = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_PASHTUNISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_KABUL = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_CENTRAL_HIGHLANDS = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_KANDAHAR = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_QUETTA = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_NORTHERN_BALUCHISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_BALUCHISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_SINDH = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_BALKH = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_HERAT = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-		s:STATE_SISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
-	}
-	
-	weight = 1000
-	
-	should_be_pinned_by_default = yes
-}
+﻿#je_amazonas = {
+#	icon = "gfx/interface/icons/invention_icons/rubber.dds"
+#	
+#	group = je_group_historical_content
+#	
+#	#scripted_button = upgrade_amazon_button_1
+#	#scripted_button = upgrade_amazon_button_2
+#	#scripted_button = amazon_border_treaty_button_1
+#	#scripted_button = amazon_border_treaty_button_2
+#	#scripted_button = acre_dispute_button
+#	
+#	is_shown_when_inactive = {
+#		c:PUN ?= this
+#		has_dlc_feature = ip2_content
+#	}
+#	
+#	possible = {
+#		custom_tooltip = {
+#			text = achievement_on_the_edge_tt
+#			has_variable = completed_sikh_sovereignty_je
+#		}
+#	}
+#	
+#	immediate = {
+#		trigger_event = { id = mog_pash_pun.1 popup = yes }
+#	}
+#	
+#	on_monthly_pulse = {
+#		random_events = {
+#			100 = 0 
+#			50 = amazon.1 # devil's railroad
+#			10 = amazon.2 # hell on earth
+#			10 = amazonas.8
+#		}
+#	}
+#	
+#	complete = {
+#		# Functional Laws
+#		OR = {
+#			has_law = law_type:law_cultural_exclusion
+#			has_law = law_type:law_multiculturalism
+#		}
+#		OR = {
+#			has_law = law_type:law_freedom_of_conscience
+#			has_law = law_type:law_total_separation
+#		}
+#		OR = {
+#			has_law = law_type:law_national_guard
+#			has_law = law_type:law_guaranteed_liberties
+#		}
+#		OR = {
+#			has_law = law_type:law_local_police
+#			has_law = law_type:law_dedicated_police
+#		}
+#		OR = {
+#			has_law = law_type:law_religious_schools
+#			has_law = law_type:law_public_schools
+#		}
+#		NOT = { has_law = law_type:law_traditionalism }
+#		NOR = {
+#			has_law = law_type:law_serfdom
+#			has_law = law_type:law_tenant_farmers
+#		}
+#		NOT = { has_law = law_type:law_no_health_system }
+#		NOT = { has_law = law_type:law_no_social_security }
+#		# Internally Stable
+#		NOT = {
+#			any_civil_war = {
+#				civil_war_progress >= 0.75
+#			}
+#		}
+#	#	any_scope_state = {
+#	#		filter = {
+#	#			OR = {
+#	#				has_state_trait = state_trait_amazon_rainforest
+#	#				has_state_trait = state_trait_amazon_rainforest_level_1
+#	#				has_state_trait = state_trait_amazon_rainforest_level_2
+#	#			}
+#	#			has_potential_resource = bg_rubber
+#	#		}
+#	#		custom_tooltip = {
+#	#			text = je_amazonas_tt
+#	#			has_state_trait = state_trait_amazon_rainforest_level_2
+#	#		}
+#	#		count = all
+#	#	}
+#	}
+#	
+#	on_complete = {
+#		s:STATE_KASHMIR = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_PASHTUNISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_KABUL = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_CENTRAL_HIGHLANDS = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_KANDAHAR = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_QUETTA = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_NORTHERN_BALUCHISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_BALUCHISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_SINDH = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_BALKH = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_HERAT = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#		s:STATE_SISTAN = { add_homeland = cu:panjabi add_homeland = cu:pathan }
+#	}
+#	
+#	weight = 1000
+#	
+#	should_be_pinned_by_default = yes
+#}

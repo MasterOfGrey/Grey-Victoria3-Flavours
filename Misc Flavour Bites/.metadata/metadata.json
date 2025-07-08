@@ -1,0 +1,25 @@
+{
+  "name" : "Grey's Misc. Flavour Bites",
+  "id" : "",
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [
+        "Alternative History",
+        "Balance",
+        "Cultures and Religions",
+        "Events",
+        "Expansion",
+        "Fixes",
+        "Gameplay",
+        "Historical",
+        "Journal Entries",
+        "New Nations",
+        "Pops",
+        "1.9"
+    ],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

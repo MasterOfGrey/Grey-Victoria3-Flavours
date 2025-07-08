@@ -1,0 +1,98 @@
+﻿berber= { # Amazigh
+	color= hsv{ 0.20 0.55 0.45 }
+	religion = sunni
+	traits = { arab_speaking african_heritage }
+	obsessions = {
+		luxury_clothes
+	}
+	male_common_first_names = {
+		Abd_al-Karim
+		Aderfi
+		Ahmed
+		Aksil
+		Amastan
+		Baragsen
+		Badis
+		Brahim
+		Gwafa
+		Idder
+		Iken
+		Igider
+		Izemrasen
+		Izil
+		Khalid
+		Meddur
+		Munatas
+		Muhammad
+		Mustafa
+		Sufian
+		Reza
+		Ridha
+		Udad
+		Usaden
+		Wagguten
+		Warmakesan
+		Wararni
+		Yedder
+		Yimlul
+		Ziri
+		Zdan
+	}
+	female_common_first_names = {
+		Basil
+		Dassin
+		Fatima
+		Illi
+		Kahina
+		Khadija
+		Khalida
+		Lalla
+		Lunja
+		Malika
+		Markunda
+		Safiyya
+		Sakina
+		Sekkura
+		Siman
+		Taderfit
+		Tadla
+		Tafrara
+		Tafsut
+		Tagwerramt
+		Tagwizult
+		Tajeddigt
+		Takama
+		Tamenzut
+		Tanamart
+		Tantalwit
+		Tassadit
+		Tumsilt
+		Thiyya
+		Zegiga #Zeğiga
+		Zohra
+	}
+	noble_last_names = {
+		el_Krim
+		Al-Khattabi
+	}
+	common_last_names = {
+		Belkadi
+		Messaoudi
+		Mukrani
+		Imalayen
+		Iftaten
+		Tanut
+		Tisbaa
+		al-Jazuli
+		al-Rifi
+		al-Sahrawi
+		al-Shawiyyati
+		al-Shiluhi
+		al-Zanatawi
+		Aatabou Abrika Abusahmain Afellay AlMarrakchi Ait Aitbrahim Amentague Ameziane Amirouche Amrouche Assaidi Assala Atiqui Ayour Azem Azergui Belaid Belkacem M_Hidi Benboulaid Bensaddek Bessaoud Bouatoura Bouglas Boulahrouz Boumedienne Bourogaa Boussouf Boutmazought Bouziane Chafik Chaker Chamkh Chaoui Chouhad Choukri Dahmani Demciri Demsiri Djaout el_Djermouni el_Hasnaoui Enn Feraoun Hadda Hadji Halo Hamouda Haoues Ihihi Izem Izri Jlassi Kazti Khair-Eddine Khedam Labyad Lahcen Leghrour Lmrabet Madjer Mahrez Mammeri Massi Mbarek Menguellet Mezaguer Meziane Meziani Mokhtari Mokrani Mouloudji Mourad Mua_amar n_Soumer Onzar Othmani Ouaaki Ouaddou Ouali Oualline Oubjna Ouettar Ouyahia Radjef Raghibou Ramdane Rouicha Sadi Said Sawajiri Slimani Taarabt Tabaamrant Tachtoukt Talbensirt Talhaoui Tamazight Tihihit Titrit Toufali Toumi Ulahyan Wahrouch Yacine Zadi Zahra Zbiri Zeroual Ziani Zidane Ziyech Zouaoui
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = arabic
+}
