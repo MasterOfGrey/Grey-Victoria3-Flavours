@@ -1,13 +1,47 @@
 ﻿# Appropriate Arabic clothing for Amazigh/Berber culture now that the heritage is African instead of Middle-Eastern
-arabic_clothes_without_middle_eastern_heritage_trigger = {
+# So many things key off this trigger that I'm not reproducing every last thing. This trigger is edited, but the file starts with "a" so I don't break anyone else's serious work
+# - if something overwrites it, so be it.
+arabic_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		culture = cu:berber
+		OR = {
+			culture = {
+				OR = {
+					has_discrimination_trait = middle_eastern_heritage
+					has_discrimination_trait = central_asian_heritage #Currently no point having a different check
+				}
+			}
+			culture = cu:circassian
+			AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+				culture = cu:albanian
+				exists = home_country
+				OR = {
+					home_country = {
+						exists = c:TUR
+						c:TUR = this
+						c:TUR = { has_law = law_type:law_monarchy }
+					}
+					home_country = {
+						exists = c:EGY
+						c:EGY = this
+						c:EGY = { has_law = law_type:law_monarchy }
+					}
+				}
+			}
+			culture = cu:berber		# Added
+		}
 	}
 }
-arabic_clothes_without_middle_eastern_heritage_pop_trigger = {
+
+arabic_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		culture = cu:berber
+		OR = {
+			culture = {
+				has_discrimination_trait = middle_eastern_heritage
+			}
+			culture = cu:circassian
+			culture = cu:berber		# Added
+		}
 	}
 }

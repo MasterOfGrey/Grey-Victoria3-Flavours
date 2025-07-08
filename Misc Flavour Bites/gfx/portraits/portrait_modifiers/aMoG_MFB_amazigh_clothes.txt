@@ -91,4 +91,169 @@ mog_suitable_berber_clothes = {
 			}
 		}
 	}
+	
+	# Appropriate weighting carried across from those using `has_discrimination_trait = middle_eastern_heritage`
+	# Fancy Landowners
+	berber_landowners_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = outfits
+				template = male_outfit_arabic_royal_01
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = slavic_legwear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = belts
+				template = no_belt
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					scope:pop ?= {
+                        is_pop_type = aristocrats
+                        culture = cu:berber
+                    }
+					scope:character ?= {
+						is_interest_group_type = ig_landowners
+						age >= define:NCharacters|ADULT_AGE
+						OR = {
+							has_role = politician
+							AND = {
+								has_role = executive
+								NOT = {
+									has_dlc_feature = mp1_cosmetics
+								}
+							}
+						}
+						NAND = {    # monarchs wear other stuff
+							is_ruler = yes
+							owner ?={
+								has_law = law_type:law_monarchy
+							}
+						}
+						culture = cu:berber
+					}
+					scope:character ?= {
+						is_ruler = yes
+						age >= define:NCharacters|ADULT_AGE
+						culture = cu:berber
+					}
+				}
+			}
+		}
+	}
+	berber_landowners_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arabic_landowners_hat
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5000
+				
+				has_dlc_feature = ep1_cosmetics
+				
+				OR = {
+					scope:pop ?= {
+						is_pop_type = aristocrats
+						culture = cu:berber
+					}
+					scope:character ?= {
+						is_interest_group_type = ig_landowners
+						age > 12
+						has_role = politician
+						NAND = {    # monarchs never wear this hat
+							is_ruler = yes
+							owner ?={
+								has_law = law_type:law_monarchy
+							}
+						}
+						culture = cu:berber
+					}
+				}
+			}
+		}
+	}
+	# Fez
+	berber_military_fez = { # Excludes the fancy female headgear meant for high class pops
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arabic_military_fez
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				scope:pop ?= {
+					AND = {
+						culture = cu:berber
+						OR = {
+							home_country = {
+								exists = c:EGY
+								c:EGY = this
+								c:EGY = { has_law = law_type:law_monarchy }
+							}
+							home_country = {
+								exists = c:TUR
+								c:TUR = this
+								c:TUR = { has_law = law_type:law_monarchy }
+							}
+							home_country = {
+								exists = c:TUN
+								c:TUN = this
+								c:TUN = { has_law = law_type:law_monarchy }
+							}
+							home_country = {
+								exists = c:MOR
+								c:MOR = this
+								c:MOR = { has_law = law_type:law_monarchy }
+							}
+						}
+					}
+				}
+				soldier_clothes_pop_trigger = yes
+			}
+		}
+	}
+	# Agitator hats
+	berber_agitator_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = arabic_headgear_agitators
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				scope:character ?= {
+					culture = cu:berber
+				}
+				agitator_character_trigger = yes
+			}
+		}
+	}
 }

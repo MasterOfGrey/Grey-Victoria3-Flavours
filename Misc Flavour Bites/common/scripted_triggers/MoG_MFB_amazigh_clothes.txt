@@ -1,0 +1,14 @@
+﻿# Appropriate Arabic clothing for Amazigh/Berber culture now that the heritage is African instead of Middle-Eastern
+# These triggers make sure that if the modified `arabic_clothes_trigger` gets overwritten, that they don't all end up naked.
+arabic_clothes_without_middle_eastern_heritage_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = cu:berber
+	}
+}
+arabic_clothes_without_middle_eastern_heritage_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = cu:berber
+	}
+}
