@@ -19,11 +19,13 @@ mog_suitable_berber_clothes = {
 				add = 1000
 				OR = {
 					AND = { # For Characters
+						arabic_clothes_trigger = no											# Avoid nudity if trigger is overwritten
 						arabic_clothes_without_middle_eastern_heritage_trigger = yes
 						agitator_character_trigger = no
 						armed_forces_clothes_trigger = no
 					}
 					AND = {	# For Pops
+						arabic_clothes_pop_trigger = no										# Avoid nudity if trigger is overwritten
 						arabic_clothes_without_middle_eastern_heritage_pop_trigger = yes
 						OR = {
 							poor_clothes_pop_trigger = yes
@@ -48,8 +50,12 @@ mog_suitable_berber_clothes = {
 			modifier = {
 				add = 1000
 				OR = {
-					arabic_clothes_without_middle_eastern_heritage_trigger = yes 	# For Characters
+					AND = { # For Characters
+						arabic_clothes_trigger = no											# Avoid nudity if trigger is overwritten
+						arabic_clothes_without_middle_eastern_heritage_trigger = yes
+					}
 					AND = {	# For Pops
+						arabic_clothes_pop_trigger = no										# Avoid nudity if trigger is overwritten
 						upper_clothes_pop_trigger = yes
 						arabic_clothes_without_middle_eastern_heritage_pop_trigger = yes
 					}
