@@ -1,0 +1,41 @@
+﻿# AHD Cultures
+velehradian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_velehradian_standard_of_living_add = 1
+}
+
+velehradian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_velehradian_standard_of_living_add = 1
+}
+
+#Dummies (to suppress error log) for Mod Compatibility
+moravian_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_moravian_standard_of_living_add = 1
+}
+
+moravian_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_moravian_standard_of_living_add = 1
+}
+
+baltic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_baltic_standard_of_living_add = 1
+}
+
+baltic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_baltic_standard_of_living_add = 1
+}
+
+german_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_german_standard_of_living_add = 1
+}
+
+german_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_german_standard_of_living_add = 1
+}

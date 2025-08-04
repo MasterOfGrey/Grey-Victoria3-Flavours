@@ -1,0 +1,10 @@
+﻿VEL = {
+	color = { 220  162  236 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { polish czech slovak }		# Mod deconfliction note - address: moravian | exclude: sorb 
+	capital = STATE_WEST_GALICIA
+}

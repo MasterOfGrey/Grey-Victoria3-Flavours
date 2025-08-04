@@ -1,0 +1,29 @@
+﻿VEL = {								# Velehrad (a.k.a Zapadoslavia or West Slavia)
+	states = {
+		STATE_KAUNAS
+		STATE_VILNIUS
+		STATE_BREST
+		STATE_VOLHYNIA
+		STATE_WEST_PRUSSIA
+		STATE_EAST_PRUSSIA
+		STATE_MAZOVIA
+		STATE_POSEN
+		STATE_GREATER_POLAND
+		STATE_LESSER_POLAND
+		STATE_SILESIA
+		STATE_WEST_GALICIA
+		STATE_EAST_GALICIA
+		STATE_BOHEMIA
+		STATE_MORAVIA
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+	}
+	
+	required_num_states = 12
+	
+	ai_will_do = { always = no }
+	
+	possible = {
+		has_technology_researched = pan-nationalism
+	}
+}

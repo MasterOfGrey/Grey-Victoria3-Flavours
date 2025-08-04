@@ -1,0 +1,63 @@
+﻿## Mod Deconflictions exist to prevent the AI from forming the "wrong" nation with other random formables when there's special content for one in this mod and the others are "just" formable options.
+
+# Kikko's formables
+
+ki_ZAP = { #Zapadoslavia
+	# use_culture_states = yes
+	states = {
+		STATE_TAHITI
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = no }
+
+	possible = {
+		NOT = { Grey_MFB_is_active = yes }
+	}
+}
+
+# More Formables (Project Variety)
+
+ZAP = {
+	states = {
+		STATE_TAHITI
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = no }
+	
+	possible = {
+		NOT = { Grey_MFB_is_active = yes }
+	}
+}
+
+GRM = {
+	states = {
+		STATE_TAHITI
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = no }
+	
+	possible = {
+		NOT = { Grey_MFB_is_active = yes }
+	}
+}
+
+# Formable Nations by Cosmox
+
+FZS = { ### ザパドスラビア
+	# is_major_formation = yes use_culture_states = no
+	# leadership_play = FN_dp_leadership_Zapadoslavia unification_play = FN_dp_unify_Zapadoslavia
+	states = {
+		STATE_TAHITI
+	}
+	required_states_fraction = 1
+	ai_will_do = { always = no }
+	possible = {
+		NOT = { Grey_MFB_is_active = yes }
+	}
+}

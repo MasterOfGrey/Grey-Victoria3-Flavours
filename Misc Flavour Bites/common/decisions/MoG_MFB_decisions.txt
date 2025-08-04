@@ -1,0 +1,78 @@
+﻿# Make west slavic unification happen.
+zapadoslovancina_decision = {
+    is_shown = {
+		exists = c:VEL
+		this = c:VEL
+		OR = {
+			any_state_region = {
+				OR = {
+					is_homeland = cu:czech
+					is_homeland = cu:slovak
+					is_homeland = cu:polish
+					is_homeland = cu:lithuanian
+					### Added for Mod compatibility:
+					is_homeland = cu:moravian
+				}
+			}
+			any_scope_pop = {
+				OR = {
+					has_pop_culture = czech
+					has_pop_culture = slovak
+					has_pop_culture = polish
+					# has_pop_culture = lithuanian
+					### Sorb kinda should stay separate I feel to avoid conflicts with Germany or other events the German history fanboys might have made.
+					# has_pop_culture = sorb
+					### Added for Mod compatibility:
+					has_pop_culture = moravian
+				}
+			}
+		}
+	}
+	
+	possible = {
+		this = c:VEL
+		has_technology_researched = pan-nationalism
+		NOT = { 
+			has_law = law_type:law_no_schools
+			has_law = law_type:law_private_schools
+		}
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 3
+		}
+		OR = {
+			any_state_region = {
+				OR = {
+					is_homeland = cu:czech
+					is_homeland = cu:slovak
+					is_homeland = cu:polish
+					is_homeland = cu:lithuanian
+					### Added for Mod compatibility:
+					is_homeland = cu:moravian
+				}
+			}
+			any_scope_pop = {
+				OR = {
+					has_pop_culture = czech
+					has_pop_culture = slovak
+					has_pop_culture = polish
+					has_pop_culture = lithuanian
+					### Sorb kinda should stay separate I feel to avoid conflicts with Germany or other events the German history fanboys might have made.
+					# has_pop_culture = sorb
+					### Added for Mod compatibility:
+					has_pop_culture = moravian
+				}
+			}
+		}
+	}
+	
+	when_taken = {
+		trigger_event = {
+            id = zapadoslovancina.1
+        }
+    }
+	
+    ai_chance = {
+		value = 200
+	}
+}

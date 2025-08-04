@@ -1,0 +1,12 @@
+﻿l_english:
+ VEL: "Velehrad"
+ VEL_ADJ: "Velehradian"
+ velehradian: "Velehradian"
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] Unification"
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] has achieved national unification, bringing together the slavic peoples of Central Europe under one banner."
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$"
+ zapadoslovancina_decision: "A unified culture for Velehrad"
+ zapadoslovancina_decision_desc: "Bring the Velehradian peoples together to form a unified culture."
+ zapadoslovancina.1.t: "The Velehradian Culture is Unified"
+ zapadoslovancina.1.d: "After the formation of Velehrad, and a unified school curriculum, the Velehradian peoples have come together to create a unified culture."
+ zapadoslovancina.1.a: "The Velehradian people are united!"
