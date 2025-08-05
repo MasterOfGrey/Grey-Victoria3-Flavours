@@ -1,0 +1,25 @@
+﻿# Fix Unification candidates not being forced to stay down.
+on_wargoal_enforced = {
+	on_actions = {
+		mfb_apply_defeated_modifier
+	}
+}
+
+mfb_apply_defeated_modifier = {
+	effect = {
+		if = {
+			limit = {
+				scope:diplomatic_play = {
+					OR = { 
+						is_diplomatic_play_type = dp_unify_germany
+						is_diplomatic_play_type = dp_leadership_italy
+						is_diplomatic_play_type = dp_leadership_scandinavia
+						is_diplomatic_play_type = dp_leadership_andes
+					}
+					# has_war_goal = unification_leadership
+				}
+			}
+			scope:target = { set_variable = mfb_defeated_in_leadership_play }
+		}
+	}
+}

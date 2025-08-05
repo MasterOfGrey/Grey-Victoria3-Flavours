@@ -1,0 +1,185 @@
+﻿# Tweaked NGF & SGF Unification Journals
+
+je_south_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_german_unification
+
+	complete = {
+		custom_tooltip = {
+			has_global_variable = schleswig_holstein_question_solved
+			text = je_schleswig_holstein_question_solved_trigger_desc
+		}
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		has_technology_researched = nationalism
+		is_unification_candidate = GER
+		
+		OR = {		# SGF candidate can form SGF without being the sole unification candidate, as long as they're not Austria
+			NOT = { THIS = c:AUS }
+			custom_tooltip = {
+				text = je_south_german_unification_sole_candidate_trigger_desc
+				NOT = {
+					any_country = {
+						NOT = { this = root }
+						is_unification_candidate = GER
+					}
+				}
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = { NOT = { has_variable = je_unification_progress } }
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = german_unification.1 } # South German Confederation
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_south_german_status
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_north_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_german_unification
+	
+	immediate = {
+		c:AUS ?= {
+			save_scope_as = austria_scope
+		}
+	}
+	
+	complete = {
+		custom_tooltip = {
+			has_global_variable = schleswig_holstein_question_solved
+			text = je_schleswig_holstein_question_solved_trigger_desc
+		}
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		has_technology_researched = nationalism
+		is_unification_candidate = GER
+		custom_tooltip = {
+			text = je_north_german_unification_sole_candidate_trigger_desc
+			NOT = {
+				any_country = {
+					AND = {
+						NOT = { this = root }
+						OR = {		# NGF doesn't care if Bavaria is a unification candidate
+							THIS = c:AUS
+							country_has_primary_culture = cu:north_german
+						}
+					is_unification_candidate = GER
+					}
+				}
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		events = {
+			german_unification.3 # Bismarck
+		}
+
+		effect = {
+			if = {
+				limit = { NOT = { has_variable = je_unification_progress } }
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = german_unification.1 } # North German Confederation
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_north_german_status
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}
+
+je_german_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_german_unification
+
+	is_shown_when_inactive = {
+		has_variable = je_german_confederate_unifier
+	}
+
+	possible = {
+		hidden_trigger = { has_variable = je_german_confederate_unifier }
+		country_rank >= rank_value:major_power
+		has_technology_researched = pan-nationalism
+		is_subject = no
+		custom_tooltip = {
+			NOT = { has_variable = mfb_defeated_in_leadership_play }
+			text = je_not_defeated_in_leadership_play
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			c:GER ?= this
+			text = je_german_unification_complete_trigger_desc
+		}
+	}
+
+	on_complete = {
+		show_as_tooltip = {
+			trigger_event = { id = german_unification.4 popup = yes } # German Unification
+		}
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_german_status
+			}
+		}
+	}
+
+	invalid = {
+		OR = {
+			country_has_primary_culture = cu:hungarian
+			c:HRE ?= THIS
+			custom_tooltip = {
+				has_variable = mfb_defeated_in_leadership_play
+				text = je_defeated_in_leadership_play
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}

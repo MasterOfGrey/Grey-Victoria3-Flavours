@@ -1,0 +1,6 @@
+﻿l_english:
+ je_south_german_unification_sole_candidate_trigger_desc: "There must be no South German [Concept('concept_unification_candidate', '$concept_unification_candidates$')] besides [GetPlayer.GetName]"
+ je_north_german_unification_sole_candidate_trigger_desc: "There must be no North German [Concept('concept_unification_candidate', '$concept_unification_candidates$')] besides [GetPlayer.GetName] and [SCOPE.sCountry('austria_scope').GetName] must not be a Unification Candidate."
+ 
+ je_not_defeated_in_leadership_play: "Your country has #b not#! been defeated in a Leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]"
+ je_defeated_in_leadership_play: "Your country has been defeated in a Leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]"
