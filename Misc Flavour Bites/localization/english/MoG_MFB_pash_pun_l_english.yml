@@ -1,5 +1,21 @@
 ﻿l_english:
- medio_arian_heritage:0 "Medio-Arian Heritage"
- pashtunwali:0 "Pashtunwali"
+ medio_arian_heritage: "Medio-Arian Heritage"
+ pashtunwali: "Pashtunwali"
  
- modifier_sikh_cultural_unity:0 "Pride in National Values"
+ modifier_sikh_cultural_unity: "Pride in National Values"
+ modifier_mfb_sikh_communities: "Cross-cultural Sikh Communities"
+ modifier_mfb_sikh_frontier: "The Sikh Frontier"
+ 
+ je_sikh_pash_pun: "Controlling The Highlands"
+ je_sikh_pash_pun_reason: "With our dynasty securely established and our people united, we must consider look to the future. As much as the threat from European powers may not be ignored, the cold reality of history is that all great conquerors of this land have ultimately come from the highlands and the steppes beyond.\n\nThe highlands of Khorasan are intrinsically defensible terrain, but ruler after ruler has failed to utilise them to their true potential.\n\nWe stand upon the throne of empires past. It falls to us to secure and invest in these western lands to create a stable future for our people.#b We must carry our [GetReligion('sikh').GetName] faith into these lands and create a bastion of civilisation which will stand for all time!#!"
+
+# mog_pash_pun.1: "The Pashtun Question"
+ mog_pash_pun.1.t: "The Pashtun Question"
+ mog_pash_pun.1.d: "The highlands to our west are of paramount importance to our future. We must learn from the past and forge an enduring legacy."
+ mog_pash_pun.1.f: "The highlands are, overwhelmingly, populated by [GetCulture('pashtun').GetName] peoples who follow the [GetReligion('sunni').GetName] or [GetReligion('shiite').GetName] faiths. Yet, in our own lands and those of our neighbours, there are many of those same people who follow our local faiths which we call [GetCulture('pathan').GetName].\n\nThese people show us that the Pashtunwali is compatible with our faith.\n\nIt is suggested that we present these Pathan as an example, and leverage this to aid with the integration of these regions into our empire."
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "This must be a priority for us!"
+ mog_pash_pun.1.b: "Necessary, but we have other priorities."
+ 
+ mog_pash_pun_sikh_establishment_button: "Sikh Communities"
+ mog_pash_pun_sikh_establishment_button_desc: "France reached the height of its glory under the Emperor Napoleon. The restoration of the House of Bonaparte is clearly what is right for our country."

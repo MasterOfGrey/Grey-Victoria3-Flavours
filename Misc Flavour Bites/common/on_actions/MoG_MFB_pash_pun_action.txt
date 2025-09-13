@@ -1,0 +1,19 @@
+﻿# Trigger the follow-up Khalsa Raj JE
+on_monthly_country_pulse = {
+	on_actions = {
+		mfb_pash_pun_je_trigger
+	}
+}
+
+mfb_pash_pun_je_trigger = {
+	effect = {
+		if = {
+			limit = {
+				has_variable = completed_sikh_sovereignty_je
+			}
+			add_journal_entry = {
+				type = je_sikh_pash_pun
+			}
+		}
+	}
+}

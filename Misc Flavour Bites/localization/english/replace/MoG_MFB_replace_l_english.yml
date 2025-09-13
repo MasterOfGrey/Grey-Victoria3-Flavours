@@ -1,2 +1,4 @@
 ﻿l_english:
- SGF_ADJ:0 "South German"
+ SGF_ADJ: "South German"
+ STATE_NORTHERN_BALUCHISTAN: "Godzareh"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_farm: "Lashkar Gah"

@@ -1,0 +1,95 @@
+﻿## Investments in the highlands of the Pashtun peoples.
+mog_pash_pun_sikh_establishment_button = {
+	name = "mog_pash_pun_sikh_establishment_button"
+	desc = "mog_pash_pun_sikh_establishment_button_desc"
+
+	visible = {
+		any_scope_state = {
+			NOT = { has_modifier = modifier_mfb_sikh_communities }
+			OR = {
+				state_region = s:STATE_BALUCHISTAN
+				state_region = s:STATE_KANDAHAR
+				state_region = s:STATE_KABUL
+				state_region = s:STATE_HERAT
+				state_region = s:STATE_NORTHERN_BALUCHISTAN
+				state_region = s:STATE_BALKH
+				state_region = s:STATE_QUETTA
+				state_region = s:STATE_CENTRAL_HIGHLANDS
+				state_region = s:STATE_PASHTUNISTAN
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			NOT = { has_modifier = modifier_mfb_sikh_communities }
+			is_split_state = no
+			religion_percent_state = {
+				target = rel:sikh
+				value >= 0.2
+			}
+			OR = {
+				state_region = s:STATE_BALUCHISTAN
+				state_region = s:STATE_KANDAHAR
+				state_region = s:STATE_KABUL
+				state_region = s:STATE_HERAT
+				state_region = s:STATE_NORTHERN_BALUCHISTAN
+				state_region = s:STATE_BALKH
+				state_region = s:STATE_QUETTA
+				state_region = s:STATE_CENTRAL_HIGHLANDS
+				state_region = s:STATE_PASHTUNISTAN
+			}
+		}
+	}
+
+	effect = {
+		# trigger_event = { id = persia_events.3 popup = yes }
+		show_as_tooltip = {
+		#	if = {
+		#		limit = {
+		#			any_scope_state = {
+		#				NOT = { has_modifier = modifier_mfb_sikh_communities }
+		#				is_split_state = no
+		#				religion_percent_state = {
+		#					target = rel:sikh
+		#					value >= 0.2
+		#				}
+		#			}
+		#		}
+				every_scope_state = {
+					limit = {
+						NOT = { has_modifier = modifier_mfb_sikh_communities }
+						is_split_state = no
+						religion_percent_state = {
+							target = rel:sikh
+							value >= 0.2
+						}
+						OR = {
+							state_region = s:STATE_BALUCHISTAN
+							state_region = s:STATE_KANDAHAR
+							state_region = s:STATE_KABUL
+							state_region = s:STATE_HERAT
+							state_region = s:STATE_NORTHERN_BALUCHISTAN
+							state_region = s:STATE_BALKH
+							state_region = s:STATE_QUETTA
+							state_region = s:STATE_CENTRAL_HIGHLANDS
+							state_region = s:STATE_PASHTUNISTAN
+						}
+					}
+					add_modifier = {
+						name = modifier_mfb_sikh_communities
+					}
+					add_modifier = {
+						name = modifier_mfb_sikh_frontier
+						days = long_modifier_time
+					}
+				}
+		#	}
+		}
+	}
+	ai_chance = {
+		value = 100
+	}
+}
+
+# Helmand Irrigation Project (pinnacle effort, 1940's irl, add wheat/opium to Northern Baluchistan
