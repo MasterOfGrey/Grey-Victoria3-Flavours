@@ -30,6 +30,12 @@ je_south_german_unification = {
 		}
 	}
 
+	fail = {
+		NOT = {
+			is_unification_candidate = GER
+		}
+	}
+
 	on_monthly_pulse = {
 		effect = {
 			if = {
@@ -97,11 +103,16 @@ je_north_german_unification = {
 		}
 	}
 
-	on_monthly_pulse = {
-		events = {
-			german_unification.3 # Bismarck
+	fail = {
+		NOT = {
+			is_unification_candidate = GER
 		}
+	}
 
+	on_monthly_pulse = {
+		#events = {
+		#	german_unification.3 # Bismarck		# Now triggered by the character
+		#}
 		effect = {
 			if = {
 				limit = { NOT = { has_variable = je_unification_progress } }
@@ -131,6 +142,10 @@ je_german_unification = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_german_unification
+
+	is_shown_in_lobby = {
+		c:PRU = THIS
+	}
 
 	is_shown_when_inactive = {
 		has_variable = je_german_confederate_unifier

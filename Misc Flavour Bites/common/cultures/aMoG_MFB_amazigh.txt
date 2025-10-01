@@ -1,7 +1,10 @@
 ﻿berber= { # Amazigh
 	color= hsv{ 0.20 0.55 0.45 }
 	religion = sunni
-	traits = { arab_speaking african_heritage }
+	heritage = heritage_afro_arab	# heritage_berber	(Ironic)
+	language = language_berber
+	traditions = { }
+	# traits = { arab_speaking african_heritage }
 	obsessions = {
 		luxury_clothes
 	}

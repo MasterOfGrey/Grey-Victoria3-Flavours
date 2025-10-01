@@ -1,7 +1,10 @@
 ﻿velehradian= {
 	color= hsv{ 0.8 0.66 0.78 }
 	religion = catholic
-	traits = { west_slavic european_heritage }
+	heritage = heritage_west_slavic
+	language = language_west_slavic
+	traditions = { }
+	# traits = { west_slavic european_heritage }
 	male_common_first_names = {
 		Abraham
 		Adam

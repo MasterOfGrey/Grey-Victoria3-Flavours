@@ -7,8 +7,16 @@ arabic_clothes_trigger = {
 		OR = {
 			culture = {
 				OR = {
-					has_discrimination_trait = middle_eastern_heritage
-					has_discrimination_trait = central_asian_heritage #Currently no point having a different check
+					has_discrimination_trait_group = heritage_group_middle_eastern
+					has_discrimination_trait_group = heritage_group_central_asian #Currently no point having a different check
+				}
+			}
+			AND = {
+				culture = {
+					has_discrimination_trait = heritage_abyssinian
+				}
+				religion = {
+					NOT = { has_discrimination_trait = heritage_christian }
 				}
 			}
 			culture = cu:circassian
@@ -19,12 +27,12 @@ arabic_clothes_trigger = {
 					home_country = {
 						exists = c:TUR
 						c:TUR = this
-						c:TUR = { has_law = law_type:law_monarchy }
+						c:TUR = { has_law_or_variant = law_type:law_monarchy }
 					}
 					home_country = {
 						exists = c:EGY
 						c:EGY = this
-						c:EGY = { has_law = law_type:law_monarchy }
+						c:EGY = { has_law_or_variant = law_type:law_monarchy }
 					}
 				}
 			}
@@ -38,10 +46,31 @@ arabic_clothes_pop_trigger = {
 	scope:pop = {
 		OR = {
 			culture = {
-				has_discrimination_trait = middle_eastern_heritage
+				has_discrimination_trait_group = heritage_group_middle_eastern
 			}
 			culture = cu:circassian
 			culture = cu:berber		# Added
 		}
+	}
+}
+
+african_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			has_discrimination_trait_group = heritage_group_african
+		}
+	}
+	african_diaspora_clothes_trigger = no
+		NOT = { culture = cu:berber }		# Added
+}
+
+african_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			has_discrimination_trait_group = heritage_group_african
+		}
+		NOT = { culture = cu:berber }		# Added
 	}
 }

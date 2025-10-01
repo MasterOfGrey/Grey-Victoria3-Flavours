@@ -1,6 +1,8 @@
 ﻿# Peoples of Proto-Pashtun Origin
-medio_arian_heritage = {
-	heritage = yes
+tradition_medio_arian = {
+	type = tradition
 }
 # Peoples practicing Pashtun lifestyles
-pashtunwali = {}
+tradition_pashtunwali = {
+	type = tradition
+}

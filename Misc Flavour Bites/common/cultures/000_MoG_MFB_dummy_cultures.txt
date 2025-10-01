@@ -1,7 +1,10 @@
 ﻿moravian={
 	color= hsv{ 0 0 0 }
 	religion = catholic
-	traits = { west_slavic european_heritage }
+	heritage = heritage_west_slavic
+	language = language_west_slavic
+	traditions = { }
+	# traits = { west_slavic european_heritage }
 	male_common_first_names={
 		No-See
 	}
@@ -32,7 +35,10 @@
 baltic={
 	color= hsv{ 0 0 0 }
 	religion = catholic
-	traits = { west_slavic european_heritage }
+	heritage = heritage_west_slavic
+	language = language_west_slavic
+	traditions = { }
+	# traits = { west_slavic european_heritage }
 	male_common_first_names={
 		No-See
 	}
@@ -62,8 +68,10 @@ baltic={
 
 german={
 	color= hsv{ 0 0 0 }
-	religion = catholic
-	traits = { west_slavic european_heritage }
+	religion = protestant
+	heritage = heritage_germanic
+	language = language_germanophone
+	traditions = { }
 	male_common_first_names={
 		No-See
 	}
@@ -86,7 +94,7 @@ german={
 		No-See
 	}
 	ethnicities = {
-		1 = slavic
+		1 = caucasian
 	}
 	graphics = european
 }

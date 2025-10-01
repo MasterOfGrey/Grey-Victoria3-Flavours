@@ -11,10 +11,11 @@ mfb_apply_defeated_modifier = {
 			limit = {
 				scope:diplomatic_play = {
 					OR = { 
-						is_diplomatic_play_type = dp_unify_germany
+						is_diplomatic_play_type = dp_leadership_germany
 						is_diplomatic_play_type = dp_leadership_italy
 						is_diplomatic_play_type = dp_leadership_scandinavia
 						is_diplomatic_play_type = dp_leadership_andes
+						is_diplomatic_play_type = dp_leadership_yugoslavia
 					}
 					# has_war_goal = unification_leadership
 				}
