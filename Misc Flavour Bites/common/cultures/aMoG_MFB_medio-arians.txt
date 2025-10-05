@@ -322,7 +322,7 @@ pathan = {
 	heritage = heritage_iranian
 	language = language_hindustani
 	traditions = { tradition_persianate tradition_pashtunwali tradition_medio_arian }
-	traits = { central_asian_heritage indo_aryan_language medio_arian_heritage pashtunwali }
+	# traits = { central_asian_heritage indo_aryan_language medio_arian_heritage pashtunwali }
 	male_common_first_names = {
 		Alif Abd_al-Quddus Abd_al-Rahman Abdallah Afzal Ahmad Akbar Akram Ayyub
 		Daud
