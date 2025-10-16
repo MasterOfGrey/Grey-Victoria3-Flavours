@@ -216,9 +216,9 @@ zapadoslovancina.2 = { #zapadoslovancinae Kulturvereinigung
 		}
 		if = {
 			limit = {
-				NOT = { owns_entire_state_region = STATE_SILESIA }
+				NOT = { owns_entire_state_region = STATE_UPPER_SILESIA }
 			}
-			s:STATE_SILESIA = {
+			s:STATE_UPPER_SILESIA = {
 				add_claim = ROOT
 			}
 		}
@@ -270,29 +270,29 @@ zapadoslovancina.2 = { #zapadoslovancinae Kulturvereinigung
 				add_claim = ROOT
 			}
 		}
-		s:STATE_WEST_SLOVAKIA = {
+		s:STATE_SLOVAKIA = {
 			remove_homeland = cu:hungarian
 			remove_homeland = cu:south_german
 			remove_homeland = cu:german
 		}
 		if = {
 			limit = {
-				NOT = { owns_entire_state_region = STATE_WEST_SLOVAKIA }
+				NOT = { owns_entire_state_region = STATE_SLOVAKIA }
 			}
-			s:STATE_WEST_SLOVAKIA = {
+			s:STATE_SLOVAKIA = {
 				add_claim = ROOT
 			}
 		}
-		s:STATE_EAST_SLOVAKIA = {
+		s:STATE_RUTHENIA = {
 			remove_homeland = cu:hungarian
 			remove_homeland = cu:south_german
 			remove_homeland = cu:german
 		}
 		if = {
 			limit = {
-				NOT = { owns_entire_state_region = STATE_EAST_SLOVAKIA }
+				NOT = { owns_entire_state_region = STATE_RUTHENIA }
 			}
-			s:STATE_EAST_SLOVAKIA = {
+			s:STATE_RUTHENIA = {
 				add_claim = ROOT
 			}
 		}

@@ -1,5 +1,7 @@
 ﻿# Vanilla Formable fixes that might be overwritten by a different dedicated flavour mod.
 
+## Major Formables
+
 GER = {
 	use_culture_states = yes
 
@@ -262,4 +264,15 @@ YUG = {
 			always = yes
 		}
 	}
+}
+
+## Africa
+
+ZIM = {
+	states = {
+		STATE_ZAMBEZI
+	}
+	required_states_fraction = 0.75
+
+	ai_will_do = { always = yes }
 }

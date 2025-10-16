@@ -1,0 +1,10 @@
+﻿ZIM = {
+	color = { 0 173 112 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { shona nguni}
+	capital = STATE_ZAMBEZI
+}
