@@ -8,7 +8,9 @@ on:
         required: true
         type: choice
         options:
-          - 'Misc Flavour Bites;'
+          - 'Misc Flavour Bites;3599416190'
+          - 'Sokotan Identity Pack;3127242187'
+          - 'Ruanda Identity Pack;3217240004'
       update-description:
           description: 'Update description?'
           required: true
