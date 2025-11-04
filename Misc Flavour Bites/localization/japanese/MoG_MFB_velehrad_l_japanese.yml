@@ -1,0 +1,12 @@
+﻿l_japanese:
+ VEL: "ヴェレフラド" #deepl:512236131
+ VEL_ADJ: "ヴェレフラディアン" #deepl:1021772737
+ velehradian: "ヴェレフラディアン" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] 統一" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] は民族統一を達成し、中欧のスラブ民族をひとつの旗の下にまとめた。" #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "ヴェレフラードの統一文化" #deepl:2424794389
+ zapadoslovancina_decision_desc: "ヴェレラディア民族をひとつにまとめ、統一文化を形成する。" #deepl:1166629027
+ zapadoslovancina.1.t: "統一されたヴェレフラド文化" #deepl:89038666
+ zapadoslovancina.1.d: "ヴェレフラードが形成され、学校のカリキュラムが統一された後、ヴェレフラードの人々は統一された文化を創造するために集まった。" #deepl:687081189
+ zapadoslovancina.1.a: "ヴェレラディア人は団結している！" #deepl:75228065

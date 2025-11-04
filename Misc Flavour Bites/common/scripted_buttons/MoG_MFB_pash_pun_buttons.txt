@@ -1,4 +1,6 @@
 ﻿## Investments in the highlands of the Pashtun peoples.
+
+# Establishing Sikh Communities
 mog_pash_pun_sikh_establishment_button = {
 	name = "mog_pash_pun_sikh_establishment_button"
 	desc = "mog_pash_pun_sikh_establishment_button_desc"
@@ -92,4 +94,24 @@ mog_pash_pun_sikh_establishment_button = {
 	}
 }
 
-# Helmand Irrigation Project (pinnacle effort, 1940's irl, add wheat/opium to Northern Baluchistan
+# Designating the Frontier (migration attraction for Punjabi)
+
+# Fortifications of the Faithful (defensive army buff + reduced radicalism from SOL changes + 5% migration attraction buff)
+
+# Building of the Dam in Kashmir
+
+# Building of the Pumps & Locks System in Punjab
+
+# Building of the Nara Canal & Irrigation System in Sindh
+
+# Building of a Regional Pumped Irrigation System (required for all subsequent dam projects which weren't built IRL till later, but were conceived of earlier + requires sikh communities)
+
+# Building of the Wali Tangi Dam in Quetta
+
+# Building of the Gomal Zam Dam in Pashtunistan (requires electricity)
+
+# Building of the Mirani Dam in Baluchistan (requires electricity)
+
+# Building of the Arghandab Dam in Kandahar (requires electricity)
+
+# Helmand Kajaki Dam & Irrigation Project (pinnacle effort, 1940's irl, add wheat/opium to Northern Baluchistan

@@ -3,7 +3,7 @@
 	
 	group = je_group_historical_content
 	
-	#scripted_button = upgrade_amazon_button_1
+	scripted_button = mog_pash_pun_sikh_establishment_button
 	#scripted_button = upgrade_amazon_button_2
 	#scripted_button = amazon_border_treaty_button_1
 	#scripted_button = amazon_border_treaty_button_2
@@ -28,9 +28,9 @@
 	on_monthly_pulse = {
 		random_events = {
 			100 = 0 
-			50 = amazon.1 # devil's railroad
-			10 = amazon.2 # hell on earth
-			10 = amazonas.8
+		#	50 = mog_pash_pun.x # random events tbd
+		#	10 = mog_pash_pun.y
+		#	10 = mog_pash_pun.z
 		}
 	}
 	
@@ -69,21 +69,12 @@
 				civil_war_progress >= 0.75
 			}
 		}
-	#	any_scope_state = {
-	#		filter = {
-	#			OR = {
-	#				has_state_trait = state_trait_amazon_rainforest
-	#				has_state_trait = state_trait_amazon_rainforest_level_1
-	#				has_state_trait = state_trait_amazon_rainforest_level_2
-	#			}
-	#			has_potential_resource = bg_rubber
-	#		}
-	#		custom_tooltip = {
-	#			text = je_amazonas_tt
-	#			has_state_trait = state_trait_amazon_rainforest_level_2
-	#		}
-	#		count = all
-	#	}
+		any_scope_state = {
+			filter = {
+				has_modifier = modifier_mfb_sikh_communities
+			}
+			count = all
+		}
 	}
 	
 	on_complete = {

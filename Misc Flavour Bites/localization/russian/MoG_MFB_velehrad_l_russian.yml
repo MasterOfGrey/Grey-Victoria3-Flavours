@@ -1,0 +1,12 @@
+﻿l_russian:
+ VEL: "Велеград" #deepl:512236131
+ VEL_ADJ: "Велеград" #deepl:1021772737
+ velehradian: "Велеград" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] Объединение" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] добился национального объединения, объединив славянские народы Центральной Европы под одним знаменем." #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "Единая культура для Велеграда" #deepl:2424794389
+ zapadoslovancina_decision_desc: "Объедините велеградские народы в единую культуру." #deepl:1166629027
+ zapadoslovancina.1.t: "Велеградская культура едина" #deepl:89038666
+ zapadoslovancina.1.d: "После образования Велеграда и введения единой школьной программы велеградские народы объединились, чтобы создать единую культуру." #deepl:687081189
+ zapadoslovancina.1.a: "Велеградцы едины!" #deepl:75228065

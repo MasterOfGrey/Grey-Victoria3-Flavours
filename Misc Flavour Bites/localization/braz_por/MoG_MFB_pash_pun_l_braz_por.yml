@@ -1,0 +1,21 @@
+﻿l_braz_por:
+ tradition_medio_arian: "Patrimônio Medio-Ariano" #deepl:3212595302
+ tradition_pashtunwali: "Pashtunwali" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "Orgulho dos valores nacionais" #deepl:2154827471
+ modifier_mfb_sikh_communities: "Comunidades Sikh interculturais" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "A fronteira sikh" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "Controle das terras altas" #deepl:2298638541
+ je_sikh_pash_pun_reason: "Com nossa dinastia estabelecida com segurança e nosso povo unido, devemos pensar no futuro. Por mais que a ameaça das potências europeias não possa ser ignorada, a fria realidade da história é que todos os grandes conquistadores desta terra vieram das terras altas e das estepes.\n\n As terras altas de Khorasan são um terreno intrinsecamente defensável, mas governante após governante não conseguiu utilizá-las em seu verdadeiro potencial.\n\n Estamos no trono de impérios passados. Cabe a nós proteger e investir nessas terras ocidentais para criar um futuro estável para nosso povo.#b Devemos levar nossa fé [GetReligion('sikh').GetName] para essas terras e criar um bastião de civilização que permanecerá para sempre!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "A questão pashtun" #deepl:790977218
+ mog_pash_pun.1.t: "A questão pashtun" #deepl:790977218
+ mog_pash_pun.1.d: "As terras altas a oeste são de suma importância para o nosso futuro. Precisamos aprender com o passado e forjar um legado duradouro." #deepl:3729211179
+ mog_pash_pun.1.f: "As terras altas são, em sua esmagadora maioria, habitadas por povos [GetCulture('pashtun').GetName] que seguem as religiões [GetReligion('sunni').GetName] ou [GetReligion('shiite').GetName]. No entanto, em nossas próprias terras e nas de nossos vizinhos, há muitas dessas mesmas pessoas que seguem nossas religiões locais, que chamamos de [GetCulture('pathan').GetName].\n\n Essas pessoas nos mostram que o Pashtunwali é compatível com nossa fé.\n\n Sugere-se que apresentemos esses patanis como exemplo e aproveitemos isso para ajudar na integração dessas regiões em nosso império." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "Isso deve ser uma prioridade para nós!" #deepl:1094625126
+ mog_pash_pun.1.b: "Necessário, mas temos outras prioridades." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "Comunidades Sikh" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "A França atingiu o auge de sua glória sob o comando do imperador Napoleão. A restauração da Casa de Bonaparte é claramente o que é certo para o nosso país." #deepl:4138390760

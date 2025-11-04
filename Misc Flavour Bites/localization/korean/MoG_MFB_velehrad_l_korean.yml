@@ -1,0 +1,12 @@
+﻿l_korean:
+ VEL: "Velehrad" #deepl:512236131
+ VEL_ADJ: "벨레라디안" #deepl:1021772737
+ velehradian: "벨레라디안" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] 통합" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] 는 중앙 유럽의 슬라브 민족을 하나의 기치 아래 하나로 묶어 국가 통일을 이루었습니다." #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "벨레라드의 통합된 문화" #deepl:2424794389
+ zapadoslovancina_decision_desc: "벨레라디아 민족을 하나로 모아 통일된 문화를 형성하세요." #deepl:1166629027
+ zapadoslovancina.1.t: "벨레라디안 문화가 통일되다" #deepl:89038666
+ zapadoslovancina.1.d: "벨레라드가 형성되고 학교 커리큘럼이 통일된 후, 벨레라드 민족은 통일된 문화를 만들기 위해 함께 모였습니다." #deepl:687081189
+ zapadoslovancina.1.a: "벨레라디안 사람들은 단결했습니다!" #deepl:75228065

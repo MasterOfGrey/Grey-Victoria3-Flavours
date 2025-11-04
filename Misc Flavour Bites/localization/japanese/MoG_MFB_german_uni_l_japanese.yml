@@ -1,0 +1,6 @@
+﻿l_japanese:
+ je_south_german_unification_sole_candidate_trigger_desc: "南ドイツ[Concept('concept_unification_candidate', '$concept_unification_candidates$')] [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "[GetPlayer.GetName] 以外に北ドイツ[Concept('concept_unification_candidate', '$concept_unification_candidates$')] 、[SCOPE.sCountry('austria_scope').GetName] は統一候補であってはならない。" #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "あなたの国は、#b #! リーダーシップで敗北していない。[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "あなたの国はリーダーシップで敗北した[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

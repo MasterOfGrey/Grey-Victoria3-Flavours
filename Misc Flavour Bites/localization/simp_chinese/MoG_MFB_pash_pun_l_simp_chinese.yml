@@ -1,0 +1,21 @@
+﻿l_simp_chinese:
+ tradition_medio_arian: "中阿里亚传统" #deepl:3212595302
+ tradition_pashtunwali: "普什图瓦利" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "以国家价值观为荣" #deepl:2154827471
+ modifier_mfb_sikh_communities: "跨文化锡克社区" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "锡克边疆" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "控制高地" #deepl:2298638541
+ je_sikh_pash_pun_reason: "随着我们的王朝稳固建立，我们的人民团结一致，我们必须考虑展望未来。尽管欧洲列强的威胁不容忽视，但冷酷的历史现实是，这片土地上所有伟大的征服者最终都来自高原和草原之外。\n\n 呼罗珊高原本质上是可防御的地形，但历代统治者都未能利用其真正的潜力。\n\n 我们站在过去帝国的宝座上。#b 我们必须将我们的[GetReligion('sikh').GetName] 信仰带入这片土地，创建一个屹立不倒的文明堡垒！#!" #deepl:489982211
+
+ # mog_pash_pun.1: "普什图问题" #deepl:790977218
+ mog_pash_pun.1.t: "普什图问题" #deepl:790977218
+ mog_pash_pun.1.d: "我们西部的高地对我们的未来至关重要。我们必须从过去的历史中汲取教训，创造一份永恒的遗产。" #deepl:3729211179
+ mog_pash_pun.1.f: "高原地区绝大多数是[GetCulture('pashtun').GetName] 人，他们信奉[GetReligion('sunni').GetName] 或[GetReligion('shiite').GetName] 。然而，在我们自己和我们邻国的土地上，也有许多同样的人信奉我们当地的信仰，我们称之为[GetCulture('pathan').GetName] 。\n\n 这些人向我们表明，普什图瓦利与我们的信仰是相容的。\n\n 建议我们以这些巴丹人为榜样，利用这一点帮助这些地区融入我们的帝国。" #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "这必须是我们的优先事项！" #deepl:1094625126
+ mog_pash_pun.1.b: "有必要，但我们有其他优先事项。" #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "锡克教社区" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "法国在拿破仑皇帝的统治下达到了辉煌的顶峰。波拿巴家族的复辟显然是我国的正确选择。" #deepl:4138390760

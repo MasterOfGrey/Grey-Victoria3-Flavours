@@ -1,0 +1,21 @@
+﻿l_spanish:
+ tradition_medio_arian: "Patrimonio medio-ario" #deepl:3212595302
+ tradition_pashtunwali: "Pashtunwali" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "Orgullo de los valores nacionales" #deepl:2154827471
+ modifier_mfb_sikh_communities: "Comunidades sij interculturales" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "La frontera sij" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "Control de las tierras altas" #deepl:2298638541
+ je_sikh_pash_pun_reason: "Con nuestra dinastía firmemente establecida y nuestro pueblo unido, debemos plantearnos mirar al futuro. Por mucho que no se pueda ignorar la amenaza de las potencias europeas, la fría realidad de la historia es que todos los grandes conquistadores de esta tierra han venido en última instancia de las tierras altas y de las estepas de más allá.\n\n Las tierras altas de Jorasán son intrínsecamente terreno defendible, pero gobernante tras gobernante no han sabido utilizarlas en su verdadero potencial.\n\n Estamos sobre el trono de imperios pasados. Nos corresponde a nosotros asegurar e invertir en estas tierras occidentales para crear un futuro estable para nuestro pueblo.#b ¡Debemos llevar nuestra fe [GetReligion('sikh').GetName] a estas tierras y crear un bastión de civilización que perdure para siempre!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "La cuestión pastún" #deepl:790977218
+ mog_pash_pun.1.t: "La cuestión pastún" #deepl:790977218
+ mog_pash_pun.1.d: "Las tierras altas de nuestro oeste son de vital importancia para nuestro futuro. Debemos aprender del pasado y forjar un legado perdurable." #deepl:3729211179
+ mog_pash_pun.1.f: "Las tierras altas están pobladas, en su inmensa mayoría, por pueblos [GetCulture('pashtun').GetName] que siguen las confesiones [GetReligion('sunni').GetName] o [GetReligion('shiite').GetName]. Sin embargo, en nuestras propias tierras y en las de nuestros vecinos, hay muchos de esos mismos pueblos que siguen nuestra fe local, a la que llamamos [GetCulture('pathan').GetName].\n\n Estos pueblos nos demuestran que el Pashtunwali es compatible con nuestra fe.\n\n Se sugiere que presentemos a estos Pathan como ejemplo, y aprovechemos esto para ayudar a la integración de estas regiones en nuestro imperio." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "Debe ser una prioridad para nosotros." #deepl:1094625126
+ mog_pash_pun.1.b: "Necesario, pero tenemos otras prioridades." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "Comunidades sijs" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "Francia alcanzó la cima de su gloria bajo el emperador Napoleón. La restauración de la Casa de Bonaparte es claramente lo que conviene a nuestro país." #deepl:4138390760

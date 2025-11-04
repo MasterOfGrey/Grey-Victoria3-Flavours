@@ -1,0 +1,21 @@
+﻿l_german:
+ tradition_medio_arian: "Medio-arisches Erbe" #deepl:3212595302
+ tradition_pashtunwali: "Pashtunwali" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "Stolz auf nationale Werte" #deepl:2154827471
+ modifier_mfb_sikh_communities: "Interkulturelle Sikh-Gemeinschaften" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "Die Sikh-Grenze" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "Die Kontrolle der Highlands" #deepl:2298638541
+ je_sikh_pash_pun_reason: "Jetzt, da unsere Dynastie fest etabliert und unser Volk geeint ist, müssen wir den Blick in die Zukunft richten. So sehr die Bedrohung durch die europäischen Mächte auch nicht ignoriert werden darf, so ist es doch die kalte Realität der Geschichte, dass alle großen Eroberer dieses Landes letztlich aus dem Hochland und den dahinter liegenden Steppen kamen.\n\n Das Hochland von Khorasan ist an sich ein verteidigungsfähiges Terrain, aber ein Herrscher nach dem anderen hat es versäumt, sein wahres Potenzial auszuschöpfen.\n\n Wir stehen auf dem Thron vergangener Reiche. Es liegt an uns, diese westlichen Länder zu sichern und in sie zu investieren, um eine stabile Zukunft für unser Volk zu schaffen.#b Wir müssen unseren [GetReligion('sikh').GetName] Glauben in diese Länder tragen und eine Bastion der Zivilisation errichten, die für alle Zeiten Bestand haben wird!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "Die paschtunische Frage" #deepl:790977218
+ mog_pash_pun.1.t: "Die paschtunische Frage" #deepl:790977218
+ mog_pash_pun.1.d: "Das Hochland in unserem Westen ist für unsere Zukunft von größter Bedeutung. Wir müssen aus der Vergangenheit lernen und ein dauerhaftes Erbe schaffen." #deepl:3729211179
+ mog_pash_pun.1.f: "Das Hochland wird überwiegend von [GetCulture('pashtun').GetName] Völkern bevölkert, die dem [GetReligion('sunni').GetName] oder [GetReligion('shiite').GetName] Glauben folgen. Dennoch gibt es in unseren eigenen Ländern und denen unserer Nachbarn viele dieser Menschen, die unserem lokalen Glauben folgen, den wir [GetCulture('pathan').GetName] nennen.\n\n Diese Menschen zeigen uns, dass das Paschtunwali mit unserem Glauben vereinbar ist.\n\n Es wird vorgeschlagen, dass wir diese Pathan als Beispiel präsentieren und dies nutzen, um die Integration dieser Regionen in unser Reich zu unterstützen." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "Dies muss für uns eine Priorität sein!" #deepl:1094625126
+ mog_pash_pun.1.b: "Das ist notwendig, aber wir haben andere Prioritäten." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "Sikh-Gemeinschaften" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "Frankreich erreichte den Höhepunkt seines Ruhms unter Kaiser Napoleon. Die Wiederherstellung des Hauses Bonaparte ist eindeutig das Richtige für unser Land." #deepl:4138390760

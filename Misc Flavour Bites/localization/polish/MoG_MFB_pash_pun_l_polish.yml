@@ -1,0 +1,21 @@
+﻿l_polish:
+ tradition_medio_arian: "Dziedzictwo medio-aryjskie" #deepl:3212595302
+ tradition_pashtunwali: "Pashtunwali" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "Duma z wartości narodowych" #deepl:2154827471
+ modifier_mfb_sikh_communities: "Międzykulturowe społeczności sikhijskie" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "Granica Sikhów" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "Kontrolowanie wyżyn" #deepl:2298638541
+ je_sikh_pash_pun_reason: "Z naszą dynastią bezpiecznie ustanowioną i naszym ludem zjednoczonym, musimy rozważyć spojrzenie w przyszłość. Choć nie można ignorować zagrożenia ze strony europejskich mocarstw, zimna rzeczywistość historyczna jest taka, że wszyscy wielcy zdobywcy tej ziemi ostatecznie pochodzili z wyżyn i stepów.\n\n Wyżyny Khorasanu są z natury terenem nadającym się do obrony, ale kolejni władcy nie wykorzystali ich prawdziwego potencjału.\n\n Stoimy na tronie dawnych imperiów. Do nas należy zabezpieczenie i zainwestowanie w te zachodnie ziemie, aby stworzyć stabilną przyszłość dla naszego ludu.#b Musimy przenieść naszą [GetReligion('sikh').GetName] wiarę na te ziemie i stworzyć bastion cywilizacji, który przetrwa po wsze czasy!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "Kwestia pasztuńska" #deepl:790977218
+ mog_pash_pun.1.t: "Kwestia pasztuńska" #deepl:790977218
+ mog_pash_pun.1.d: "Wyżyny na zachodzie mają ogromne znaczenie dla naszej przyszłości. Musimy wyciągnąć wnioski z przeszłości i stworzyć trwałe dziedzictwo." #deepl:3729211179
+ mog_pash_pun.1.f: "Wyżyny są w przeważającej większości zamieszkane przez ludy [GetCulture('pashtun').GetName], które wyznają [GetReligion('sunni').GetName] lub [GetReligion('shiite').GetName]. Jednak na naszych ziemiach i ziemiach naszych sąsiadów jest wielu z tych samych ludzi, którzy wyznają naszą lokalną wiarę, którą nazywamy [GetCulture('pathan').GetName].\n\n Ci ludzie pokazują nam, że Pasztunwali jest zgodne z naszą wiarą.\n\n Sugeruje się, abyśmy przedstawili tych Pathanów jako przykład i wykorzystali to, aby pomóc w integracji tych regionów z naszym imperium." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "To musi być dla nas priorytet!" #deepl:1094625126
+ mog_pash_pun.1.b: "To konieczne, ale mamy inne priorytety." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "Społeczności sikhijskie" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "Francja osiągnęła szczyt swojej chwały pod rządami cesarza Napoleona. Przywrócenie rodu Bonapartych jest wyraźnie tym, co jest właściwe dla naszego kraju." #deepl:4138390760

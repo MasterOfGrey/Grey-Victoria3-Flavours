@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ je_south_german_unification_sole_candidate_trigger_desc: "除了[Concept('concept_unification_candidate', '$concept_unification_candidates$')] 之外，绝不能有任何南德[GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "除了[GetPlayer.GetName] 之外，不得有任何北德[Concept('concept_unification_candidate', '$concept_unification_candidates$')] ，[SCOPE.sCountry('austria_scope').GetName] 也不得是统一候选人。" #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "贵国已#b ，而不是#! ，在领导层中被击败。[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "你们的国家在领导层中被打败了[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

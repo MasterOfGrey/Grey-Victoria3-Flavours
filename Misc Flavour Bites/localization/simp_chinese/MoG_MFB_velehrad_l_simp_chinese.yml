@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ VEL: "Velehrad" #deepl:512236131
+ VEL_ADJ: "Velehradian" #deepl:1021772737
+ velehradian: "Velehradian" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] 统一" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] 实现了国家统一，将中欧的斯拉夫民族团结在一面旗帜下。" #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "韦勒赫拉德的统一文化" #deepl:2424794389
+ zapadoslovancina_decision_desc: "将韦勒赫拉迪亚人团结起来，形成统一的文化。" #deepl:1166629027
+ zapadoslovancina.1.t: "统一的韦勒赫拉迪亚文化" #deepl:89038666
+ zapadoslovancina.1.d: "韦勒赫勒德成立后，统一了学校课程，韦勒赫勒德各民族走到了一起，创造了统一的文化。" #deepl:687081189
+ zapadoslovancina.1.a: "韦勒赫拉迪亚人团结一致！" #deepl:75228065

@@ -1,0 +1,6 @@
+﻿l_korean:
+ je_south_german_unification_sole_candidate_trigger_desc: "남독일 [Concept('concept_unification_candidate', '$concept_unification_candidates$')] 외에 [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "[GetPlayer.GetName] 외에 북독일 [Concept('concept_unification_candidate', '$concept_unification_candidates$')] 이 없어야 하며 [SCOPE.sCountry('austria_scope').GetName] 통일 후보가 아니어야 합니다." #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "귀하의 국가는 #b not#! 리더십에서 패배했습니다. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "당신의 국가가 리더십에서 패배했습니다. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

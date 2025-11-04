@@ -1,0 +1,6 @@
+﻿l_turkish:
+ je_south_german_unification_sole_candidate_trigger_desc: "Ayrıca Güney Almanya [Concept('concept_unification_candidate', '$concept_unification_candidates$')] olmamalıdır. [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "[GetPlayer.GetName] ve [SCOPE.sCountry('austria_scope').GetName] dışında hiçbir Kuzey Alman [Concept('concept_unification_candidate', '$concept_unification_candidates$')] Birleşme Adayı olmamalıdır." #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "Ülkeniz #b değil#! bir Liderlik savaşında yenildi. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "Ülkeniz bir Liderlik savaşında yenildi. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

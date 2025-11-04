@@ -1,0 +1,6 @@
+﻿l_french:
+ je_south_german_unification_sole_candidate_trigger_desc: "En outre, il ne doit pas y avoir de [Concept('concept_unification_candidate', '$concept_unification_candidates$')] en Allemagne du Sud [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "Il ne doit pas y avoir de [Concept('concept_unification_candidate', '$concept_unification_candidates$')] nord-allemand en dehors de [GetPlayer.GetName] et [SCOPE.sCountry('austria_scope').GetName] ne doit pas être un candidat à l'unification." #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "Votre pays a #b et non#! été vaincu dans une course au leadership. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "Votre pays a été vaincu dans un tournoi de leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

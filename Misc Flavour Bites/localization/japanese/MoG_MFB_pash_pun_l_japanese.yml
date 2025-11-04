@@ -1,0 +1,21 @@
+﻿l_japanese:
+ tradition_medio_arian: "メディオ＝アリアン遺産" #deepl:3212595302
+ tradition_pashtunwali: "パシュトゥンワリ" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "国民的価値への誇り" #deepl:2154827471
+ modifier_mfb_sikh_communities: "異文化シク教徒のコミュニティ" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "シークフロンティア" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "高地をコントロールする" #deepl:2298638541
+ je_sikh_pash_pun_reason: "我々の王朝が確実に確立され、国民が団結した今、我々は未来に目を向けなければならない。ヨーロッパ列強の脅威は無視できないかもしれないが、歴史の冷厳な現実は、この土地の偉大な征服者はすべて、最終的に高地とその向こうの草原からやってきたということである。\n\n ホラーサーン地方の高地は本質的に防衛可能な地形であるが、支配者は次々と、その真の可能性を活用することに失敗してきた。\n\n 我々は過去の帝国の玉座に立っている。#b 我々はこれらの土地に我々の[GetReligion('sikh').GetName] 信仰を伝え、永遠に続く文明の砦を築かなければならない！#!" #deepl:489982211
+
+ # mog_pash_pun.1: "パシュトゥーン問題" #deepl:790977218
+ mog_pash_pun.1.t: "パシュトゥーン問題" #deepl:790977218
+ mog_pash_pun.1.d: "私たちの西に位置する高地は、私たちの将来にとって最も重要である。我々は過去から学び、不朽の遺産を築かなければならない。" #deepl:3729211179
+ mog_pash_pun.1.f: "高地には、圧倒的に、[GetReligion('sunni').GetName] または[GetReligion('shiite').GetName] の信仰に従う[GetCulture('pashtun').GetName] 民族が住んでいる。[GetCulture('pathan').GetName]\n\n これらの人々は、パシュトゥンワーリーが私たちの信仰と相容れ ることを私たちに示している。\n\n 私たちはこれらのパタンを模範として示し、これらの地域を私たちの帝国 に統合する手助けとして活用することを提案する。" #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "これは私たちにとって優先事項でなければならない！" #deepl:1094625126
+ mog_pash_pun.1.b: "必要なことだが、我々には他に優先すべきことがある。" #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "シーク教徒のコミュニティ" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "フランスは皇帝ナポレオンのもとで栄光の絶頂に達した。ボナパルト家の復活は、わが国にとって明らかに正しいことである。" #deepl:4138390760

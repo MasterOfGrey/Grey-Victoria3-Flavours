@@ -1,6 +1,6 @@
 {
   "name" : "Grey's Misc. Flavour Bites",
-  "id" : "",
+  "id" : "3599416190",
   "version" : "",
   "supported_game_version" : "",
   "short_description" : "",
@@ -12,11 +12,9 @@
         "Expansion",
         "Fixes",
         "Gameplay",
-        "Historical",
         "Journal Entries",
         "New Nations",
-        "Pops",
-        "1.9"
+        "1.11"
     ],
   "relationships" : [],
   "game_custom_data" : {

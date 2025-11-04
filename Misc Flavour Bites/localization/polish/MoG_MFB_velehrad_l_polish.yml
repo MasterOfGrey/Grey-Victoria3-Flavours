@@ -1,0 +1,12 @@
+﻿l_polish:
+ VEL: "Velehrad" #deepl:512236131
+ VEL_ADJ: "Velehradian" #deepl:1021772737
+ velehradian: "Velehradian" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] Zjednoczenie" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] osiągnęła zjednoczenie narodowe, łącząc słowiańskie narody Europy Środkowej pod jednym sztandarem." #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "Jednolita kultura dla Velehradu" #deepl:2424794389
+ zapadoslovancina_decision_desc: "Połączyć ludy Velehradian w zjednoczoną kulturę." #deepl:1166629027
+ zapadoslovancina.1.t: "Kultura welehradzka jest zunifikowana" #deepl:89038666
+ zapadoslovancina.1.d: "Po utworzeniu Velehradu i ujednoliceniu programu szkolnego, ludy Velehradu zjednoczyły się, tworząc jednolitą kulturę." #deepl:687081189
+ zapadoslovancina.1.a: "Velehradianie są zjednoczeni!" #deepl:75228065

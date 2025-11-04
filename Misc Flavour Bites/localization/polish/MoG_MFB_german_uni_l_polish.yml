@@ -1,0 +1,6 @@
+﻿l_polish:
+ je_south_german_unification_sole_candidate_trigger_desc: "Poza tym nie może być żadnego południowoniemieckiego [Concept('concept_unification_candidate', '$concept_unification_candidates$')] [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "Oprócz [GetPlayer.GetName] nie może istnieć żaden północnoniemiecki [Concept('concept_unification_candidate', '$concept_unification_candidates$')], a [SCOPE.sCountry('austria_scope').GetName] nie może być kandydatem do zjednoczenia." #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "Twój kraj został #b nie#! pokonany w Przywództwie [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "Twój kraj został pokonany w walce o przywództwo [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

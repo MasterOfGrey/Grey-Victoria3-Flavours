@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ je_south_german_unification_sole_candidate_trigger_desc: "Além disso, não deve haver nenhum site do sul da Alemanha [Concept('concept_unification_candidate', '$concept_unification_candidates$')] [GetPlayer.GetName]" #deepl:4025860643
+ je_north_german_unification_sole_candidate_trigger_desc: "Não deve haver nenhum [Concept('concept_unification_candidate', '$concept_unification_candidates$')] da Alemanha do Norte além do [GetPlayer.GetName] e o [SCOPE.sCountry('austria_scope').GetName] não deve ser um candidato à unificação." #deepl:1609991998
+ 
+ je_not_defeated_in_leadership_play: "Seu país #b não#! foi derrotado em uma liderança [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
+ je_defeated_in_leadership_play: "Seu país foi derrotado em uma liderança [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416

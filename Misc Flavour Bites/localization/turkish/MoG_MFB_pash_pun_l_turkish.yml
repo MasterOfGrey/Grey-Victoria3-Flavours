@@ -1,0 +1,21 @@
+﻿l_turkish:
+ tradition_medio_arian: "Medio-Arian Mirası" #deepl:3212595302
+ tradition_pashtunwali: "Pashtunwali" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "Ulusal Değerlerle Gurur Duymak" #deepl:2154827471
+ modifier_mfb_sikh_communities: "Kültürlerarası Sih Toplulukları" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "Sih Sınırı" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "Yaylaların Kontrolü" #deepl:2298638541
+ je_sikh_pash_pun_reason: "Hanedanlığımız güvenli bir şekilde kurulmuş ve halkımız birleşmişken, geleceğe bakmayı düşünmeliyiz. Avrupalı güçlerden gelen tehdit her ne kadar göz ardı edilemese de, tarihin soğuk gerçekliği, bu toprakların tüm büyük fatihlerinin nihayetinde dağlık bölgelerden ve ötesindeki bozkırlardan geldiğidir.\n\n Horasan'ın dağlık bölgeleri özünde savunulabilir arazilerdir, ancak hükümdarlar buraları gerçek potansiyelleriyle kullanmakta başarısız oldular.\n\n Geçmiş imparatorlukların tahtında duruyoruz. Halkımıza istikrarlı bir gelecek yaratmak için bu batı topraklarını güvence altına almak ve yatırım yapmak bize düşüyor.#b  [GetReligion('sikh').GetName] inancımızı bu topraklara taşımalı ve tüm zamanlar boyunca ayakta kalacak bir medeniyet kalesi yaratmalıyız!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "Peştun Sorunu" #deepl:790977218
+ mog_pash_pun.1.t: "Peştun Sorunu" #deepl:790977218
+ mog_pash_pun.1.d: "Batımızdaki yaylalar geleceğimiz için büyük önem taşımaktadır. Geçmişten ders almalı ve kalıcı bir miras oluşturmalıyız." #deepl:3729211179
+ mog_pash_pun.1.f: "Dağlık bölgelerde ezici bir çoğunlukla [GetReligion('sunni').GetName] veya [GetReligion('shiite').GetName] inançlarını takip eden [GetCulture('pashtun').GetName] halkları yaşamaktadır. Yine de, kendi topraklarımızda ve komşularımızın topraklarında, [GetCulture('pathan').GetName] dediğimiz yerel inançlarımızı takip eden aynı insanlardan birçoğu var.\n\n Bu insanlar bize Peştunwali'nin inancımızla uyumlu olduğunu gösteriyor.\n\n Bu Pathan'ları bir örnek olarak sunmamız ve bu bölgelerin imparatorluğumuza entegrasyonuna yardımcı olmak için bundan yararlanmamız önerilmektedir." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "Bu bizim için bir öncelik olmalı!" #deepl:1094625126
+ mog_pash_pun.1.b: "Gerekli ama başka önceliklerimiz var." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "Sih Toplulukları" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "Fransa, İmparator Napolyon döneminde ihtişamının doruğuna ulaşmıştır. Bonaparte Hanedanının yeniden kurulması ülkemiz için en doğru olanıdır." #deepl:4138390760

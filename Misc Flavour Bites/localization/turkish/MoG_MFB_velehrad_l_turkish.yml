@@ -1,0 +1,12 @@
+﻿l_turkish:
+ VEL: "Velehrad" #deepl:512236131
+ VEL_ADJ: "Velehradian" #deepl:1021772737
+ velehradian: "Velehradian" #deepl:1021772737
+ notification_unification_notification_vel_name: "[SCOPE.sCountry('formation_country').GetAdjective] Birleşme" #deepl:3798333104
+ notification_unification_notification_vel_desc: "[SCOPE.sCountry('formation_country').GetName] Orta Avrupa'daki Slav halklarını tek bir bayrak altında toplayarak ulusal birleşmeyi sağlamıştır." #deepl:1757437172
+ notification_unification_notification_vel_tooltip: "#header $notification_unification_notification_vel_name$#!\n$TOOLTIP_DELIMITER$\n$notification_unification_notification_vel_desc$" #deepl:3548733990
+ zapadoslovancina_decision: "Velehrad için birleşik bir kültür" #deepl:2424794389
+ zapadoslovancina_decision_desc: "Birleşik bir kültür oluşturmak için Velehradyalı halkları bir araya getirin." #deepl:1166629027
+ zapadoslovancina.1.t: "Velehradyan Kültürü Birleşmiştir" #deepl:89038666
+ zapadoslovancina.1.d: "Velehrad'ın kurulmasının ve birleşik bir okul müfredatının ardından, Velehradian halkları birleşik bir kültür yaratmak için bir araya geldi." #deepl:687081189
+ zapadoslovancina.1.a: "Velehradian halkı birleşti!" #deepl:75228065

@@ -1,0 +1,21 @@
+﻿l_korean:
+ tradition_medio_arian: "메디오아리안 헤리티지" #deepl:3212595302
+ tradition_pashtunwali: "파슈툰왈리" #deepl:1792948003
+ 
+ modifier_sikh_cultural_unity: "국가적 가치에 대한 자부심" #deepl:2154827471
+ modifier_mfb_sikh_communities: "다문화 시크교 커뮤니티" #deepl:2794214326
+ modifier_mfb_sikh_frontier: "시크교 프런티어" #deepl:2723519913
+ 
+ je_sikh_pash_pun: "고지대 통제" #deepl:2298638541
+ je_sikh_pash_pun_reason: "왕조가 안정적으로 자리 잡고 국민이 단결한 지금, 우리는 미래를 바라봐야 합니다. 유럽 열강의 위협을 무시할 수는 없지만, 이 땅의 모든 위대한 정복자들은 결국 고원과 그 너머의 대초원에서 나왔다는 것이 역사의 냉정한 현실입니다.\n\n 코라산 고원은 본질적으로 방어 가능한 지형이지만 역대 통치자들은 이를 제대로 활용하지 못했습니다.\n\n 우리는 과거 제국들의 왕좌에 서 있습니다. 이 서쪽 땅을 확보하고 투자하여 우리 국민을 위한 안정적인 미래를 만드는 것은 우리에게 달려 있습니다.#b 우리는 우리의 [GetReligion('sikh').GetName] 믿음을 이 땅으로 가져와 영원히 지속될 문명의 요새를 만들어야 합니다!#!" #deepl:489982211
+
+ # mog_pash_pun.1: "파슈툰 질문" #deepl:790977218
+ mog_pash_pun.1.t: "파슈툰 질문" #deepl:790977218
+ mog_pash_pun.1.d: "우리 서쪽의 고지대는 우리의 미래에 가장 중요한 곳입니다. 우리는 과거로부터 배우고 영속적인 유산을 만들어야 합니다." #deepl:3729211179
+ mog_pash_pun.1.f: "고원지대에는 [GetReligion('sunni').GetName] 또는 [GetReligion('shiite').GetName] 신앙을 따르는 [GetCulture('pashtun').GetName] 사람들이 압도적으로 많이 살고 있습니다. 하지만 우리 땅과 이웃 땅에는 우리가 [GetCulture('pathan').GetName] 이라고 부르는 지역 신앙을 따르는 사람들이 많이 있습니다.\n\n 이 사람들은 파슈툰왈리가 우리 신앙과 양립할 수 있음을 보여줍니다.\n\n 우리는 이 파탄을 모범으로 제시하고 이를 활용하여 이들 지역을 우리 제국으로 통합하는 데 도움이 될 수 있도록 할 것을 제안합니다." #deepl:2857526259
+# [GetDiscriminationTrait('pashtunwali').GetName]
+ mog_pash_pun.1.a: "이것이 저희의 최우선 과제임에 틀림없습니다!" #deepl:1094625126
+ mog_pash_pun.1.b: "필요하지만 다른 우선순위가 있습니다." #deepl:639412534
+ 
+ mog_pash_pun_sikh_establishment_button: "시크교 커뮤니티" #deepl:1788713962
+ mog_pash_pun_sikh_establishment_button_desc: "프랑스는 나폴레옹 황제 치하에서 영광의 정점에 이르렀습니다. 보나파르트 왕가의 복원은 분명 우리나라를 위해 옳은 일입니다." #deepl:4138390760
