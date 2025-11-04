@@ -1,0 +1,55 @@
+﻿l_polish:
+ sokoto_unity_decision: "Tożsamość narodowa dla Sokoto" #deepl:912583567
+ sokoto_unity_decision_desc: "Wykute z odległego dziedzictwa, teraz głosimy tożsamość narodową, która obejmuje zarówno to, czym byliśmy, jak i to, czym jesteśmy." #deepl:725808482
+ sokoto_conversion.1.t: "Tożsamość narodowa Sokotów" #deepl:515486788
+ sokoto_conversion.1.d: "Fulbe, Hausa, to nie ma znaczenia. Nasi przywódcy mówią po arabsku, a nasi ludzie posługują się wieloma językami, ale wszyscy jesteśmy Sokotanami." #deepl:63457686
+ sokoto_conversion.1.f: "Z wszystkimi ojczyznami Hausa zintegrowanymi z naszym narodem, dżihad Fulani jest zakończony. Sokoto przetrwa jako idea na zawsze." #deepl:4238672755
+ sokoto_conversion.1.a: "Wzmocnienie związku z naszym dziedzictwem." #deepl:961397104
+ sokoto_conversion.1.b: "Skup się na obecnej tożsamości." #deepl:2584865469
+ the_first_sokotans_tt: "Hausa i Fulbe wszędzie będą [Concept('concept_assimilation','$concept_assimilate$')] do [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] , a ich ojczyzny staną się naszymi ojczyznami." #deepl:2119988924
+ berber_sokoto: "Możemy rozciągnąć się na północ i uczynić Saharę naszym śródlądowym piaszczystym morzem.\nWszystkie [SCOPE.sCulture('berber_culture').GetName] [concept_pop] staną się [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] ." #deepl:1910516566
+ sokotan_sokoto: "Musimy najpierw skupić się na umocnieniu naszych roszczeń do Zachodu, zanim wpływy europejskie się ugruntują." #deepl:1939843490
+ inclusive_sokoto: "Wzmocnione połączenie z dziedzictwem Sokotan" #deepl:1862068751
+ unifying_sokoto: "Wzmocniona nowoczesna tożsamość Sokotan" #deepl:2018416942
+ sokoto_conversion.2.t: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] to Sokotan" #deepl:1655945118
+ sokoto_conversion.2.d: "Witamy [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] w społeczności Sokotan." #deepl:4166623951
+ sokoto_conversion.2.f: "Integracja wymaga czasu, ale podróż zaczyna się od pierwszego kroku." #deepl:235741502
+ sokoto_conversion.2.a: "Pomysł ten spotkał się z szerokim poparciem." #deepl:1963592286
+ new_sokotans_broad_acceptance: "Ta decyzja była tylko formalnością.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] wszędzie zdecyduje, czy [Concept('concept_assimilation','$concept_assimilate$')] do [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Spodziewamy się akceptacji na poziomie 90%." #deepl:3607906104
+ sokoto_conversion.2.b: "Tylko czas naprawdę rozstrzygnie sprawę." #deepl:632854295
+ new_sokotans_moderate_acceptance: "Były pewne opory, ale większość ludzi to akceptuje.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] wszędzie zdecyduje, czy [Concept('concept_assimilation','$concept_assimilate$')] do [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Spodziewamy się do 60% akceptacji." #deepl:1446269359
+ sokoto_conversion.2.c: "Przynajmniej liczba skarg jest minimalna." #deepl:2095785898
+ new_sokotans_minmal_acceptance: "Brakowało entuzjazmu.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] wszędzie zdecyduje, czy [Concept('concept_assimilation','$concept_assimilate$')] do [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Spodziewamy się do 30% akceptacji." #deepl:1126178451
+ new_sokotans_broad_integration: "Wszystkie państwa przestaną się liczyć jako ojczyzny dla [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] ." #deepl:3086037513
+ new_sokotans_moderate_integration: "Stany, w których pozostałe [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] stanowią mniej niż 40%, przestaną być dla nich ojczyznami." #deepl:2374450738
+ new_sokotans_minimal_integration: "Stany, w których pozostałe [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] stanowią mniej niż 20%, przestaną być dla nich ojczyznami." #deepl:1093150036
+ sokoto_yoruba: "Yoruba to Sokotan!" #deepl:3352909753
+ sokoto_yoruba_desc: "Jorubowie są nierozerwalnie związani z tożsamością sokotańską. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:2270599959
+ sokoto_ibo: "Ibo są Sokotanami!" #deepl:1462566384
+ sokoto_ibo_desc: "Ibo są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:674520501
+ sokoto_edo: "Edo to Sokotan!" #deepl:2922309622
+ sokoto_edo_desc: "Edo są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:3347906198
+ sokoto_kanuri: "Kanuri to Sokotan!" #deepl:1793104313
+ sokoto_kanuri_desc: "Kanuris są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:2718932062
+ sokoto_fon: "Fon to Sokotan!" #deepl:432479439
+ sokoto_fon_desc: "Fon są nierozerwalnie związane z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:2189149139
+ sokoto_ewe: "Owce to Sokotan!" #deepl:1776814096
+ sokoto_ewe_desc: "Maciory są nierozerwalnie związane z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:694269646
+ sokoto_mossi: "Mossi są Sokotanami!" #deepl:3532729862
+ sokoto_mossi_desc: "Mossi są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:4045795401
+ sokoto_akan: "Akan są Sokotanami!" #deepl:4237527879
+ sokoto_akan_desc: "Akan są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:1000601116
+ sokoto_tuareg: "Tuaregowie są Sokotanami!" #deepl:2250781260
+ sokoto_tuareg_desc: "Tuaregowie są nierozerwalnie związani z tożsamością sokotańską. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:1986326312
+ sokoto_wolof: "Wolofowie są Sokotanami!" #deepl:3093763713
+ sokoto_wolof_desc: "Wolofowie są nierozerwalnie związani z tożsamością sokotańską. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:3480674039
+ sokoto_bidan: "Bidan to Sokotan!" #deepl:998149150
+ sokoto_bidan_desc: "Bidan są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:1828090121
+ sokoto_haratin: "Haratynowie są Sokotanami!" #deepl:200098671
+ sokoto_haratin_desc: "Haratynowie są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:838036050
+ sokoto_senufo: "Senufo to Sokotan!" #deepl:4087422205
+ sokoto_senufo_desc: "Senufo są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:342019089
+ sokoto_kru: "Kru to Sokotan!" #deepl:3968737029
+ sokoto_kru_desc: "Kru są nierozerwalnie związane z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:2443892771
+ sokoto_bassa: "Bassa są Sokotanami!" #deepl:927207269
+ sokoto_bassa_desc: "Bassa są nierozerwalnie związani z tożsamością Sokotan. Nadszedł czas, abyśmy przestali dostrzegać to rozróżnienie." #deepl:3639293601

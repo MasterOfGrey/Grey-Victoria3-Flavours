@@ -1,0 +1,55 @@
+﻿l_german:
+ sokoto_unity_decision: "Eine nationale Identität für Sokoto" #deepl:912583567
+ sokoto_unity_decision_desc: "Entstanden aus einem fernen Erbe, verkünden wir heute eine nationale Identität, die sowohl das beinhaltet, was wir waren, als auch das, was wir sind." #deepl:725808482
+ sokoto_conversion.1.t: "Die nationale Identität der Sokotaner" #deepl:515486788
+ sokoto_conversion.1.d: "Fulbe, Hausa, das spielt keine Rolle. Unsere Führer sprechen Arabisch und unser Volk spricht eine Vielzahl von Sprachen, aber wir sind alle Sokotan." #deepl:63457686
+ sokoto_conversion.1.f: "Mit der Integration aller Hausa-Homelands in unsere Nation ist der Fulani-Dschihad abgeschlossen. Sokoto wird als Idee für immer bestehen bleiben." #deepl:4238672755
+ sokoto_conversion.1.a: "Stärkung der Verbindung zu unserem Erbe." #deepl:961397104
+ sokoto_conversion.1.b: "Konzentrieren Sie sich auf die gegenwärtige Identität." #deepl:2584865469
+ the_first_sokotans_tt: "Die Hausa und Fulbe werden überall [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] , und ihre Heimatländer werden zu unseren Heimatländern." #deepl:2119988924
+ berber_sokoto: "Wir können uns nach Norden ausdehnen und die Sahara zu unserem sandigen Binnenmeer machen.\nAlle [SCOPE.sCulture('berber_culture').GetName] [concept_pop] werden zu [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] ." #deepl:1910516566
+ sokotan_sokoto: "Wir müssen uns zuerst darauf konzentrieren, unseren Anspruch auf den Westen zu festigen, bevor sich der europäische Einfluss verfestigt." #deepl:1939843490
+ inclusive_sokoto: "Gestärkte Verbindung zum Sokotanerbe" #deepl:1862068751
+ unifying_sokoto: "Gestärkte moderne Sokotan-Identität" #deepl:2018416942
+ sokoto_conversion.2.t: "Die [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] sind Sokotan" #deepl:1655945118
+ sokoto_conversion.2.d: "Wir begrüßen die [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] in der Vielzahl, die Sokotan ist." #deepl:4166623951
+ sokoto_conversion.2.f: "Integration braucht Zeit, aber die Reise beginnt mit einem ersten Schritt." #deepl:235741502
+ sokoto_conversion.2.a: "Diese Idee wird allgemein begrüßt." #deepl:1963592286
+ new_sokotans_broad_acceptance: "Diese Entscheidung war lediglich eine Formalität.\nDie [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] wird überall entscheiden, ob [Concept('concept_assimilation','$concept_assimilate$')] zu [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] wird.\n Wir erwarten eine Akzeptanz von bis zu 90%." #deepl:3607906104
+ sokoto_conversion.2.b: "Nur die Zeit wird die Dinge wirklich klären." #deepl:632854295
+ new_sokotans_moderate_acceptance: "Es gab einige Verweigerer, aber die meisten Menschen nehmen dies an.\nDie [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] werden überall entscheiden, ob sie [Concept('concept_assimilation','$concept_assimilate$')] zu [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Wir erwarten bis zu 60 % Akzeptanz." #deepl:1446269359
+ sokoto_conversion.2.c: "Zumindest die Zahl der Beschwerden ist minimal." #deepl:2095785898
+ new_sokotans_minmal_acceptance: "Die Begeisterung dafür blieb aus.\nDie [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] wird überall entscheiden, ob [Concept('concept_assimilation','$concept_assimilate$')] zu [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] wird.\n Wir erwarten bis zu 30% Akzeptanz." #deepl:1126178451
+ new_sokotans_broad_integration: "Alle Staaten werden nicht mehr als Heimatland für [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] gelten." #deepl:3086037513
+ new_sokotans_moderate_integration: "Staaten, in denen die verbleibenden [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] weniger als 40 % ausmachen, gelten für sie nicht mehr als Homelands." #deepl:2374450738
+ new_sokotans_minimal_integration: "Staaten, in denen die verbleibenden [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] weniger als 20 % ausmachen, gelten für sie nicht mehr als Homelands." #deepl:1093150036
+ sokoto_yoruba: "Die Yoruba sind Sokotan!" #deepl:3352909753
+ sokoto_yoruba_desc: "Die Yorubaner sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:2270599959
+ sokoto_ibo: "Die Ibo sind Sokotan!" #deepl:1462566384
+ sokoto_ibo_desc: "Die Ibo sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:674520501
+ sokoto_edo: "Die Edo sind Sokotan!" #deepl:2922309622
+ sokoto_edo_desc: "Die Edo sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:3347906198
+ sokoto_kanuri: "Die Kanuri sind Sokotan!" #deepl:1793104313
+ sokoto_kanuri_desc: "Die Kanuris sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:2718932062
+ sokoto_fon: "Die Fon sind Sokotan!" #deepl:432479439
+ sokoto_fon_desc: "Die Fon sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:2189149139
+ sokoto_ewe: "Die Ewe sind Sokotan!" #deepl:1776814096
+ sokoto_ewe_desc: "Die Ewe sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:694269646
+ sokoto_mossi: "Die Mossi sind Sokotan!" #deepl:3532729862
+ sokoto_mossi_desc: "Die Mossi sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:4045795401
+ sokoto_akan: "Die Akan sind Sokotan!" #deepl:4237527879
+ sokoto_akan_desc: "Die Akan sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:1000601116
+ sokoto_tuareg: "Die Tuareg sind Sokotan!" #deepl:2250781260
+ sokoto_tuareg_desc: "Die Tuareg sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:1986326312
+ sokoto_wolof: "Die Wolof sind Sokotan!" #deepl:3093763713
+ sokoto_wolof_desc: "Die Wolof sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:3480674039
+ sokoto_bidan: "Die Bidan sind Sokotan!" #deepl:998149150
+ sokoto_bidan_desc: "Die Bidan sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:1828090121
+ sokoto_haratin: "Die Haratin sind Sokotan!" #deepl:200098671
+ sokoto_haratin_desc: "Die Haratin sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:838036050
+ sokoto_senufo: "Die Senufo sind Sokotan!" #deepl:4087422205
+ sokoto_senufo_desc: "Die Senufo sind untrennbar mit der Identität der Sokotan verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:342019089
+ sokoto_kru: "Die Kru sind Sokotan!" #deepl:3968737029
+ sokoto_kru_desc: "Die Kru sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:2443892771
+ sokoto_bassa: "Die Bassa sind Sokotan!" #deepl:927207269
+ sokoto_bassa_desc: "Die Bassa sind untrennbar mit der sokotanischen Identität verbunden. Es ist an der Zeit, dass wir aufhören, einen Unterschied zu sehen." #deepl:3639293601

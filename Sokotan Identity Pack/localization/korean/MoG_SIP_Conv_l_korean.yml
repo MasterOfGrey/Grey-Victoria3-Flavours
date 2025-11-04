@@ -1,0 +1,55 @@
+﻿l_korean:
+ sokoto_unity_decision: "소코토의 국가 정체성" #deepl:912583567
+ sokoto_unity_decision_desc: "먼 유산을 바탕으로 만들어진 우리는 이제 우리의 과거와 현재를 모두 아우르는 국가 정체성을 선포합니다." #deepl:725808482
+ sokoto_conversion.1.t: "소코탄 국가 아이덴티티" #deepl:515486788
+ sokoto_conversion.1.d: "풀베어, 하우사어, 그건 중요하지 않습니다. 지도자들은 아랍어를 사용하고 국민들은 다양한 언어를 사용하지만 우리는 모두 소코탄인입니다." #deepl:63457686
+ sokoto_conversion.1.f: "모든 하우사 고향이 우리 나라에 통합되면서 풀라니 지하드는 완성되었습니다. 소코토는 영원히 이념으로 남을 것입니다." #deepl:4238672755
+ sokoto_conversion.1.a: "유산과의 연결고리를 강화하세요." #deepl:961397104
+ sokoto_conversion.1.b: "현재의 정체성에 집중하세요." #deepl:2584865469
+ the_first_sokotans_tt: "모든 곳의 하우사와 풀베는 [Concept('concept_assimilation','$concept_assimilate$')] ~ [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] , 그리고 그들의 고향은 우리의 고향이 될 것입니다." #deepl:2119988924
+ berber_sokoto: "우리는 북쪽으로 뻗어 사하라 사막을 내륙의 모래 바다로 만들 수 있습니다.\n모두 [SCOPE.sCulture('berber_culture').GetName] [concept_pop] 는 [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 이 될 것입니다." #deepl:1910516566
+ sokotan_sokoto: "우리는 유럽의 영향력이 확고해지기 전에 먼저 서구에 대한 우리의 주장을 확고히 하는 데 집중해야 합니다." #deepl:1939843490
+ inclusive_sokoto: "소코탄 유산 링크 강화" #deepl:1862068751
+ unifying_sokoto: "강화된 현대적 소코탄 정체성" #deepl:2018416942
+ sokoto_conversion.2.t: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 은 소코탄입니다." #deepl:1655945118
+ sokoto_conversion.2.d: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 소코탄에 오신 것을 환영합니다." #deepl:4166623951
+ sokoto_conversion.2.f: "통합에는 시간이 걸리지만 그 여정은 첫 단계부터 시작됩니다." #deepl:235741502
+ sokoto_conversion.2.a: "이 아이디어는 폭넓게 환영할 만합니다." #deepl:1963592286
+ new_sokotans_broad_acceptance: "이 결정은 형식적인 절차에 불과합니다.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 모든 곳에서 [Concept('concept_assimilation','$concept_assimilate$')] ~ [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n 최대 90%의 수락을 예상합니다." #deepl:3607906104
+ sokoto_conversion.2.b: "시간만이 모든 것을 진정으로 해결해 줄 것입니다." #deepl:632854295
+ new_sokotans_moderate_acceptance: "일부 반대 의견도 있었지만 대부분의 사람들이 이를 수용했습니다.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 모든 곳에서 [Concept('concept_assimilation','$concept_assimilate$')] ~ [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n 최대 60%의 수용을 예상하고 있습니다." #deepl:1446269359
+ sokoto_conversion.2.c: "적어도 불만 건수는 최소한으로 줄었습니다." #deepl:2095785898
+ new_sokotans_minmal_acceptance: "\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 모든 곳에서 [Concept('concept_assimilation','$concept_assimilate$')] 에 [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n 최대 30%의 수락을 예상합니다." #deepl:1126178451
+ new_sokotans_broad_integration: "모든 주에서는 [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 의 고향으로 간주되지 않습니다." #deepl:3086037513
+ new_sokotans_moderate_integration: "나머지 [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 이 40% 미만을 차지하는 주에서는 고국으로 간주되지 않습니다." #deepl:2374450738
+ new_sokotans_minimal_integration: "나머지 20% 미만( [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] )을 차지하는 국가는 더 이상 고국으로 간주되지 않습니다." #deepl:1093150036
+ sokoto_yoruba: "요루바족은 소코탄입니다!" #deepl:3352909753
+ sokoto_yoruba_desc: "요루반은 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:2270599959
+ sokoto_ibo: "이보는 소코탄입니다!" #deepl:1462566384
+ sokoto_ibo_desc: "이보는 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:674520501
+ sokoto_edo: "에도는 소코탄입니다!" #deepl:2922309622
+ sokoto_edo_desc: "에도는 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:3347906198
+ sokoto_kanuri: "카누리는 소코탄입니다!" #deepl:1793104313
+ sokoto_kanuri_desc: "카누리는 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:2718932062
+ sokoto_fon: "폰은 소코탄입니다!" #deepl:432479439
+ sokoto_fon_desc: "폰은 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:2189149139
+ sokoto_ewe: "소코탄은 소코탄입니다!" #deepl:1776814096
+ sokoto_ewe_desc: "암양은 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제 더 이상 구분을 두지 않을 때입니다." #deepl:694269646
+ sokoto_mossi: "모시는 소코탄입니다!" #deepl:3532729862
+ sokoto_mossi_desc: "모시는 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:4045795401
+ sokoto_akan: "아칸족은 소코탄입니다!" #deepl:4237527879
+ sokoto_akan_desc: "아칸족은 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:1000601116
+ sokoto_tuareg: "투아레그는 소코탄입니다!" #deepl:2250781260
+ sokoto_tuareg_desc: "투아레그족은 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제는 구분을 멈출 때입니다." #deepl:1986326312
+ sokoto_wolof: "월로프족은 소코탄입니다!" #deepl:3093763713
+ sokoto_wolof_desc: "월로프족은 본질적으로 소코탄족의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:3480674039
+ sokoto_bidan: "비단은 소코탄입니다!" #deepl:998149150
+ sokoto_bidan_desc: "비단은 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:1828090121
+ sokoto_haratin: "하라틴은 소코탄입니다!" #deepl:200098671
+ sokoto_haratin_desc: "하라틴은 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:838036050
+ sokoto_senufo: "세누포는 소코탄입니다!" #deepl:4087422205
+ sokoto_senufo_desc: "세누포는 본질적으로 소코탄의 정체성과 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:342019089
+ sokoto_kru: "크루는 소코탄입니다!" #deepl:3968737029
+ sokoto_kru_desc: "크루는 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:2443892771
+ sokoto_bassa: "바사는 소코탄입니다!" #deepl:927207269
+ sokoto_bassa_desc: "바사는 소코탄의 정체성과 본질적으로 관련이 있습니다. 이제는 더 이상 구분하지 않을 때입니다." #deepl:3639293601

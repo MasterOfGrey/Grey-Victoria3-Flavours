@@ -1,0 +1,55 @@
+﻿l_turkish:
+ sokoto_unity_decision: "Sokoto için Ulusal Bir Kimlik" #deepl:912583567
+ sokoto_unity_decision_desc: "Uzak bir mirastan yola çıkarak, hem eskiden ne olduğumuzu hem de şimdi ne olduğumuzu içeren bir ulusal kimlik ilan ediyoruz." #deepl:725808482
+ sokoto_conversion.1.t: "Sokotan Ulusal Kimliği" #deepl:515486788
+ sokoto_conversion.1.d: "Fulbe, Hausa, fark etmez. Liderlerimiz Arapça konuşuyor ve halkımız çok sayıda dil konuşuyor ama hepimiz Sokotan'ız." #deepl:63457686
+ sokoto_conversion.1.f: "Tüm Hausa memleketlerinin ulusumuzla bütünleşmesiyle birlikte Fulani Cihadı tamamlanmıştır. Sokoto sonsuza kadar bir fikir olarak varlığını sürdürecektir." #deepl:4238672755
+ sokoto_conversion.1.a: "Mirasımızla olan bağı güçlendirin." #deepl:961397104
+ sokoto_conversion.1.b: "Şimdiki kimliğinize odaklanın." #deepl:2584865469
+ the_first_sokotans_tt: "Hausa ve Fulbe'ler her yerde [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] ve onların vatanları bizim vatanımız olacak." #deepl:2119988924
+ berber_sokoto: "Sahra'yı iç kumlu denizimiz yapmak için kuzeye uzanabiliriz.\nTüm [SCOPE.sCulture('berber_culture').GetName] [concept_pop] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] haline gelecektir." #deepl:1910516566
+ sokotan_sokoto: "Avrupa etkisi yerleşik hale gelmeden önce batıdaki iddiamızı sağlamlaştırmaya odaklanmalıyız." #deepl:1939843490
+ inclusive_sokoto: "Güçlendirilmiş Sokotan Miras Bağlantısı" #deepl:1862068751
+ unifying_sokoto: "Güçlendirilmiş Modern Sokotan Kimliği" #deepl:2018416942
+ sokoto_conversion.2.t: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] Sokotan'dır" #deepl:1655945118
+ sokoto_conversion.2.d: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] adresine Sokotan'ın çokluğuna hoş geldiniz diyoruz." #deepl:4166623951
+ sokoto_conversion.2.f: "Entegrasyon zaman alır, ancak yolculuk ilk adımla başlar." #deepl:235741502
+ sokoto_conversion.2.a: "Bu fikir genel olarak memnuniyetle karşılanmaktadır." #deepl:1963592286
+ new_sokotans_broad_acceptance: "Bu karar sadece bir formaliteydi.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] her yerde [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] olup olmayacağına karar verecektir.\n 90'a kadar kabul bekliyoruz." #deepl:3607906104
+ sokoto_conversion.2.b: "Sadece zaman her şeyi yoluna koyacaktır." #deepl:632854295
+ new_sokotans_moderate_acceptance: "Bazı direnişler oldu, ancak çoğu insan bunu benimsiyor.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] her yerde [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] olup olmayacağına karar verecek.\n 60'a varan bir kabul bekliyoruz." #deepl:1446269359
+ sokoto_conversion.2.c: "En azından şikayetlerin sayısı çok az." #deepl:2095785898
+ new_sokotans_minmal_acceptance: "Bu konudaki coşku eksikti.\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] her yerde [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] olup olmayacağına karar verecek.\n 30'a kadar kabul bekliyoruz." #deepl:1126178451
+ new_sokotans_broad_integration: "Tüm devletler [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] için anavatan olarak sayılmayacaktır." #deepl:3086037513
+ new_sokotans_moderate_integration: "Kalan [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] %40'ın altında olduğu eyaletler onlar için anavatan sayılmayacaktır." #deepl:2374450738
+ new_sokotans_minimal_integration: "Kalan [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] %20'nin altında olduğu eyaletler onlar için anavatan sayılmayacaktır." #deepl:1093150036
+ sokoto_yoruba: "Yoruba Sokotan'dır!" #deepl:3352909753
+ sokoto_yoruba_desc: "Yorubanlar özünde Sokotan kimliği ile ilişkilidir. Artık bu ayrımı görmeyi bırakmamızın zamanı gelmiştir." #deepl:2270599959
+ sokoto_ibo: "İbolar Sokotan'dır!" #deepl:1462566384
+ sokoto_ibo_desc: "İbolar özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:674520501
+ sokoto_edo: "Edo Sokotan'dır!" #deepl:2922309622
+ sokoto_edo_desc: "Edo, özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:3347906198
+ sokoto_kanuri: "Kanuri Sokotan'dır!" #deepl:1793104313
+ sokoto_kanuri_desc: "Kanuriler özünde Sokotan kimliği ile ilişkilidir. Artık bu ayrımı görmeyi bırakmamızın zamanı gelmiştir." #deepl:2718932062
+ sokoto_fon: "Fon Sokotan'dır!" #deepl:432479439
+ sokoto_fon_desc: "Fon, özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:2189149139
+ sokoto_ewe: "Ewe'ler Sokotan!" #deepl:1776814096
+ sokoto_ewe_desc: "Ewe, Sokotan kimliği ile özünde ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:694269646
+ sokoto_mossi: "Mossi Sokotan'dır!" #deepl:3532729862
+ sokoto_mossi_desc: "Mossi, özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:4045795401
+ sokoto_akan: "Akanlar Sokotan'dır!" #deepl:4237527879
+ sokoto_akan_desc: "Akanlar özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:1000601116
+ sokoto_tuareg: "Tuaregler Sokotan'dır!" #deepl:2250781260
+ sokoto_tuareg_desc: "Tuaregler özünde Sokotan kimliği ile ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:1986326312
+ sokoto_wolof: "Woloflar Sokotan'dır!" #deepl:3093763713
+ sokoto_wolof_desc: "Woloflar özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:3480674039
+ sokoto_bidan: "Bidan Sokotan'dır!" #deepl:998149150
+ sokoto_bidan_desc: "Bidan, özünde Sokotan kimliği ile ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:1828090121
+ sokoto_haratin: "Haratin Sokotan'dır!" #deepl:200098671
+ sokoto_haratin_desc: "Haratin, özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:838036050
+ sokoto_senufo: "Senufo Sokotan'dır!" #deepl:4087422205
+ sokoto_senufo_desc: "Senufo, özünde Sokotan kimliği ile ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:342019089
+ sokoto_kru: "Kru Sokotan!" #deepl:3968737029
+ sokoto_kru_desc: "Kru, özünde Sokotan kimliğiyle ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:2443892771
+ sokoto_bassa: "Bassa Sokotan'dır!" #deepl:927207269
+ sokoto_bassa_desc: "Bassa, Sokotan kimliğiyle özünde ilişkilidir. Artık bir ayrım görmeyi bırakmamızın zamanı gelmiştir." #deepl:3639293601

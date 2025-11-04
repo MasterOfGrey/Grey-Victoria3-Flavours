@@ -1,0 +1,42 @@
+﻿je_sokotan_unification = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	group = je_group_historical_content
+
+	is_shown_in_lobby = {
+		c:SOK = THIS
+	}
+
+	is_shown_when_inactive = {
+		exists = c:SOK
+		c:SOK = ROOT
+		NOT = { has_variable = sokoto_unity }
+	}
+
+	possible = {
+		has_technology_researched = centralization
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_HAUSALAND
+		owns_entire_state_region = STATE_OUTER_HAUSALAND
+		owns_entire_state_region = STATE_EAST_HAUSALAND
+		owns_entire_state_region = STATE_NIGERIA
+		has_technology_researched = nationalism
+		is_at_war = no
+	}
+
+	on_complete = {
+		trigger_event = { id = sokoto_conversion.1 days = 0 popup = yes }
+	}
+
+	status_desc = {
+	}
+
+	invalid = {
+		country_has_primary_culture = cu:sokotan
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+}

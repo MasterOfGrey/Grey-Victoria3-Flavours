@@ -9,7 +9,10 @@
 sokotan={
 	color= hsv{ 0.69 0.46 0.51 }
 	religion = sunni
-	traits = { west_african_culture_group arab_speaking african_heritage middle_eastern_heritage }
+	heritage = heritage_sahelian
+	language = language_sokotan_arabic
+	traditions = { tradition_sokotan }
+	# traits = { west_african_culture_group arab_speaking african_heritage middle_eastern_heritage }
 
 	male_common_first_names={
 		Alhassan

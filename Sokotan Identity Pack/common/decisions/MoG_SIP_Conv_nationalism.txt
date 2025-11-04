@@ -1,4 +1,4 @@
-﻿sokoto_unity_decision = {
+﻿sokoto_unity_decision = {	# In theory, the JE triggers this event now, but the decision is here as a backup if the JE breaks or something.
 	is_shown = {
 		exists = c:SOK
 		c:SOK = THIS
@@ -14,7 +14,7 @@
 				owns_entire_state_region = STATE_OUTER_HAUSALAND
 				owns_entire_state_region = STATE_EAST_HAUSALAND
 				owns_entire_state_region = STATE_NIGERIA
-				owns_entire_state_region = STATE_NIGER
+				# owns_entire_state_region = STATE_NIGER
 			}
 		}
 	}
@@ -24,7 +24,7 @@
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -68,7 +68,7 @@ sokoto_yoruba = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -103,7 +103,7 @@ sokoto_ibo = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -134,7 +134,7 @@ sokoto_edo = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -169,7 +169,7 @@ sokoto_kanuri = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -188,7 +188,7 @@ sokoto_fon = {
 			owns_entire_state_region = STATE_DAHOMEY
 			owns_entire_state_region = STATE_TOGO
 		}
-		s:STATE_STATE_YORUBA_STATES.region_state:SOK = {
+		s:STATE_YORUBA_STATES.region_state:SOK = {
 			is_incorporated = yes
 		}
 		s:STATE_DAHOMEY.region_state:SOK = {
@@ -208,7 +208,7 @@ sokoto_fon = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -243,7 +243,7 @@ sokoto_ewe = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -282,7 +282,7 @@ sokoto_mossi = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -329,7 +329,7 @@ sokoto_akan = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -363,7 +363,7 @@ sokoto_tuareg = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -401,7 +401,7 @@ sokoto_wolof = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -442,7 +442,7 @@ sokoto_bidan = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -479,7 +479,7 @@ sokoto_haratin = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -516,7 +516,7 @@ sokoto_senufo = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -553,7 +553,7 @@ sokoto_kru = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }
 
@@ -590,6 +590,6 @@ sokoto_bassa = {
 	}
 
 	ai_chance = {
-		base = 100
+		value = 100
 	}
 }

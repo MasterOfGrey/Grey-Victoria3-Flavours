@@ -1,0 +1,55 @@
+﻿l_japanese:
+ sokoto_unity_decision: "ソコトのナショナル・アイデンティティ" #deepl:912583567
+ sokoto_unity_decision_desc: "遠い遺産から鍛え上げられた私たちは今、かつての姿と現在の姿の両方を取り入れた国民的アイデンティティを宣言している。" #deepl:725808482
+ sokoto_conversion.1.t: "ソコタン民族のアイデンティティ" #deepl:515486788
+ sokoto_conversion.1.d: "フルベ語もハウサ語も関係ない。指導者たちはアラビア語を話し、国民はさまざまな言語を話すが、私たちはみなソコタン人なのだ。" #deepl:63457686
+ sokoto_conversion.1.f: "すべてのハウサ人の故郷がわが国に統合され、フラニのジハードは完了した。ソコトは永遠に思想として存続するであろう。" #deepl:4238672755
+ sokoto_conversion.1.a: "遺産とのつながりを強化する。" #deepl:961397104
+ sokoto_conversion.1.b: "現在のアイデンティティに集中する。" #deepl:2584865469
+ the_first_sokotans_tt: "ハウサ族とフルベ族はどこでも、[Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 、彼らの故郷は我々の故郷となるだろう。" #deepl:2119988924
+ berber_sokoto: "\n [SCOPE.sCulture('berber_culture').GetName] [concept_pop] はすべて[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] になる。" #deepl:1910516566
+ sokotan_sokoto: "ヨーロッパの影響が定着する前に、まず西側への主張を固めることに集中しなければならない。" #deepl:1939843490
+ inclusive_sokoto: "ソコタン・ヘリテージ・リンクの強化" #deepl:1862068751
+ unifying_sokoto: "エンパワード・モダン・ソコタン・アイデンティティー" #deepl:2018416942
+ sokoto_conversion.2.t: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] はソコタンである。" #deepl:1655945118
+ sokoto_conversion.2.d: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] をソコタンという大勢に迎え入れる。" #deepl:4166623951
+ sokoto_conversion.2.f: "統合には時間がかかるが、旅は最初の一歩から始まる。" #deepl:235741502
+ sokoto_conversion.2.a: "このアイデアは広く歓迎される。" #deepl:1963592286
+ new_sokotans_broad_acceptance: "\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] を[Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] にするかどうかは、あらゆる場所で決定される。\n 我々は最大90％の受け入れを期待している。" #deepl:3607906104
+ sokoto_conversion.2.b: "時間が解決してくれるだろう。" #deepl:632854295
+ new_sokotans_moderate_acceptance: "\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] にするかどうかは、どこの国でも決めることになる。\n 私たちは60％までの受け入れを期待している。" #deepl:1446269359
+ sokoto_conversion.2.c: "少なくともクレームの数は少ない。" #deepl:2095785898
+ new_sokotans_minmal_acceptance: "\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] [Concept('concept_assimilation','$concept_assimilate$')] [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] にするかどうかは、どこの国でも決める。\n 私たちは最大30％の受け入れを期待している。" #deepl:1126178451
+ new_sokotans_broad_integration: "すべての州は、[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 母国としてカウントされなくなる。" #deepl:3086037513
+ new_sokotans_moderate_integration: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] の割合が40％を下回る州は、彼らの祖国としてカウントされなくなる。" #deepl:2374450738
+ new_sokotans_minimal_integration: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] の割合が20％未満の州は、彼らの祖国としてカウントされなくなる。" #deepl:1093150036
+ sokoto_yoruba: "ヨルバ人はソコタンである！" #deepl:3352909753
+ sokoto_yoruba_desc: "ヨルバ人はソコタン人のアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:2270599959
+ sokoto_ibo: "イボ族はソコタンである！" #deepl:1462566384
+ sokoto_ibo_desc: "イボ族はソコタン族のアイデンティティーと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:674520501
+ sokoto_edo: "江戸はソコタン！" #deepl:2922309622
+ sokoto_edo_desc: "江戸はソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:3347906198
+ sokoto_kanuri: "カヌリはソコタンである！" #deepl:1793104313
+ sokoto_kanuri_desc: "カヌリはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:2718932062
+ sokoto_fon: "フォンはソコタン！" #deepl:432479439
+ sokoto_fon_desc: "フォンはソコタンのアイデンティティに本質的に関係している。私たちはそろそろ区別することをやめなければならない。" #deepl:2189149139
+ sokoto_ewe: "エウはソコタン！" #deepl:1776814096
+ sokoto_ewe_desc: "エウはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:694269646
+ sokoto_mossi: "モシはソコタンである！" #deepl:3532729862
+ sokoto_mossi_desc: "モシ族はソコタン族のアイデンティティーと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:4045795401
+ sokoto_akan: "アカン族はソコタン族である！" #deepl:4237527879
+ sokoto_akan_desc: "アカン族はソコタン族のアイデンティティーと本質的に関係がある。そろそろ区別することをやめなければならない。" #deepl:1000601116
+ sokoto_tuareg: "トゥアレグはソコタンである！" #deepl:2250781260
+ sokoto_tuareg_desc: "トゥアレグはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:1986326312
+ sokoto_wolof: "ウォロフ人はソコタン人である！" #deepl:3093763713
+ sokoto_wolof_desc: "ウォロフ人はソコタン人のアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:3480674039
+ sokoto_bidan: "ビダンはソコタンである！" #deepl:998149150
+ sokoto_bidan_desc: "ビダンはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:1828090121
+ sokoto_haratin: "ハラチンはソコタンである！" #deepl:200098671
+ sokoto_haratin_desc: "ハラチンはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめるべきだ。" #deepl:838036050
+ sokoto_senufo: "セヌフォはソコタンである！" #deepl:4087422205
+ sokoto_senufo_desc: "セヌフォはソコタンのアイデンティティと本質的に関係がある。私たちはそろそろ区別することをやめなければならない。" #deepl:342019089
+ sokoto_kru: "クルーはソコタンだ！" #deepl:3968737029
+ sokoto_kru_desc: "クルーはソコタンのアイデンティティに本質的に関係している。私たちはそろそろ区別することをやめなければならない。" #deepl:2443892771
+ sokoto_bassa: "バッサはソコタンである！" #deepl:927207269
+ sokoto_bassa_desc: "バッサはソコタンのアイデンティティと本質的に関係がある。そろそろ区別するのはやめよう。" #deepl:3639293601

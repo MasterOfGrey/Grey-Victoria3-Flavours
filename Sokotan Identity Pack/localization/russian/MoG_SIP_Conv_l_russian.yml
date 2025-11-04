@@ -1,0 +1,55 @@
+﻿l_russian:
+ sokoto_unity_decision: "Национальная идентичность для Сокото" #deepl:912583567
+ sokoto_unity_decision_desc: "Созданные на основе далекого наследия, мы теперь провозглашаем национальную идентичность, которая включает в себя и то, чем мы были, и то, чем мы являемся." #deepl:725808482
+ sokoto_conversion.1.t: "Сокотанская национальная идентичность" #deepl:515486788
+ sokoto_conversion.1.d: "Фульбе, хауса - неважно. Наши лидеры говорят на арабском, а наши люди - на множестве языков, но все мы - сокотанцы." #deepl:63457686
+ sokoto_conversion.1.f: "Когда все родные земли хауса будут интегрированы в нашу нацию, джихад фулани будет завершен. Сокото навсегда останется идеей." #deepl:4238672755
+ sokoto_conversion.1.a: "Укрепляйте связь с нашим наследием." #deepl:961397104
+ sokoto_conversion.1.b: "Сосредоточьтесь на настоящей личности." #deepl:2584865469
+ the_first_sokotans_tt: "Хауса и фульбе повсюду будут [Concept('concept_assimilation','$concept_assimilate$')] на [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] , и их родные земли станут нашими родными землями." #deepl:2119988924
+ berber_sokoto: "Мы можем продвинуться на север и сделать Сахару нашим внутренним песчаным морем.\nВсе [SCOPE.sCulture('berber_culture').GetName] [concept_pop] станут [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] ." #deepl:1910516566
+ sokotan_sokoto: "Мы должны сосредоточиться на укреплении наших притязаний на запад, прежде чем европейское влияние укоренится." #deepl:1939843490
+ inclusive_sokoto: "Укрепление связи с наследием Сокотана" #deepl:1862068751
+ unifying_sokoto: "Расширение возможностей современной сокотанской идентичности" #deepl:2018416942
+ sokoto_conversion.2.t: "Сайт [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] - Sokotan" #deepl:1655945118
+ sokoto_conversion.2.d: "Мы приветствуем [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] во множестве, которое есть Сокотан." #deepl:4166623951
+ sokoto_conversion.2.f: "Интеграция требует времени, но путешествие начинается с первого шага." #deepl:235741502
+ sokoto_conversion.2.a: "Эта идея получила широкое одобрение." #deepl:1963592286
+ new_sokotans_broad_acceptance: "Это решение было простой формальностью.\nНа сайте [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] повсеместно будет принято решение о том, стоит ли [Concept('concept_assimilation','$concept_assimilate$')] переходить на [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Мы ожидаем, что будет принято до 90 %." #deepl:3607906104
+ sokoto_conversion.2.b: "Только время сможет по-настоящему все уладить." #deepl:632854295
+ new_sokotans_moderate_acceptance: "Были и те, кто воздерживался, но большинство людей приняли это.\nНа сайте [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] повсюду будут решать, стоит ли [Concept('concept_assimilation','$concept_assimilate$')] переходить на [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Мы ожидаем до 60 % принятия." #deepl:1446269359
+ sokoto_conversion.2.c: "По крайней мере, количество жалоб минимально." #deepl:2095785898
+ new_sokotans_minmal_acceptance: "Энтузиазма по этому поводу не было.\nНа [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] повсюду будут решать, стоит ли [Concept('concept_assimilation','$concept_assimilate$')] переходить на [SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] .\n Мы ожидаем, что будет принято до 30 %." #deepl:1126178451
+ new_sokotans_broad_integration: "Все государства перестанут считаться родиной для [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] ." #deepl:3086037513
+ new_sokotans_moderate_integration: "Государства, в которых доля оставшихся [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] составляет менее 40%, перестанут считаться для них родиной." #deepl:2374450738
+ new_sokotans_minimal_integration: "Государства, в которых доля оставшихся [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] составляет менее 20%, перестанут считаться для них родиной." #deepl:1093150036
+ sokoto_yoruba: "Йоруба - сокотанцы!" #deepl:3352909753
+ sokoto_yoruba_desc: "Йорубы неразрывно связаны с сокотской идентичностью. Пришло время перестать видеть различие." #deepl:2270599959
+ sokoto_ibo: "Ибо - сокотанцы!" #deepl:1462566384
+ sokoto_ibo_desc: "Ибо неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:674520501
+ sokoto_edo: "Эдо - это Сокотан!" #deepl:2922309622
+ sokoto_edo_desc: "Эдо неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:3347906198
+ sokoto_kanuri: "Канури - это Сокотан!" #deepl:1793104313
+ sokoto_kanuri_desc: "Канури неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:2718932062
+ sokoto_fon: "Фон - это Сокотан!" #deepl:432479439
+ sokoto_fon_desc: "Фон неразрывно связан с сокотской идентичностью. Пришло время перестать видеть различие." #deepl:2189149139
+ sokoto_ewe: "Овцы - сокотанцы!" #deepl:1776814096
+ sokoto_ewe_desc: "Эве неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:694269646
+ sokoto_mossi: "Мосси - это Сокотан!" #deepl:3532729862
+ sokoto_mossi_desc: "Мосси неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:4045795401
+ sokoto_akan: "Акан - это Сокотан!" #deepl:4237527879
+ sokoto_akan_desc: "Акан неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:1000601116
+ sokoto_tuareg: "Туареги - это сокотанцы!" #deepl:2250781260
+ sokoto_tuareg_desc: "Туареги неразрывно связаны с сокотской идентичностью. Пришло время перестать видеть различие." #deepl:1986326312
+ sokoto_wolof: "Волоф - это сокотанцы!" #deepl:3093763713
+ sokoto_wolof_desc: "Волоф неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:3480674039
+ sokoto_bidan: "Бидан - это Сокотан!" #deepl:998149150
+ sokoto_bidan_desc: "Бидан неразрывно связан с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:1828090121
+ sokoto_haratin: "Харатин - это Сокотан!" #deepl:200098671
+ sokoto_haratin_desc: "Харатин неразрывно связан с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:838036050
+ sokoto_senufo: "Сенуфо - это Сокотан!" #deepl:4087422205
+ sokoto_senufo_desc: "Сенуфо неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:342019089
+ sokoto_kru: "Кру - это Сокотан!" #deepl:3968737029
+ sokoto_kru_desc: "Кру неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:2443892771
+ sokoto_bassa: "Басса - это Сокотан!" #deepl:927207269
+ sokoto_bassa_desc: "Басса неразрывно связаны с сокотанской идентичностью. Пришло время перестать видеть различие." #deepl:3639293601

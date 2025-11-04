@@ -77,6 +77,75 @@ sokoto_conversion.1 = {
 		}
 		cu:berber = {
 			save_scope_as = berber_culture
+			add_tradition_trait = tradition_sokotan
+		}
+		# Niger: shared Fulani/Sokotan influences
+		cu:edo = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:ewe = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:fon = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:ibo = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:ibibio = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:songhai = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:tiv = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:tuareg = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:yoruba = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:kanuri = {
+			add_tradition_trait = tradition_sokotan
+		}
+		# Senegal: shared Fulani/Sokotan influences
+		cu:akan = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:bambara = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:bassa = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:bidan = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:haratin = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:dyula = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:kissi = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:kru = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:mande = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:mossi = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:senufo = {
+			add_tradition_trait = tradition_sokotan
+		}
+		cu:wolof = {
+			add_tradition_trait = tradition_sokotan
 		}
 	}
 

@@ -1,0 +1,9 @@
+﻿# Sokoto's official language was Arabic and was rapidly gaining ground amongst the population pre-conquest
+language_sokotan_arabic = {
+	type = language
+	trait_group = language_group_semitic
+}
+# Peoples with Sokotan-adjacent cultures with different language groups.
+tradition_sokotan = {
+	type = tradition
+}

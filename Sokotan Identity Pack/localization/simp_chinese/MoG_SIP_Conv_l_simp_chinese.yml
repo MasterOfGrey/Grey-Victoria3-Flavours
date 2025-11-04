@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+ sokoto_unity_decision: "索科托的国家身份" #deepl:912583567
+ sokoto_unity_decision_desc: "我们从遥远的遗产中汲取养分，现在我们宣称的国家身份既包括我们的过去，也包括我们的现在。" #deepl:725808482
+ sokoto_conversion.1.t: "索科唐民族特性" #deepl:515486788
+ sokoto_conversion.1.d: "富尔贝人、豪萨人都无所谓。我们的领导人讲阿拉伯语，我们的人民讲多种语言，但我们都是索科特人。" #deepl:63457686
+ sokoto_conversion.1.f: "随着所有豪萨家园融入我们的国家，富拉尼圣战已经完成。索科托将作为一种理念永存。" #deepl:4238672755
+ sokoto_conversion.1.a: "加强与遗产的联系。" #deepl:961397104
+ sokoto_conversion.1.b: "关注现在的身份。" #deepl:2584865469
+ the_first_sokotans_tt: "各地的豪萨人和富尔贝人将[Concept('concept_assimilation','$concept_assimilate$')] 到[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] ，他们的家园将成为我们的家园。" #deepl:2119988924
+ berber_sokoto: "我们可以向北延伸，使撒哈拉沙漠成为我们的内陆沙海。\n所有[SCOPE.sCulture('berber_culture').GetName] [concept_pop] 将成为[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 。" #deepl:1910516566
+ sokotan_sokoto: "我们必须在欧洲的影响变得根深蒂固之前，首先集中精力巩固我们对西部的要求。" #deepl:1939843490
+ inclusive_sokoto: "加强索科坛遗产联系" #deepl:1862068751
+ unifying_sokoto: "增强现代苏柯坦人的认同感" #deepl:2018416942
+ sokoto_conversion.2.t: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 是 Sokotan" #deepl:1655945118
+ sokoto_conversion.2.d: "我们欢迎[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 加入索科坛这个大家庭。" #deepl:4166623951
+ sokoto_conversion.2.f: "整合需要时间，但旅程始于第一步。" #deepl:235741502
+ sokoto_conversion.2.a: "这一想法受到广泛欢迎。" #deepl:1963592286
+ new_sokotans_broad_acceptance: "\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 各地将决定是否将[Concept('concept_assimilation','$concept_assimilate$')] 转至[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 。\n 我们预计接受率可达 90%。" #deepl:3607906104
+ sokoto_conversion.2.b: "只有时间才能真正解决问题。" #deepl:632854295
+ new_sokotans_moderate_acceptance: "有一些人持保留意见，但大多数人对此表示拥护。\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 各地将决定是否将[Concept('concept_assimilation','$concept_assimilate$')] 转至[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 。\n 我们预计接受率可达 60%。" #deepl:1446269359
+ sokoto_conversion.2.c: "至少投诉数量很少。" #deepl:2095785898
+ new_sokotans_minmal_acceptance: "大家对此热情不高。\n [SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 各地将决定是否[Concept('concept_assimilation','$concept_assimilate$')] 到[SCOPE.sCulture('sokotan_culture').GetName] [concept_pop] 。\n 我们预计接受率可达 30%。" #deepl:1126178451
+ new_sokotans_broad_integration: "对[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 而言，所有州都将不再算作家园。" #deepl:3086037513
+ new_sokotans_moderate_integration: "剩余[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 不足 40% 的州将不再算作他们的家园。" #deepl:2374450738
+ new_sokotans_minimal_integration: "[SCOPE.sCulture('integrating_sokotan_culture').GetName] [concept_pop] 留守人数少于 20% 的州将不再算作他们的家园。" #deepl:1093150036
+ sokoto_yoruba: "约鲁巴人是索科坦人！" #deepl:3352909753
+ sokoto_yoruba_desc: "约鲁巴人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:2270599959
+ sokoto_ibo: "伊博人是索科坦人！" #deepl:1462566384
+ sokoto_ibo_desc: "伊博人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:674520501
+ sokoto_edo: "江户人是索科坦人！" #deepl:2922309622
+ sokoto_edo_desc: "江户人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:3347906198
+ sokoto_kanuri: "卡努里人是索科坦人！" #deepl:1793104313
+ sokoto_kanuri_desc: "卡努里人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:2718932062
+ sokoto_fon: "方是 Sokotan！" #deepl:432479439
+ sokoto_fon_desc: "方与索科坦人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:2189149139
+ sokoto_ewe: "母羊是索科坦人！" #deepl:1776814096
+ sokoto_ewe_desc: "母羊与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:694269646
+ sokoto_mossi: "莫西人是索科特人！" #deepl:3532729862
+ sokoto_mossi_desc: "莫西人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:4045795401
+ sokoto_akan: "阿坎人是索科坦人！" #deepl:4237527879
+ sokoto_akan_desc: "阿坎人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:1000601116
+ sokoto_tuareg: "图阿雷格人是索科特人！" #deepl:2250781260
+ sokoto_tuareg_desc: "图阿雷格人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:1986326312
+ sokoto_wolof: "沃洛夫人是索科唐人！" #deepl:3093763713
+ sokoto_wolof_desc: "沃洛夫人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:3480674039
+ sokoto_bidan: "比丹人是索科坦人！" #deepl:998149150
+ sokoto_bidan_desc: "比丹人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:1828090121
+ sokoto_haratin: "哈拉廷人是索科特人！" #deepl:200098671
+ sokoto_haratin_desc: "哈拉廷人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:838036050
+ sokoto_senufo: "塞努弗人是索科坦人！" #deepl:4087422205
+ sokoto_senufo_desc: "塞努弗人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:342019089
+ sokoto_kru: "克鲁人是索科坦人！" #deepl:3968737029
+ sokoto_kru_desc: "克鲁人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:2443892771
+ sokoto_bassa: "巴萨人是索科特人！" #deepl:927207269
+ sokoto_bassa_desc: "巴萨人与索科特人的身份有着内在的联系。现在是我们停止区分的时候了。" #deepl:3639293601

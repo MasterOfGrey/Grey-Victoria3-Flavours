@@ -1,0 +1,22 @@
+﻿# Sokotan Culture
+state_sokotan_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+country_fervor_target_sokotan_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+country_sokotan_cultural_acceptance_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
