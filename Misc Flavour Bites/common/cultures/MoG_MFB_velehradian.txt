@@ -1,4 +1,4 @@
-﻿velehradian= {
+﻿REPLACE_OR_CREATE:velehradian= {
 	color= hsv{ 0.8 0.66 0.78 }
 	religion = catholic
 	heritage = heritage_west_slavic

@@ -2,6 +2,6 @@
 #   GREY - MOD COMPATIBILITY SCRIPTED TRIGGERS   #
 ##################################################
 
-Grey_MFB_is_active = { # Miscellaneous Flavour Bites
+REPLACE_OR_CREATE:Grey_MFB_is_active = { # Miscellaneous Flavour Bites
 	always = yes
 }

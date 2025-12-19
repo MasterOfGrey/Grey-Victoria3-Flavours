@@ -22,43 +22,21 @@ country_velehradian_cultural_acceptance_add={
 }
 
 #Dummies (to suppress error log) for Mod Compatibility
-state_moravian_standard_of_living_add = {
+REPLACE_OR_CREATE:state_moravian_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
-country_fervor_target_moravian_add={
+REPLACE_OR_CREATE:country_fervor_target_moravian_add={
 	decimals=1
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
-country_moravian_cultural_acceptance_add={
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
-state_baltic_standard_of_living_add = {
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-country_fervor_target_baltic_add={
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-country_baltic_cultural_acceptance_add={
+REPLACE_OR_CREATE:country_moravian_cultural_acceptance_add={
 	decimals=1
 	color=good
 	game_data={
@@ -66,21 +44,43 @@ country_baltic_cultural_acceptance_add={
 	}
 }
 
-state_german_standard_of_living_add = {
+REPLACE_OR_CREATE:state_baltic_standard_of_living_add = {
 	decimals=1
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
-country_fervor_target_german_add={
+REPLACE_OR_CREATE:country_fervor_target_baltic_add={
 	decimals=1
 	color=good
 	game_data={
 		ai_value=0
 	}
 }
-country_german_cultural_acceptance_add={
+REPLACE_OR_CREATE:country_baltic_cultural_acceptance_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+REPLACE_OR_CREATE:state_german_standard_of_living_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+REPLACE_OR_CREATE:country_fervor_target_german_add={
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+REPLACE_OR_CREATE:country_german_cultural_acceptance_add={
 	decimals=1
 	color=good
 	game_data={

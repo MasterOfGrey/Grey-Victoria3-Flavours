@@ -1,4 +1,5 @@
-﻿moravian={
+﻿## Misc dummies
+moravian={
 	color= hsv{ 0 0 0 }
 	religion = catholic
 	heritage = heritage_west_slavic
@@ -97,4 +98,83 @@ german={
 		1 = caucasian
 	}
 	graphics = european
+}
+
+## GotB dummies
+aromanian = {
+	color = hsv { 0.05 0.413 0.541 }
+	religion = orthodox
+	heritage = heritage_romanian
+	language = language_eastern_romance
+	traditions = { tradition_rumelian }
+	male_common_first_names = {
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names = {
+		No-See
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = balkan
+}
+
+rhomaios = {
+	color= hsv{ 0.94 0.45 0.48 }
+	religion = orthodox
+	heritage = heritage_greek
+	language = language_greek
+	traditions = { tradition_rumelian }
+	male_common_first_names = {
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	male_regal_first_names = {
+		No-See
+	}
+	female_regal_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names = {
+		No-See
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = balkan
+}
+
+romanyotim = {
+	color= hsv { 0.57 0.525 0.231 }
+	religion = jewish
+	heritage = heritage_sephardic
+	language = language_greek
+	traditions = { tradition_rumelian }
+	male_common_first_names={
+		No-See
+	}
+	female_common_first_names = {
+		No-See
+	}
+	noble_last_names = {
+		No-See
+	}
+	common_last_names={
+		No-See
+	}
+	ethnicities = {
+		1 = caucasian
+	}
+	graphics = balkan
 }

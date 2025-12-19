@@ -1,0 +1,6 @@
+﻿# Additions
+#STATES = {
+#	s:STATE_CORSICA = {
+#		every_scope_state = { add_modifier = modifier_mfb_corsican_agitation }
+#	}
+#}

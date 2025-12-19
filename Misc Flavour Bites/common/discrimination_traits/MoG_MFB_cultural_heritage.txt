@@ -6,3 +6,16 @@ tradition_medio_arian = {
 tradition_pashtunwali = {
 	type = tradition
 }
+# Peoples with historical influences through parts of the Mediterranean
+tradition_tyrrhenian = {
+	type = tradition
+}
+tradition_ligurian = {
+	type = tradition
+}
+tradition_balearic = {
+	type = tradition
+}
+tradition_antiquity = {
+	type = tradition
+}

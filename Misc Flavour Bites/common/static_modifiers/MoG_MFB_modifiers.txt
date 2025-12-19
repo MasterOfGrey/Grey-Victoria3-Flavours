@@ -1,4 +1,5 @@
-﻿modifier_sikh_cultural_unity = {
+﻿# Khalsa Raj
+modifier_sikh_cultural_unity = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_legitimacy_base_add = 25
 	state_decree_cost_mult = -0.25
@@ -13,4 +14,14 @@ modifier_mfb_sikh_frontier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_migration_pull_add = 10
 	state_conversion_mult = 0.5
+}
+
+# Corsica
+modifier_mfb_corsican_agitation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_assimilation_mult = -0.5
+}
+modifier_mfb_corsican_pride = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_fervor_target_corsican_add = 30
 }

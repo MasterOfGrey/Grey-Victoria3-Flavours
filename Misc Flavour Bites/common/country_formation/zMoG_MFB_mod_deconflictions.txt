@@ -2,7 +2,7 @@
 
 # Kikko's formables
 
-ki_ZAP = { #Zapadoslavia
+TRY_REPLACE:ki_ZAP = { #Zapadoslavia
 	# use_culture_states = yes
 	states = {
 		STATE_TAHITI
@@ -19,7 +19,7 @@ ki_ZAP = { #Zapadoslavia
 
 # More Formables (Project Variety)
 
-ZAP = {
+TRY_REPLACE:ZAP = {
 	states = {
 		STATE_TAHITI
 	}
@@ -33,7 +33,7 @@ ZAP = {
 	}
 }
 
-GRM = {
+TRY_REPLACE:GRM = {
 	states = {
 		STATE_TAHITI
 	}
@@ -49,7 +49,7 @@ GRM = {
 
 # Formable Nations by Cosmox
 
-FZS = { ### ザパドスラビア
+TRY_REPLACE:FZS = { ### ザパドスラビア
 	# is_major_formation = yes use_culture_states = no
 	# leadership_play = FN_dp_leadership_Zapadoslavia unification_play = FN_dp_unify_Zapadoslavia
 	states = {

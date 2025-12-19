@@ -1,5 +1,5 @@
 ﻿## Added claims on states when colonisation law given - otherwise the colonisation contest cannot proceed due to Russian claims
-persian_baluchistan_button = {
+TRY_REPLACE:persian_baluchistan_button = {
 	name = "persian_baluchistan_button"
 	desc = "persian_baluchistan_button_desc"
 
@@ -27,7 +27,7 @@ persian_baluchistan_button = {
 					state_region = s:STATE_HERAT
 				}
 				any_scope_building = {
-					is_building_type = building_barracks
+					is_building_type = building_barrack
 					level >= 10
 				}
 			}

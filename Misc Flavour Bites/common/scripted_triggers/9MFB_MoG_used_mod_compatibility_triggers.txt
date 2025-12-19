@@ -1,0 +1,8 @@
+﻿###########################################
+#   MOD COMPATIBILITY SCRIPTED TRIGGERS   #
+###########################################
+
+# Expect this to be used later.
+REPLACE_OR_CREATE:grefm_is_active = { # Gates of the Bosphorus
+	always = no
+}

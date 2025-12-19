@@ -1,7 +1,7 @@
 ﻿# Appropriate Arabic clothing for Amazigh/Berber culture now that the heritage is African instead of Middle-Eastern
 # So many things key off this trigger that I'm not reproducing every last thing. This trigger is edited, but the file starts with "a" so I don't break anyone else's serious work
 # - if something overwrites it, so be it.
-arabic_clothes_trigger = {
+REPLACE_OR_CREATE:arabic_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		OR = {
@@ -41,7 +41,7 @@ arabic_clothes_trigger = {
 	}
 }
 
-arabic_clothes_pop_trigger = {
+REPLACE_OR_CREATE:arabic_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		OR = {
@@ -54,7 +54,7 @@ arabic_clothes_pop_trigger = {
 	}
 }
 
-african_clothes_trigger = {
+REPLACE_OR_CREATE:african_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		culture = {
@@ -65,7 +65,7 @@ african_clothes_trigger = {
 		NOT = { culture = cu:berber }		# Added
 }
 
-african_clothes_pop_trigger = {
+REPLACE_OR_CREATE:african_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
 		culture = {

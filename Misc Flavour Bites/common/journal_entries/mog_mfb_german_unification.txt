@@ -1,6 +1,6 @@
 ﻿# Tweaked NGF & SGF Unification Journals
 
-je_south_german_unification = {
+TRY_REPLACE:je_south_german_unification = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_german_unification
@@ -65,7 +65,7 @@ je_south_german_unification = {
 	should_be_pinned_by_default = yes
 }
 
-je_north_german_unification = {
+TRY_REPLACE:je_north_german_unification = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_german_unification
@@ -138,7 +138,7 @@ je_north_german_unification = {
 	should_be_pinned_by_default = yes
 }
 
-je_german_unification = {
+TRY_REPLACE:je_german_unification = {
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
 	group = je_group_german_unification

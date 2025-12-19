@@ -1,0 +1,124 @@
+﻿namespace = mfb_corsica
+
+# Restore the Constitution
+mfb_corsica.1 = {
+	type = country_event
+	placement = root
+	
+	title = mfb_corsica.1.t
+	desc = mfb_corsica.1.d
+	flavor = mfb_corsica.1.f
+	
+	event_image = {
+		video = "europenorthamerica_springtime_of_nations"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	
+	duration = 3
+	
+	trigger = {
+		# Triggered manually
+		# exists = c:COR
+		# this = c:COR
+	}
+	
+	immediate = {
+		add_modifier = modifier_mfb_corsican_pride
+	}
+	
+	option = {	
+		name = mfb_corsica.1.a
+		default_option = yes
+		if = {
+			limit = {
+				NOR = {
+					has_law_or_variant = law_type:law_presidential_republic
+					has_law_or_variant = law_type:law_council_republic
+					has_law_or_variant = law_type:law_corporate_state
+				}
+			}
+			activate_law = law_type:law_presidential_republic
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_elected_bureaucrats
+				}
+			}
+			activate_law = law_type:law_elected_bureaucrats
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_mass_conscription
+				}
+			}
+			activate_law = law_type:law_mass_conscription
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_national_guard
+				}
+			}
+			activate_law = law_type:law_national_guard
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_militarized_police
+				}
+			}
+			activate_law = law_type:law_militarized_police
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_law_or_variant = law_type:law_landed_voting
+					has_law_or_variant = law_type:law_wealth_voting
+					has_law_or_variant = law_type:law_census_voting
+					has_law_or_variant = law_type:law_universal_suffrage
+				}
+			}
+			activate_law = law_type:law_landed_voting
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_womens_suffrage
+				}
+			}
+			activate_law = law_type:law_womens_suffrage
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_law_or_variant = law_type:law_cultural_exclusion
+					has_law_or_variant = law_type:law_multicultural
+				}
+			}
+			activate_law = law_type:law_cultural_exclusion
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law_or_variant = law_type:law_migration_controls
+				}
+			}
+			activate_law = law_type:law_migration_controls
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_law_or_variant = law_type:law_commercialized_agriculture
+					has_law_or_variant = law_type:law_homesteading
+					has_law_or_variant = law_type:law_collectivized_agriculture
+				}
+			}
+			activate_law = law_type:law_homesteading
+		}
+	}
+}

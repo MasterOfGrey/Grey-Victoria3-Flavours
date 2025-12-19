@@ -1,0 +1,104 @@
+﻿# Manage Corsican Agitation/Events
+on_state_owner_change = {
+	on_actions = {
+		mfb_corsica_check
+	}
+}
+
+on_state_created = {
+	on_actions = {
+		mfb_corsica_check
+	}
+}
+
+mfb_corsica_check = {
+	effect = {
+		if = {
+			limit = {
+				owner = { c:COR ?= this }
+				state_region = {
+					is_homeland = cu:corsican
+				}
+				has_modifier = modifier_mfb_corsican_agitation
+			}
+			remove_modifier = modifier_mfb_corsican_agitation
+			state_region = {
+				every_scope_state = {
+					every_scope_culture = {
+						limit = {
+							NOT = {
+								THIS = cu:corsican
+							}
+							has_homeland = prev
+						}
+						prev.state_region = { remove_homeland = prev }
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				state_region = {
+					is_homeland = cu:corsican
+				}
+				NOR = {
+					owner = { c:COR ?= this }
+					has_modifier = modifier_mfb_corsican_agitation
+				}
+			}
+			add_modifier = modifier_mfb_corsican_agitation
+		}
+	}
+}
+
+on_country_released_as_independent = {
+	on_actions = { mfb_corsica_constitution }
+}
+
+on_country_released_as_own_subject = {
+	on_actions = { mfb_corsica_constitution }
+}
+
+on_country_released_as_company_subject = {
+	on_actions = { mfb_corsica_constitution }
+}
+
+on_country_released_as_overlord_subject = {
+	on_actions = { mfb_corsica_constitution }
+}
+
+mfb_corsica_constitution = {
+	effect = {
+		if = {
+			limit = {
+				scope:target = c:COR
+			}
+			scope:target = {
+				trigger_event = {
+					id = mfb_corsica.1
+					days = 1
+					popup = yes
+				}
+			}
+		}
+		s:STATE_CORSICA = {
+			every_scope_state = {
+				if = {
+					limit = {
+						has_modifier = modifier_mfb_corsican_agitation
+					}
+					remove_modifier = modifier_mfb_corsican_agitation
+					every_scope_culture = {
+						limit = {
+							NOT = {
+								THIS = cu:corsican
+							}
+							has_homeland = prev
+						}
+						prev.state_region = { remove_homeland = prev }
+					}
+				}
+			}
+		}
+	}
+}

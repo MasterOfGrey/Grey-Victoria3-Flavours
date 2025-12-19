@@ -2,8 +2,8 @@
 
 ## Major Formables
 
-GER = {
-	use_culture_states = yes
+REPLACE_OR_CREATE:GER = {
+	geographic_region = geographic_region_greater_germany
 
 	is_major_formation = yes
 
@@ -54,8 +54,8 @@ GER = {
 	}
 }
 
-ITA = {
-	use_culture_states = yes
+REPLACE_OR_CREATE:ITA = {
+	geographic_region = geographic_region_italy
 
 	is_major_formation = yes
 
@@ -121,8 +121,8 @@ ITA = {
 	}
 }
 
-SCA = {
-	use_culture_states = yes
+REPLACE_OR_CREATE:SCA = {
+	geographic_region = geographic_region_scandinavia
 
 	is_major_formation = yes
 
@@ -161,8 +161,8 @@ SCA = {
 	}
 }
 
-FND = {
-	use_culture_states = yes
+REPLACE_OR_CREATE:FND = {
+	geographic_region = geographic_region_andean_federation
 
 	is_major_formation = yes
 
@@ -172,6 +172,10 @@ FND = {
 	required_states_fraction = 0.8
 
 	ai_will_do = { always = yes }
+
+	potential = {
+		has_dlc_feature = rp1_content
+	}
 
 	possible = {
 		has_journal_entry = je_andean_federation
@@ -208,21 +212,8 @@ FND = {
 	}
 }
 
-YUG = {
-	states = {
-		STATE_WESTERN_SERBIA
-		STATE_EASTERN_SERBIA
-		STATE_KOSOVO
-		STATE_SKOPIA
-		STATE_DELVIDEK
-		STATE_MONTENEGRO
-		STATE_BOSNIA
-		STATE_SLAVONIA
-		STATE_DALMATIA
-		STATE_CROATIA
-		STATE_SLOVENIA
-		STATE_ISTRIA
-	}
+REPLACE_OR_CREATE:YUG = {
+	geographic_region = geographic_region_yugoslavia
 
 	is_major_formation = yes
 
@@ -317,7 +308,7 @@ YUG = {
 
 ## Africa
 
-ZIM = {
+REPLACE_OR_CREATE:ZIM = {
 	states = {
 		STATE_ZAMBEZI
 	}

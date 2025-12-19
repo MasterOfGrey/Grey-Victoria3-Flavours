@@ -1,0 +1,99 @@
+﻿# Set up changes compatibly
+on_game_started_after_lobby = {
+	on_actions = {
+		mfb_on_game_start_pashtun
+		mfb_on_game_start_corsica
+	}
+}
+
+mfb_on_game_start_pashtun = {
+	effect = {
+		cu:pashtun = {
+			add_tradition_trait = tradition_pashtunwali
+			add_tradition_trait = tradition_medio_arian
+		}
+		cu:hazara = {
+			add_tradition_trait = tradition_pashtunwali
+		}
+		cu:pathan = {
+			add_tradition_trait = tradition_pashtunwali
+			add_tradition_trait = tradition_medio_arian
+		}
+		cu:tajik = {
+			add_tradition_trait = tradition_medio_arian
+		}
+		cu:baluchi = {
+			add_tradition_trait = tradition_medio_arian
+		}
+		cu:azerbaijani = {
+			add_tradition_trait = tradition_medio_arian
+		}
+		cu:kurdish = {
+			add_tradition_trait = tradition_medio_arian
+		}
+	}
+}
+
+mfb_on_game_start_corsica = {
+	effect = {
+		cu:corsican = {
+			add_tradition_trait = tradition_antiquity
+			add_tradition_trait = tradition_tyrrhenian
+			add_tradition_trait = tradition_balearic
+			add_tradition_trait = tradition_rumelian
+		}
+		cu:south_italian = {
+			add_tradition_trait = tradition_tyrrhenian
+		}
+		cu:maltese = {
+			add_tradition_trait = tradition_tyrrhenian
+		}
+		cu:north_italian = {
+			add_tradition_trait = tradition_tyrrhenian
+			add_tradition_trait = tradition_ligurian
+		}
+		cu:occitan = {
+			add_tradition_trait = tradition_balearic
+			add_tradition_trait = tradition_ligurian
+		}
+		cu:catalan = {
+			add_tradition_trait = tradition_balearic
+		}
+		cu:aragonese = {
+			add_tradition_trait = tradition_balearic
+		}
+		cu:albanian = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:basque = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:sephardic = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:greek = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:assyrian = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:misri = {
+			add_tradition_trait = tradition_antiquity
+		}
+		cu:maghrebi = {
+			add_tradition_trait = tradition_antiquity
+		}
+		if = {
+			limit = { grefm_is_active = yes }
+			cu:aromanian = {
+				add_tradition_trait = tradition_antiquity
+			}
+			cu:rhomaios = {
+				add_tradition_trait = tradition_antiquity
+			}
+			cu:romanyotim = {
+				add_tradition_trait = tradition_antiquity
+			}
+		}
+	}
+}

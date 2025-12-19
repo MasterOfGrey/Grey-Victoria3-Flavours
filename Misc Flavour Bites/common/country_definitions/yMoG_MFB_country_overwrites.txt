@@ -1,4 +1,4 @@
-﻿ZIM = {
+﻿REPLACE_OR_CREATE:ZIM = {
 	color = { 0 173 112 }
 
 	country_type = unrecognized

@@ -1,4 +1,4 @@
-﻿berber= { # Amazigh
+﻿REPLACE_OR_CREATE:berber= { # Amazigh
 	color= hsv{ 0.20 0.55 0.45 }
 	religion = sunni
 	heritage = heritage_afro_arab	# heritage_berber	(Ironic)
