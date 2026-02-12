@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "Votre pays a #b et non#! été vaincu dans une course au leadership. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
  je_defeated_in_leadership_play: "Votre pays a été vaincu dans un tournoi de leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416
+ je_german_unification_complete_mfb_trigger_desc: "Tous les États faisant partie du domaine de $geographic_region_german_confederation$ appartiennent à l'Allemagne ou à l'Autriche." #deepl:2217585711

@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "Ваша страна #b не#! потерпела поражение в борьбе за лидерство. [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
  je_defeated_in_leadership_play: "Ваша страна потерпела поражение в борьбе за лидерство [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416
+ je_german_unification_complete_mfb_trigger_desc: "Каждое государство, входящее в сферу влияния $geographic_region_german_confederation$, принадлежит Германии или Австрии." #deepl:2217585711

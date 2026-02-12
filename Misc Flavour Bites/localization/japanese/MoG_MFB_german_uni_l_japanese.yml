@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "あなたの国は、#b #! リーダーシップで敗北していない。[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
  je_defeated_in_leadership_play: "あなたの国はリーダーシップで敗北した[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416
+ je_german_unification_complete_mfb_trigger_desc: "$geographic_region_german_confederation$ の領域内のすべての州は、ドイツかオーストリアの所有である。" #deepl:2217585711

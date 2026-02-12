@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "Ihr Land hat #b nicht#! eine Niederlage in einer Führungsrolle erlitten [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
  je_defeated_in_leadership_play: "Ihr Land hat eine Niederlage in der Führung erlitten [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416
+ je_german_unification_complete_mfb_trigger_desc: "Jeder Staat innerhalb der Domain $geographic_region_german_confederation$ gehört zu Deutschland oder Österreich." #deepl:2217585711

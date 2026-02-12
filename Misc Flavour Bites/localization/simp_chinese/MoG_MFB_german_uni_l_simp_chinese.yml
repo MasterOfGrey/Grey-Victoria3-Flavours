@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "贵国已#b ，而不是#! ，在领导层中被击败。[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:2464425438
  je_defeated_in_leadership_play: "你们的国家在领导层中被打败了[Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]" #deepl:1080497416
+ je_german_unification_complete_mfb_trigger_desc: "$geographic_region_german_confederation$ 范围内的每个州都归德国或奥地利所有" #deepl:2217585711

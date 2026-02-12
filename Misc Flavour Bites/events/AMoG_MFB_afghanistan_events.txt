@@ -1,0 +1,842 @@
+﻿namespace = gg_afghanistan
+
+gg_afghanistan.1 = { #Afghanistan Borders proposal
+	type = country_event
+	placement = ROOT
+
+	title = gg_afghanistan.1.t
+	desc = gg_afghanistan.1.d
+	flavor = gg_afghanistan.1.f
+
+	dlc = dlc010
+
+	event_image = {
+		video = "ep1_clandestine_meeting"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 2
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = received_afghan_border_notification
+		if = {
+			limit = {
+				is_player = yes
+			}
+			set_variable = { name = afg_proposal_ai_cooldown days = 63}
+		}
+	}
+
+	option = {
+		name = gg_afghanistan.1.a
+		default_option = yes
+		ai_chance = {
+			base = 75
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_indus_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_indus_line
+						}
+					}
+				}
+				add = 125
+			}
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_amu_darya_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_amu_darya_line
+						}
+					}
+				}
+				add = 50
+			}
+			modifier = {
+				trigger = {
+					scope:gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				add = 50
+			}
+			modifier = {
+				trigger = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				add = 50
+			}
+		}
+		custom_tooltip = {
+			text = approve_of_delimitation_treaty_tt
+			set_variable = { name = afghanistan_delimitation_treaty_approved days = 365 }
+		}
+		custom_tooltip = afghanistan_abandon_claims_tt
+		show_as_tooltip = { # Displays party B's demands
+			if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_durand_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+							NOR = {
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = scope:rival_gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+							NOR = {
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_indus_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+							}
+						}
+						set_state_owner = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+							}
+						}
+						set_state_owner = scope:rival_gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_status_quo
+					}
+				}
+				custom_tooltip = status_quo_southeast_tt
+			}
+
+			if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_torkestan_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_central_asia
+								state_region = s:STATE_BALKH
+							}
+						}
+						set_state_owner = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+								NOT = {
+									this = s:STATE_BALKH
+								}
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_central_asia
+								state_region = s:STATE_BALKH
+							}
+						}
+						set_state_owner = scope:rival_gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+								NOT = {
+									this = s:STATE_BALKH
+								}
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_amu_darya_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							region = sr:region_central_asia
+						}
+						set_state_owner = scope:rival_afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							region = sr:region_central_asia
+						}
+						set_state_owner = scope:rival_gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:rival_gp_scope ?= owner
+								scope:rival_afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_status_quo_north
+					}
+				}
+				custom_tooltip = status_quo_north_tt
+			}
+		}
+
+		show_as_tooltip = { # Displays party A's demands
+			if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_durand_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+							NOR = {
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = scope:gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+							NOR = {
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_QUETTA
+								state_region = s:STATE_BALUCHISTAN
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_indus_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+							}
+						}
+						set_state_owner = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_bombay
+								region = sr:region_punjab
+								region = sr:region_himalayas
+							}
+						}
+						set_state_owner = scope:gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_status_quo
+					}
+				}
+				custom_tooltip = status_quo_southeast_tt
+			}
+
+			if = {
+				limit = {
+					has_variable = proposed_torkestan_line
+				}
+				if = {
+					limit = {
+						exists = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_central_asia
+								state_region = s:STATE_BALKH
+							}
+						}
+						set_state_owner = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+								NOT = {
+									this = s:STATE_BALKH
+								}
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							OR = {
+								region = sr:region_central_asia
+								state_region = s:STATE_BALKH
+							}
+						}
+						set_state_owner = scope:gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+								NOT = {
+									this = s:STATE_BALKH
+								}
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_amu_darya_line
+					}
+				}
+				if = {
+					limit = {
+						exists = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							owner = c:AFG
+							region = sr:region_central_asia
+						}
+						set_state_owner = scope:afghan_partition_proxy
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+				else = {
+					every_state = {
+						limit = {
+							owner = c:AFG
+							region = sr:region_central_asia
+						}
+						set_state_owner = scope:gp_scope
+					}
+					every_state = {
+						limit = {
+							OR = {
+								scope:gp_scope ?= owner
+								scope:afghan_partition_proxy ?= owner
+							}
+							state_region = {
+								is_homeland = cu:pashtun
+							}
+						}
+						set_state_owner = c:AFG
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_status_quo_north
+					}
+				}
+				custom_tooltip = status_quo_north_tt
+			}
+			if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				scope:rival_gp_scope = {
+					create_treaty = {
+						first_country = scope:rival_gp_scope
+						second_country = c:AFG
+
+						is_draft = no
+						binding_period = { years = 2 }
+
+						articles_to_create = {
+							{
+								article = money_transfer
+								source_country = scope:rival_gp_scope
+								target_country = c:AFG
+								inputs = {
+									{ quantity = 1000 }
+								}
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				scope:gp_scope = {
+					create_treaty = {
+						first_country = scope:gp_scope
+						second_country = c:AFG
+
+						is_draft = no
+						binding_period = { years = 2 }
+
+						articles_to_create = {
+							{
+								article = money_transfer
+								source_country = scope:gp_scope
+								target_country = c:AFG
+								inputs = {
+									{ quantity = 1000 }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		create_diplomatic_catalyst = {
+			type = catalyst_event_negative
+			target = scope:gp_scope
+		}
+		create_diplomatic_catalyst = {
+			type = catalyst_event_negative
+			target = scope:rival_gp_scope
+		}
+	}
+
+	option = {
+		name = gg_afghanistan.1.b
+		trigger = {
+			NOR = {
+				is_subject_of = scope:gp_scope
+				is_subject_of = scope:rival_gp_scope
+			}
+		}
+		ai_chance = {
+			base = 150
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_indus_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_indus_line
+						}
+					}
+				}
+				add = -100
+			}
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_amu_darya_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_amu_darya_line
+						}
+					}
+				}
+				add = -50
+			}
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_durand_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_durand_line
+						}
+					}
+				}
+				add = 50
+			}
+			modifier = {
+				trigger = {
+					OR = {
+						scope:gp_scope = {
+							has_variable = proposed_torkestan_line
+						}
+						scope:rival_gp_scope = {
+							has_variable = proposed_torkestan_line
+						}
+					}
+				}
+				add = 50
+			}
+			modifier = {
+				trigger = {
+					scope:gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				add = -25
+			}
+			modifier = {
+				trigger = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_compensation_for_afghanistan
+					}
+				}
+				add = -25
+			}
+			modifier = {
+				trigger = {
+					scope:gp_scope = {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+				}
+				add = -25
+			}
+			modifier = {
+				trigger = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+				}
+				add = -25
+			}
+		}
+		hidden_effect = {
+			set_variable = { name = afghanistan_rejects_delimitation_treaty days = 365 }	# MFB
+		}
+		if = {
+			limit = {
+				OR = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+					scope:gp_scope= {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+				}
+			}
+			custom_tooltip = harsh_relations_penalty_afghanistan_tt
+			if = {
+				limit = {
+					scope:rival_gp_scope = {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+				}
+				show_as_tooltip = {
+					scope:rival_gp_scope = {
+						change_relations = {
+							country = c:AFG
+							value = -30
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					scope:gp_scope= {
+						has_variable = proposed_reprisals_for_afghanistan
+					}
+				}
+				show_as_tooltip = {
+					scope:gp_scope = {
+						change_relations = {
+							country = c:AFG
+							value = -30
+						}
+					}
+				}
+			}
+		}
+		scope:rival_gp_scope = {
+			trigger_event = { id = gg_afghanistan.2 days = 7 popup = yes }
+		}
+		scope:gp_scope = {
+			trigger_event = { id = gg_afghanistan.2 days = 7 popup = yes }
+		}
+	}
+}

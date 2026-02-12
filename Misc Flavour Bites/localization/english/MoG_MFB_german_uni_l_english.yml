@@ -4,3 +4,4 @@
  
  je_not_defeated_in_leadership_play: "Your country has #b not#! been defeated in a Leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]"
  je_defeated_in_leadership_play: "Your country has been defeated in a Leadership [Concept('concept_diplomatic_play', '$concept_diplomatic_play_short$')]"
+ je_german_unification_complete_mfb_trigger_desc: "Every state within the domain of the $geographic_region_german_confederation$ is owned by Germany or Austria"
