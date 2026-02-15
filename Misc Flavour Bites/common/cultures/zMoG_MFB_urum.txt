@@ -1,0 +1,4 @@
+﻿# Added if GBBF is loaded
+TRY_INJECT:urum = {
+	traditions = { tradition_rumelian tradition_caucasian }
+}

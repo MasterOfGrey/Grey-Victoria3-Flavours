@@ -331,6 +331,10 @@ TRY_REPLACE:ai_strategy_unify_germany = {
 				multiply = 2.5 # Maximum 275 if Pan-National, 75 if not
 			}
 		}
+		else_if = {
+			limit = { has_journal_entry = je_german_unification }	# MFB
+			multiply = 4	# Equivalent to above if JE still active
+		}
 		if = {
 			limit = {
 				has_law = law_type:law_subjecthood
