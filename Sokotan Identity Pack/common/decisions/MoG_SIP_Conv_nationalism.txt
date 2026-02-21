@@ -224,12 +224,12 @@ sokoto_ewe = {
 		is_at_war = no
 		c:SOK ?= {
 			owns_entire_state_region = STATE_TOGO
-			owns_entire_state_region = STATE_GHANA
+			owns_entire_state_region = STATE_GOLD_COAST
 		}
 		s:STATE_TOGO.region_state:SOK = {
 			is_incorporated = yes
 		}
-		s:STATE_GHANA.region_state:SOK = {
+		s:STATE_GOLD_COAST.region_state:SOK = {
 			is_incorporated = yes
 		}
 	}
@@ -259,13 +259,13 @@ sokoto_mossi = {
 		is_at_war = no
 		c:SOK ?= {
 			owns_entire_state_region = STATE_TOGO
-			owns_entire_state_region = STATE_GHANA
+			owns_entire_state_region = STATE_GOLD_COAST
 			owns_entire_state_region = STATE_VOLTA
 		}
 		s:STATE_TOGO.region_state:SOK = {
 			is_incorporated = yes
 		}
-		s:STATE_GHANA.region_state:SOK = {
+		s:STATE_GOLD_COAST.region_state:SOK = {
 			is_incorporated = yes
 		}
 		s:STATE_VOLTA.region_state:SOK = {
@@ -299,7 +299,7 @@ sokoto_akan = {
 		c:SOK ?= {
 			owns_entire_state_region = STATE_DAHOMEY
 			owns_entire_state_region = STATE_TOGO
-			owns_entire_state_region = STATE_GHANA
+			owns_entire_state_region = STATE_GOLD_COAST
 			owns_entire_state_region = STATE_IVORY_COAST
 			owns_entire_state_region = STATE_WINDWARD_COAST
 		}
@@ -309,7 +309,7 @@ sokoto_akan = {
 		s:STATE_TOGO.region_state:SOK = {
 			is_incorporated = yes
 		}
-		s:STATE_GHANA.region_state:SOK = {
+		s:STATE_GOLD_COAST.region_state:SOK = {
 			is_incorporated = yes
 		}
 		s:STATE_IVORY_COAST.region_state:SOK = {
@@ -382,12 +382,8 @@ sokoto_wolof = {
 		c:SOK ?= {
 			has_technology_researched = pan-nationalism
 			owns_entire_state_region = STATE_SENEGAL
-			owns_entire_state_region = STATE_GAMBIA
 		}
 		s:STATE_SENEGAL.region_state:SOK = {
-			is_incorporated = yes
-		}
-		s:STATE_GAMBIA.region_state:SOK = {
 			is_incorporated = yes
 		}
 	}

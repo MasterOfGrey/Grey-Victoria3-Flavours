@@ -1,0 +1,19 @@
+﻿# Check for outdated Amazigh primary cultures
+on_monthly_pulse_country = {
+    on_actions = {
+        mog_sip_check_amazigh_action
+    }
+}
+
+mog_sip_check_amazigh_action = {
+    effect = {
+		if = {
+			limit = {
+				has_global_variable = berber_is_sokotan
+				country_has_primary_culture = cu:berber
+			}
+			remove_primary_culture = cu:berber
+			add_primary_culture = cu:sokotan
+		}
+	}
+}

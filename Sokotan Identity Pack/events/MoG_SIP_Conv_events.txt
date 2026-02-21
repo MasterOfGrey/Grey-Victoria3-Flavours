@@ -152,7 +152,7 @@ sokoto_conversion.1 = {
 	# Include "Amazigh"
 	option = {
 		name = sokoto_conversion.1.a
-		set_variable = berber_is_sokotan
+		set_global_variable = berber_is_sokotan
 		custom_tooltip = {
 			text = the_first_sokotans_tt
 		}
