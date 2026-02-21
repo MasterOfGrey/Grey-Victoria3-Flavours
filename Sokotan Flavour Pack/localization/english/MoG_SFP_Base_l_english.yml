@@ -1,0 +1,17 @@
+﻿l_english:
+ je_sok_waqf: "The Fulani Waqf"
+ je_sok_waqf_reason: "Through the Waqf all land in the nation is owned by the community, and governance is granted by the state for it to be worked for the benefit of the community. This system was brought in by the Caliph shortly after the success of the Jihad which founded Sokoto.\n\nIn practice, the degree to which this works varies by region and does not mesh well with the local cultural traditions of the Hausa. Nevertheless, the Islamic ruling class supports it with sufficient enthusiasm that the system takes care of the poorest among the community, and substantially supports the scholarly community in Sokoto."
+ modifier_sok_waqf: "The Waqf"
+ modifier_sok_waqf_decaying: "Decaying Waqf"
+ 
+ RULER_TITLE_CALIPHPRINCE: "Wali al-Ahd"
+ 
+ ideology_leader_mujaddidist: "Mujadidist"
+ ideology_leader_mujaddidist_desc: "#lore This character seeks broad education and adoption of orthodox practice to integrate new peoples, and supports expansion of religious governance and moral reform. #!"
+ 
+ law_sfp_civilisational_citizenship: "Civilisationalism"
+ law_sfp_civilisational_citizenship_desc: "The state bases citizenship rights predominantly on religious practice which is officially irrespective of ancestry. With citizenship dependent upon recognition of orthodox practice, administrative practicalities restrict citizenship from those outside the prevailing civilisational-linguistic order. Cultures that share neither heritage nor official sacral language are discriminated against."
+ law_sfp_caliphate: "Caliphate"
+ law_sfp_caliphate_desc: "The government is ruled by a monarch who is considered a successor to the Islamic prophet Muhammad, a leader of the entire Muslim world, whose power and authority derives from their interpretation and application of holy scripture. Succession is legally by appointment, occasionally passing to brothers or nephews of the Caliph, rather than through a direct hereditary line of inheritance."
+
+ reformed_sufi: "Reformed Sufi"

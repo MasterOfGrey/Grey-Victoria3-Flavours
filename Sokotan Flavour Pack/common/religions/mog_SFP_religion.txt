@@ -1,0 +1,9 @@
+﻿reformed_sufi = {
+	icon = "gfx/interface/icons/religion_icons/sufi.dds"
+	heritage = heritage_islamic
+	color = rgb { 130 50 160 }
+	
+	taboos = {
+		liquor wine
+	} 
+}

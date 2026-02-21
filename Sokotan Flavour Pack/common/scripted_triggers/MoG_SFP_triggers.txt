@@ -1,0 +1,4 @@
+﻿# Game Rules
+mog_valid_caliphate = {
+	has_variable = mog_sfp_valid_caliphate_var
+}

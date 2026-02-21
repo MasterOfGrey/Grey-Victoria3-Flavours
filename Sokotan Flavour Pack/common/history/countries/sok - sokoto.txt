@@ -3,12 +3,14 @@
 		effect_starting_technology_tier_5_tech = yes
 		effect_starting_politics_traditional = yes
 		
+		set_variable = mog_sfp_valid_caliphate_var
+		
 		set_ruling_interest_groups = {
         	ig_devout
         }
-		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_sfp_caliphate # Variant of law_theocracy
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_subjecthood		# Unfortunately
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_appointed_bureaucrats
 		
@@ -18,7 +20,7 @@
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_local_police
 		
-		activate_law = law_poor_laws
+		activate_law = law_type:law_poor_laws
 		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_slave_trade
 

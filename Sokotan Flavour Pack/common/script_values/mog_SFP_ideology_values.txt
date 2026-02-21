@@ -1,0 +1,84 @@
+﻿ideology_leader_mujaddidist_favoured_laws = {
+	# Laws that ideology_leader_mujaddidist likes the most.
+	# Maximum value = 7
+	value = 0
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_state_religion
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_cultural_exclusion
+		}
+		add = 2
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_subjecthood
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_censorship
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_national_guard
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_religious_schools
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_compulsory_primary_school
+		}
+		add = 1
+	}
+}
+
+ideology_leader_mujaddidist_disfavoured_laws = {
+	# Laws that ideology_leader_mujaddidist likes the least.
+	# Maximum value = 4
+	value = 0
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_multicultural
+				has_law_or_variant = law_type:law_ethnostate
+				has_law_or_variant = law_type:law_national_supremacy
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				has_law_or_variant = law_type:law_state_atheism
+				has_law_or_variant = law_type:law_total_separation
+			}
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_guaranteed_liberties
+		}
+		add = 1
+	}
+	if = {
+		limit = {
+			has_law_or_variant = law_type:law_no_schools
+		}
+		add = 1
+	}
+}

@@ -1,0 +1,7 @@
+﻿##################################################
+#   GREY - MOD COMPATIBILITY SCRIPTED TRIGGERS   #
+##################################################
+
+REPLACE_OR_CREATE:Grey_SFP_is_active = { # Sokotan Flavour Pack
+	always = yes
+}
