@@ -134,16 +134,16 @@ mog_suitable_berber_clothes = {
 						is_interest_group_type = ig_landowners
 						age >= define:NCharacters|ADULT_AGE
 						OR = {
-							has_role = politician
+							has_role_of_type = politician
 							AND = {
-								has_role = executive
+								has_role_of_type = executive
 								NOT = {
 									has_dlc_feature = mp1_cosmetics
 								}
 							}
 						}
 						NAND = {    # monarchs wear other stuff
-							is_ruler = yes
+							is_ruler_of_own_country = yes
 							owner ?={
 								has_law = law_type:law_monarchy
 							}
@@ -151,7 +151,7 @@ mog_suitable_berber_clothes = {
 						culture = cu:berber
 					}
 					scope:character ?= {
-						is_ruler = yes
+						is_ruler_of_own_country = yes
 						age >= define:NCharacters|ADULT_AGE
 						culture = cu:berber
 					}
@@ -183,9 +183,9 @@ mog_suitable_berber_clothes = {
 					scope:character ?= {
 						is_interest_group_type = ig_landowners
 						age > 12
-						has_role = politician
+						has_role_of_type = politician
 						NAND = {    # monarchs never wear this hat
-							is_ruler = yes
+							is_ruler_of_own_country = yes
 							owner ?={
 								has_law = law_type:law_monarchy
 							}

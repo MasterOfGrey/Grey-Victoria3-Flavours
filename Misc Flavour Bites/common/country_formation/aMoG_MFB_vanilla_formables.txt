@@ -55,7 +55,7 @@ REPLACE_OR_CREATE:GER = {
 }
 
 REPLACE_OR_CREATE:ITA = {
-	geographic_region = geographic_region_italy
+	geographic_region = geographic_region_italy_old
 
 	is_major_formation = yes
 

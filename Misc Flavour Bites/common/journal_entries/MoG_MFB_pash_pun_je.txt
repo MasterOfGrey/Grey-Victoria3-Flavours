@@ -1,6 +1,8 @@
 ﻿je_sikh_pash_pun = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	
+	should_be_pinned_by_default_uninvolved_or_context = yes
+	
 	group = je_group_historical_content
 	
 	scripted_button = mog_pash_pun_sikh_establishment_button
@@ -93,6 +95,4 @@
 	}
 	
 	weight = 1000
-	
-	should_be_pinned_by_default = yes
 }
